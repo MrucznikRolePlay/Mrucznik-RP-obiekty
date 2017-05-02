@@ -1,11 +1,7 @@
-//nowe_obiekty.pwn
+//interiory.def
 
-//----------------------------------------------<< Source >>-------------------------------------------------//
-//-----------------------------------------[ Modu³: nowe_obiekty.pwn ]--------------------------------------------//
-//Opis:
-/*
-	Do tego pliku zamieszczamy wszelkie funkcje, które musz¹ zostaæ wywo³ane, aby dodane zosta³y nowe obiekty
-*/
+//---------------------------------------------<< Defines >>-------------------------------------------------//
+//----------------------------------------[ Modu³: interiory.def ]-------------------------------------------//
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
 //----[         |||||             |||||                       ||||||||||       ||||||||||               ]----//
@@ -25,55 +21,38 @@
 
 //
 
-//-----------------<[ Include: ]>-------------------
-#if defined EXAMPLE_SCRIPT
-	#include "..\nowe_obiekty\ExampleObjects\exampleObjects.pwn"
-#else
-	#include "modules\obiekty\nowe_obiekty\ExampleObjects\exampleObjects.pwn"
-#endif
+//------------------<[ Makra: ]>-------------------
+#define Wyjdz(%0) Wejdz(%0)
 
-//-----------------<[ Funkcje do callback'ów: ]>-------------------
-obiekty_OnGameModeInit()
-{
-	StworzObiekty();
-	StworzBramy();
-	StworzBudynki();
-	return 1;
-}
+//------------------<[ Define: ]>-------------------
+//Ustawienia modu³u:
+#define MAX_BUDYNKOW 			100
+#define MAX_POMIESZCZEN			250
+#define MAX_DRZWI 				500
+#define MAX_WIND	 			50
+#define MAX_WINDA_DRZWI			10
+#define DOORS_RANGE				5.0
 
-obiekty_OnPlayerConnect(playerid)
-{
-	UsunObiekty(playerid);
-	return 1;
-}
+//Typy w³aœcicieli:
+#define OWNER_TYPE_PUBLICZNY		0
+#define OWNER_TYPE_DOM				1
+#define OWNER_TYPE_FRAKCJA			2
+#define OWNER_TYPE_ORGANIZACJA		3
+#define OWNER_TYPE_GRACZ			4
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
-StworzObiekty()
-{
-	exampleObjects_StworzObiekty(); 
-	
-	printf("Stworzono obiekty");
-	return 1;
-}
+//D³ugoœci stringów:
+#define MAX_BUDYNEK_NAME		128
+#define MAX_POMIESZCZENIE_NAME	64
+#define MAX_DRZWI_NAME			32
+#define MAX_DRZWI3D_LENGTH		32
 
-StworzBramy()
-{
-	exampleObjects_StworzBramy();
-	
-	printf("Stworzono bramy");
-	return 1;
-}
+//Pickupy i 3DTexty:
+#define TEXT3D_DRZWI_DRAWDISTANCE 30.0
+#define TEXT3D_UP_Z 0.6
+#define TEXT3D_INTERIOR_COLOR COLOR_LIGHTGREEN
+//#define DOOR_PICKUP_MODEL 	1239
+#define DOOR_PICKUP_TYPE 	1
 
-StworzBudynki()
-{
-	exampleObjects_StworzBudynki();
-	
-	printf("Stworzono budynki");
-	return 1;
-}
+#define MAX_STREAM_LENGTH 144
 
-UsunObiekty(playerid)
-{
-	exampleObjects_UsunObiekty();
-	return 1;
-}
+//end

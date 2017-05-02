@@ -1,11 +1,7 @@
-//nowe_obiekty.pwn
+//obiekty.hwn
 
-//----------------------------------------------<< Source >>-------------------------------------------------//
-//-----------------------------------------[ Modu³: nowe_obiekty.pwn ]--------------------------------------------//
-//Opis:
-/*
-	Do tego pliku zamieszczamy wszelkie funkcje, które musz¹ zostaæ wywo³ane, aby dodane zosta³y nowe obiekty
-*/
+//----------------------------------------------<< Header >>-------------------------------------------------//
+//-----------------------------------------[ Modu³: obiekty.hwn ]--------------------------------------------//
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
 //----[         |||||             |||||                       ||||||||||       ||||||||||               ]----//
@@ -25,55 +21,42 @@
 
 //
 
-//-----------------<[ Include: ]>-------------------
-#if defined EXAMPLE_SCRIPT
-	#include "..\nowe_obiekty\ExampleObjects\exampleObjects.pwn"
-#else
-	#include "modules\obiekty\nowe_obiekty\ExampleObjects\exampleObjects.pwn"
-#endif
-
-//-----------------<[ Funkcje do callback'ów: ]>-------------------
-obiekty_OnGameModeInit()
+//------------------<[ Enumy: ]>--------------------
+enum eWejscia
 {
-	StworzObiekty();
-	StworzBramy();
-	StworzBudynki();
-	return 1;
-}
+	Float:x1,
+	Float:y1,
+	Float:z1,
+	Float:x2,
+	Float:y2,
+	Float:z2
+};
+new	Float:wejscia[MAX_WEJSC][eWejscia];
 
-obiekty_OnPlayerConnect(playerid)
+enum eBramy
 {
-	UsunObiekty(playerid);
-	return 1;
-}
+	obiekt,
+	bool:flaga,
+	Float:x1,
+	Float:y1,
+	Float:z1,
+	Float:rx1,
+	Float:ry1,
+	Float:rz1,
+	Float:x2,
+	Float:y2,
+	Float:z2,
+	Float:rx2,
+	Float:ry2,
+	Float:rz2,
+	Float:speed
+};
+new bramy[MAX_BRAM][eBramy];
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
-StworzObiekty()
-{
-	exampleObjects_StworzObiekty(); 
-	
-	printf("Stworzono obiekty");
-	return 1;
-}
+//-----------------<[ Zmienne: ]>-------------------
+new iloscbram;
+new iloscwejsc;
 
-StworzBramy()
-{
-	exampleObjects_StworzBramy();
-	
-	printf("Stworzono bramy");
-	return 1;
-}
+//------------------<[ Forwardy: ]>--------------------
 
-StworzBudynki()
-{
-	exampleObjects_StworzBudynki();
-	
-	printf("Stworzono budynki");
-	return 1;
-}
-
-UsunObiekty(playerid)
-{
-	exampleObjects_UsunObiekty();
-	return 1;
-}
+//end

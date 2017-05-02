@@ -1,11 +1,7 @@
-//nowe_obiekty.pwn
+//interiory.hwn
 
-//----------------------------------------------<< Source >>-------------------------------------------------//
-//-----------------------------------------[ Modu³: nowe_obiekty.pwn ]--------------------------------------------//
-//Opis:
-/*
-	Do tego pliku zamieszczamy wszelkie funkcje, które musz¹ zostaæ wywo³ane, aby dodane zosta³y nowe obiekty
-*/
+//----------------------------------------------<< Header >>-------------------------------------------------//
+//----------------------------------------[ Modu³: interiory.hwn ]-------------------------------------------//
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
 //----[         |||||             |||||                       ||||||||||       ||||||||||               ]----//
@@ -25,55 +21,78 @@
 
 //
 
-//-----------------<[ Include: ]>-------------------
-#if defined EXAMPLE_SCRIPT
-	#include "..\nowe_obiekty\ExampleObjects\exampleObjects.pwn"
-#else
-	#include "modules\obiekty\nowe_obiekty\ExampleObjects\exampleObjects.pwn"
-#endif
-
-//-----------------<[ Funkcje do callback'ów: ]>-------------------
-obiekty_OnGameModeInit()
+//------------------<[ Enumy: ]>--------------------
+enum eBudynki
 {
-	StworzObiekty();
-	StworzBramy();
-	StworzBudynki();
-	return 1;
-}
+	ORM:ORM,
+	ID,
+	Nazwa[MAX_BUDYNEK_NAME],
+	Typ,
+	Wlasciciel,
+	VW
+};
 
-obiekty_OnPlayerConnect(playerid)
+enum ePomieszczenie
 {
-	UsunObiekty(playerid);
-	return 1;
-}
+	ORM:ORM,
+	ID,
+	Budynek,
+	BudynekID,
+	Nazwa[MAX_POMIESZCZENIE_NAME],
+	Interior,
+	Oswietlenie,
+	Pogoda,
+	Muzyka[MAX_STREAM_LENGTH]
+};
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
-StworzObiekty()
+enum eDrzwi
 {
-	exampleObjects_StworzObiekty(); 
-	
-	printf("Stworzono obiekty");
-	return 1;
-}
+	ORM:ORM,
+	ID,
+	Nazwa[MAX_DRZWI_NAME],
+	Float:inX,
+	Float:inY,
+	Float:inZ,
+	Float:inA,
+	inPomieszczenie,
+	inPomieszczenieID,
+	inPickupModel,
+	inPickup,
+	in3DTextString[MAX_DRZWI3D_LENGTH],
+	Text3D:in3DText,
+	Float:outX,
+	Float:outY,
+	Float:outZ,
+	Float:outA,
+	outPomieszczenie,
+	outPomieszczenieID,
+	outPickupModel,
+	outPickup,
+	out3DTextString[MAX_DRZWI3D_LENGTH],
+	Text3D:out3DText,
+	lock/*,
+	winda*/
+};
 
-StworzBramy()
+/*enum eWindy
 {
-	exampleObjects_StworzBramy();
-	
-	printf("Stworzono bramy");
-	return 1;
-}
+	drzwi[MAX_WINDA_DRZWI]
+};*/
 
-StworzBudynki()
-{
-	exampleObjects_StworzBudynki();
-	
-	printf("Stworzono budynki");
-	return 1;
-}
+//-----------------<[ Zmienne: ]>-------------------
+new Budynki[MAX_BUDYNKOW][eBudynki];
+new Pomieszczenia[MAX_POMIESZCZEN][ePomieszczenie];
+new Drzwi[MAX_DRZWI][eDrzwi];
+//new Windy[MAX_WIND][eWindy];
 
-UsunObiekty(playerid)
-{
-	exampleObjects_UsunObiekty();
-	return 1;
-}
+new IloscBudynkow;
+new IloscPomieszczen;
+new IloscDrzwi;
+
+//Graczy
+new gPlayerPomieszczenie[MAX_PLAYERS];
+
+//------------------<[ Forwardy: ]>--------------------
+forward OnPlayerEnterDoor(playerid, doorid);
+
+//end
