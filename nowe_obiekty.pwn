@@ -27,9 +27,9 @@
 
 //-----------------<[ Include: ]>-------------------
 #if defined EXAMPLE_SCRIPT
-	#include "..\nowe_obiekty\ExampleObjects\exampleObjects.pwn"
-#else
-	#include "modules\obiekty\nowe_obiekty\ExampleObjects\exampleObjects.pwn"
+	#include "..\nowe\ExampleObjects\exampleObjects.pwn"
+#else //Mrucznik-RP gamemode
+	#include "modules\obiekty\nowe\ExampleObjects\exampleObjects.pwn"
 #endif
 
 //-----------------<[ Funkcje do callback'ów: ]>-------------------
