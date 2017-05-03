@@ -28,14 +28,13 @@
 
 #define EXAMPLE_SCRIPT 1
 
-#include "interiory\interiory.def"
-#include "obiekty\obiekty.def"
-#include "interiory\interiory.hwn"
-#include "obiekty\obiekty.hwn"
-#include "interiory\interiory.pwn"
-#include "obiekty\obiekty.pwn"
+#include "bramy\bramy.def"
+#include "wejscia\wejscia.def"
+#include "bramy\bramy.hwn"
+#include "wejscia\wejscia.hwn"
+#include "bramy\bramy.pwn"
+#include "wejscia\wejscia.pwn"
 
-#include "..\nowe_obiekty.pwn"
 
 //------------------------------------------<[ Ustawienia ]>-------------------------------------------------//
 //-                                                                                                         -//
@@ -49,6 +48,15 @@
 //-                                                                                                         -//
 #define PRESSED(%0) \
 	(((newkeys & (%0)) == (%0)) && ((oldkeys & (%0)) != (%0)))
+
+
+
+//--------------------------------------------<[ Obiekty ]>-----------------------------------------------------//
+//-                                                                                                         -//
+//TODO: USUN¥Æ TO	
+#define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
+
+#include "..\nowe_obiekty.pwn"
 
 //--------------------------------------------<[ Main ]>-----------------------------------------------------//
 //-                                                                                                         -//
@@ -161,7 +169,65 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 {
 	if(PRESSED(KEY_JUMP))
 	{
-		SprawdzDrzwi(playerid);
+		SprawdzWejscia(playerid);
 	}
+	return 1;
+}
+
+CMD:brama(playerid, params[])
+{
+	SprawdzBramy(playerid);
+	return 1;
+}
+
+CMD:setorg(playerid, params[])
+{
+	new string[128], value = strval(params);
+	SetPVarInt(playerid, "org", value);
+	format(string, sizeof(string), "Organizacja zosta³a ustawiona na: %d", value);
+	SendClientMessage(playerid, -1, string);
+	return 1;
+}
+
+CMD:setfrac(playerid, params[])
+{
+	new string[128], value = strval(params);
+	SetPVarInt(playerid, "frac", value);
+	format(string, sizeof(string), "Frakcja zosta³a ustawiona na: %d", value);
+	SendClientMessage(playerid, -1, string);
+	return 1;
+}
+
+CMD:myorg(playerid, params[])
+{
+	new string[128];
+	format(string, sizeof(string), "Twoja organizacja to: %d", GetPVarInt(playerid, "org"));
+	SendClientMessage(playerid, -1, string);
+	return 1;
+}
+
+CMD:myfrac(playerid, params[])
+{
+	new string[128];
+	format(string, sizeof(string), "Twoja frakcja to: %d", GetPVarInt(playerid, "frac"));
+	SendClientMessage(playerid, -1, string);
+	return 1;
+}
+
+CMD:veh(playerid, params[])
+{
+	new Float:x, Float:y, Float:z;
+	GetPlayerPos(playerid, x, y, z);
+	CreateVehicle(strval(params), x, y, z+5, 0, -1, -1, 600);
+	SendClientMessage(playerid, -1, "Pojazd zespawnowany");
+	return 1;
+}
+
+CMD:goto(playerid, params[])
+{
+	new Float:x, Float:y, Float:z;
+	GetPlayerPos(strval(params), x, y, z);
+	SetPlayerPos(playerid, x, y, z);
+	SendClientMessage(playerid, -1, "Teleportowa³eœ siê");
 	return 1;
 }
