@@ -6,15 +6,21 @@ ZaladujBramy()
 	WindaYKZKrata = CreateDynamicObject(2909, 2809.38671875, -1088.9912109375, 42.11808013916, 0, 90, 0);//winda ykz karata 4
 	BramaYKZ = CreateDynamicObject(1493, -2169.5669, 639.9651, 1051.4132, 0.0000, 0.0000, 180.0000);//brama ykz w budynku 5
 	bramadom1 = CreateDynamicObject(7891, 2313.65747, -1217.92151, 24.50300,   0.00000, 0.00000, 180.00000);//nowa brama TFAT
-	BramaBOR = CreateDynamicObject(980,1534.90002441,-1451.30004883,15.19999981,0.00000000,0.00000000,180.00000000); //object(airportgate) (1)
 	bor = CreateDynamicObject(1569, 1501.6648, -1452.1390, 63.3306,   0.00000, 0.00000, 270.00000,80,0);//nowa baza
 	bor1 = CreateDynamicObject(1569, 1513.57556, -1468.74573, 66.82270,   0.00000, 0.00000, 90.00000,80,0);//nowa baza
-	BramaPolicja = CreateDynamicObject(10558, 1589.0277099609, -1638.2808837891, 14.430500030518, 0, 0, 270);//12
-	SzlabanPolicja = CreateDynamicObject(968, 1544.6816, -1630.8596, 12.9796, 0, 87.6625, 89.3814);//szlaabn 13
+	//BramaPolicja = CreateDynamicObject(10558, 1589.0277099609, -1638.2808837891, 14.430500030518, 0, 0, 270);//12
+	//SzlabanPolicja = CreateDynamicObject(968, 1544.6816, -1630.8596, 12.9796, 0, 87.6625, 89.3814);//szlaabn 13
 //	DrzwiTajniak1a = CreateDynamicObject(1569, 227.76820373535, 122.23600769043, 1002.3569335938, 0.000000, 0.000000, 90); //object (adam_v_door) (5) 14
 //	DrzwiTajniak1b = CreateDynamicObject(1569, 227.72761535645, 124.85906982422, 1002.3569335938, 0.000000, 0.000000, 270); //object (adam_v_door) (6) 15
 //	DrzwiTajniak2a = CreateDynamicObject(1569, 260.35290527344, 126.68900299072, 1007.9876708984, 0.000000, 0.000000, 270); //object (adam_v_door) (7) 16
 //	DrzwiTajniak2b = CreateDynamicObject(1569, 260.36807250977, 123.75452423096, 1007.9876708984, 0.000000, 0.000000, 90); //object (adam_v_door) (8) 17
+
+	// Nowa policja
+	lspdWjazdGora = CreateDynamicObject(980, 1539.6946, -1628.6476, 15.1434, 0.0000, 0.0000, 90.0000); //zamknieta brama
+	lspdWjazdDolny = CreateDynamicObject(19880, 1588.4932, -1638.2795, 17.0965, 0.0000, 0.0000, 0.0000); //zamknieta brama
+	lspdExtDoors = CreateDynamicObject(1535, 1568.6215, -1634.2524, 12.3902, 0.0000, 0.0000, 90.0000); //zamkniete drzwi
+	// End nowa policja
+
 	DrzwiPDKomi = CreateDynamicObject(1569,253.18164062,108.04980469,1002.21875000,0.00000000,0.00000000,90.00000000); //brama pd1 stary komisariat (old komi)
 	DrzwiPDKomi2 = CreateDynamicObject(1569,253.22167969,124.16796875,1002.21875000,0.00000000,0.00000000,90.00000000); //bramapd 2b stary komisariat (old komi)
 	DrzwiPDKomi3 = CreateDynamicObject(1569,238.32324219,119.16503906,1002.21875000,0.00000000,0.00000000,179.99450684); //brama pd3 stary komisariat (old komi)
@@ -175,56 +181,7 @@ ZaladujBramy()
 	roleta34_b = CreateDynamicObject(5422, 1098.15015, -1473.25708, 16.78000,   0.00000, 0.00000, -198.53999);
 	roleta35_b = CreateDynamicObject(5422, 1101.69348, -1457.87415, 16.78000,   0.00000, 0.00000, -181.50000);
 	roleta36_b = CreateDynamicObject(5422, 1101.77600, -1440.09167, 16.78000,   0.00000, 0.00000, -180.84000);
-	//cele w stanowym NG (by Dywan)
-	cela[0] = CreateDynamicObject(19302, 2804.36084, -2497.83154, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[1] = CreateDynamicObject(19302, 2804.36084, -2507.05176, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[2] = CreateDynamicObject(19302, 2804.36084, -2516.33057, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[3] = CreateDynamicObject(19302, 2800.92090, -2520.32324, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[4] = CreateDynamicObject(19302, 2800.92090, -2511.46509, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[5] = CreateDynamicObject(19302, 2800.92090, -2502.70142, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[6] = CreateDynamicObject(19302, 2800.92090, -2494.03369, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[7] = CreateDynamicObject(19302, 2788.23218, -2522.54419, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[8] = CreateDynamicObject(19302, 2788.24341, -2513.69995, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[9] = CreateDynamicObject(19302, 2788.23218, -2505.00708, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[10] = CreateDynamicObject(19302, 2780.70776, -2500.57397, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[11] = CreateDynamicObject(19302, 2780.70776, -2509.28491, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[12] = CreateDynamicObject(19302, 2780.70776, -2518.14893, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[13] = CreateDynamicObject(19302, 2737.59473, -2531.68481, 16.72590,   0.00000, 0.00000, 90.00000);
-	cela[14] = CreateDynamicObject(19302, 2790.23340, -2524.67285, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[15] = CreateDynamicObject(19302, 2790.23340, -2515.93164, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[16] = CreateDynamicObject(19302, 2790.23340, -2507.18188, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[17] = CreateDynamicObject(19302, 2790.23340, -2498.47729, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[18] = CreateDynamicObject(19302, 2778.81470, -2493.95605, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[19] = CreateDynamicObject(19302, 2778.81470, -2502.78296, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[20] = CreateDynamicObject(19302, 2778.81470, -2511.54077, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[21] = CreateDynamicObject(19302, 2778.81470, -2520.29419, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[22] = CreateDynamicObject(19302, 2741.56396, -2536.51147, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[23] = CreateDynamicObject(19302, 2741.56396, -2527.58862, 13.90790,   0.00000, 0.00000, 90.00000);
-	cela[24] = CreateDynamicObject(19302, 2755.57666, -2517.47388, 16.72590,   0.00000, 0.00000, 0.00000);
-	cela[25] = CreateDynamicObject(19302, 2771.63916, -2537.47754, 16.72590,   0.00000, 0.00000, 0.00000);
-	cela[26] = CreateDynamicObject(19302, 2781.96265, -2537.47754, 16.72590,   0.00000, 0.00000, 0.00000);
-	cela[27] = CreateDynamicObject(19302, 2792.25391, -2537.47754, 16.72590,   0.00000, 0.00000, 0.00000);
-	cela[28] = CreateDynamicObject(19302, 2759.78394, -2520.47339, 13.90790,   0.00000, 0.00000, 0.00000);
-	cela[29] = CreateDynamicObject(19302, 2751.01294, -2520.49414, 13.90790,   0.00000, 0.00000, 0.00000);
-	cela[30] = CreateDynamicObject(19302, 2768.40405, -2533.79834, 13.90790,   0.00000, 0.00000, 0.00000);
-	cela[31] = CreateDynamicObject(19302, 2777.35767, -2533.79834, 13.90790,   0.00000, 0.00000, 0.00000);
-	cela[32] = CreateDynamicObject(19302, 2786.37427, -2533.79834, 13.90790,   0.00000, 0.00000, 0.00000);
-	cela[33] = CreateDynamicObject(19302, 2795.34888, -2533.79834, 13.90790,   0.00000, 0.00000, 0.00000);
-	//bramy w stanowym NG (by dywan)
-	bramkang[0] = CreateDynamicObject(980, 2413.09448, -2428.88940, 15.39000,   0.00000, 0.00000, 45.00000);//dla KT i NG
-	bramkang[1] = CreateDynamicObject(980, 2339.92285, -2355.13550, 15.39000,   0.00000, 0.00000, 45.00000);//dla KT i NG
-	bramkang[2] = CreateDynamicObject(980, 2497.04663, -2554.21484, 15.39000,   0.00000, 0.00000, 90.00000);
-	bramkang[3] = CreateDynamicObject(980, 2561.47461, -2534.93188, 15.39000,   0.00000, 0.00000, 90.00000);
-	bramkang[4] = CreateDynamicObject(980, 2481.11011, -2496.14087, 15.39000,   0.00000, 0.00000, 0.00000); //dla KT i NG
-	bramkang[5] = CreateDynamicObject(980, 2475.38354, -2523.96680, 15.39000,   0.00000, 0.00000, 270.00000);
-	bramkang[6] = CreateDynamicObject(980, 2785.98389, -2353.13599, 15.39000,   0.00000, 0.00000, 0.00000);
-	bramkang[7] = CreateDynamicObject(980, 2770.54028, -2393.62891, 15.22200,   0.00000, 0.00000, 90.00000);
-	bramkang[8] = CreateDynamicObject(980, 2760.87671, -2471.70020, 15.22200,   0.00000, 0.00000, 0.00000);
-	bramkang[9] = CreateDynamicObject(980, 2725.83521, -2493.09351, 15.39000,   0.00000, 0.00000, 0.00000);
-	bramkang[10] = CreateDynamicObject(980, 2665.93652, -2504.40503, 15.39000,   0.00000, 0.00000, 270.00000);//dla KT i NG
-	bramkang[11] = CreateDynamicObject(980, 2720.24146, -2504.48486, 15.39000,   0.00000, 0.00000, 270.00000);
-	bramkang[12] = CreateDynamicObject(980, 2560.51147, -2357.69849, 18.50030,   0.00000, 0.00000, 45.00000);
-	bramkang[13] = CreateDynamicObject(980, 2552.19019, -2381.85132, 15.17150,   0.00000, 0.00000, 45.00000);
+	
 
 	//Bramy KT:
 	brama_kt[0] = CreateDynamicObject(968, 2424.25342, -2096.28613, 13.22150,   0.00000, 90.00000, 90.000000, 0, 0);
