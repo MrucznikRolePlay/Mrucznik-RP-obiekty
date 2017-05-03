@@ -4,4 +4,4 @@
 _Szymon
 
 ## Lokalizacja
-Zau³ek pod autostrad¹ za LSPD
+ZauÅ‚ek pod autostradÄ… za LSPD

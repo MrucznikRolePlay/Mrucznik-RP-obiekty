@@ -1,7 +1,7 @@
 # Centrum Rozrywki Los Santos
-Miejsce do organizowania ró¿nego typu wydarzeñ.
+Miejsce do organizowania rÃ³Å¼nego typu wydarzeÅ„.
 Zawiera interior jak i exterior.
-Planowana rozbudowa o wiêcej piêter.
+Planowana rozbudowa o wiÄ™cej piÄ™ter.
 
 ## Autor
 Deduir

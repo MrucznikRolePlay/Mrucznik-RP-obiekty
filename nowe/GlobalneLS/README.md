@@ -1,2 +1,2 @@
 # Obiekty w Los Santos
-Obiekty niepowi¹zane z ¿adn¹ organizacj¹, wystêpuj¹ce na terenie LS
+Obiekty niepowiÄ…zane z Å¼adnÄ… organizacjÄ…, wystÄ™jÄ…ce na terenie LS

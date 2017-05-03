@@ -1,1 +1,1 @@
-# Obiekty obemuj¹ce ca³e San Andreas
+# Obiekty obemujÄ…ce caÅ‚e San Andreas
