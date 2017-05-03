@@ -134,10 +134,10 @@ static StworzBudynki()
 	DodajWejscie(
 		1439.23779, -1475.76660, 115.15816, 
 		1413.64905, -1487.30603, 19.99940, 
-		0, 0, 
 		3, 0, 
-		"Centrum Rozrywki\nLos Santos",  
-		"Wyjœcie"
+		0, 0,
+		"Wyjœcie",
+		"Centrum Rozrywki\nLos Santos"
 	);
 	return 1;
 }

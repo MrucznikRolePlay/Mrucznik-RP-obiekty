@@ -97,10 +97,10 @@ public OnGameModeInit()
 	
 	//Ustawienia rozgrywki:
 	AllowInteriorWeapons(1); //broñ w intkach
-	ShowPlayerMarkers(0); //wy³¹czenie markerów graczy
+	ShowPlayerMarkers(1); //wy³¹czenie markerów graczy
 	DisableInteriorEnterExits(); //wy³¹czenie wejœæ do intków z GTA
-	EnableStuntBonusForAll(0); //brak hajsu za stunty
-	ManualVehicleEngineAndLights(); //brak automatycznego w³¹czania silnika i œwiate³
+	EnableStuntBonusForAll(1); //brak hajsu za stunty
+	//ManualVehicleEngineAndLights(); //brak automatycznego w³¹czania silnika i œwiate³
 	ShowNameTags(1); //Pokazywanie nicków graczy
 	SetNameTagDrawDistance(20.0); //Wyœwietlanie nicków od 20 metrów
 	UsePlayerPedAnims(); // Animacja CJ 
@@ -174,6 +174,15 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 	return 1;
 }
 
+CMD:wejdz(playerid, params[])
+{
+	if(SprawdzWejscia(playerid))
+		SendClientMessage(playerid, -1, "Wbi³eœ do intka");
+	else
+		SendClientMessage(playerid, -1, "Brak intków w pobli¿u");
+	return 1;
+}
+
 CMD:brama(playerid, params[])
 {
 	SprawdzBramy(playerid);
@@ -229,5 +238,23 @@ CMD:goto(playerid, params[])
 	GetPlayerPos(strval(params), x, y, z);
 	SetPlayerPos(playerid, x, y, z);
 	SendClientMessage(playerid, -1, "Teleportowa³eœ siê");
+	return 1;
+}
+
+CMD:setvw(playerid, params[])
+{
+	new string[128], value = strval(params);
+	SetPlayerVirtualWorld(playerid, value);
+	format(string, sizeof(string), "Twoja virtual world to teraz: %d", value);
+	SendClientMessage(playerid, -1, string);
+	return 1;
+}
+
+CMD:setint(playerid, params[])
+{
+	new string[128], value = strval(params);
+	SetPlayerInterior(playerid, value);
+	format(string, sizeof(string), "Twoja interior to teraz: %d", value);
+	SendClientMessage(playerid, -1, string);
 	return 1;
 }
