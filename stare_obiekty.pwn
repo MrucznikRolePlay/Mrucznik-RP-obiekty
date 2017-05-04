@@ -117,7 +117,7 @@ public obiekty_timer(wartosc)
 	return 1;
 }
 
-UsunObiekty(playerid)
+Usun_Obiekty(playerid)
 {
 	SetTimerEx("usuwanie_obiektow", 1000,0,"d",playerid);
 	return 1;

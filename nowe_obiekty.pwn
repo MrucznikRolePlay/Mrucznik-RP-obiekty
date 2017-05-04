@@ -72,7 +72,6 @@
 	#include "modules\obiekty\nowe\MountChiliad\mountChiliad.pwn" 
 	#include "modules\obiekty\nowe\MoneyMakers\moneyMakers.pwn" 
 	#include "modules\obiekty\nowe\LowFolow\lowFolow.pwn" 
-	#include "modules\obiekty\nowe\LowFolow\lowFolow.pwn" 
 	#include "modules\obiekty\nowe\KomisariatLS\komisariatLS.pwn" 
 #endif
 
