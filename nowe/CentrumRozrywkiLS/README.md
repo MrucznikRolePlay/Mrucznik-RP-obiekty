@@ -4,7 +4,7 @@ Zawiera interior jak i exterior.
 Planowana rozbudowa o więcej pięter.
 
 ## Autor
-Deduir
+Deduir & _Szymon
 
 ## Lokalizacja
 Obok starego USS (parking podziemy obok drogi do banku)
