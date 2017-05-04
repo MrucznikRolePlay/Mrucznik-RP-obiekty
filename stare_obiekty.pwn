@@ -32,6 +32,7 @@
 	#include "../stare/vinyl.pwn"
 	#include "../stare/ykz.pwn"
 	#include "../stare/bank.pwn"
+	#include "../stare/new_mech.pwn"
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/stare/admin.pwn"
 	#include "modules/obiekty/stare/ballas.pwn"
@@ -63,6 +64,7 @@
 	#include "modules/obiekty/stare/vinyl.pwn"
 	#include "modules/obiekty/stare/ykz.pwn"
 	#include "modules/obiekty/stare/bank.pwn"
+	#include "modules/obiekty/stare/new_mech.pwn"
 #endif
 
 Stworz_Obiekty()
