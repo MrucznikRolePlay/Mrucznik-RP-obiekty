@@ -31,13 +31,14 @@ centralBank_Init()
 centralBank_Connect(playerid)
 {
 	UsunObiekty(playerid);
+	StworzBudynki();
 	return 1;
 }
 
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-	 CreateDynamicObject(621, 1751.5616500, -1747.5500500, 11.6637000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); //Numer 0
+	CreateDynamicObject(621, 1751.5616500, -1747.5500500, 11.6637000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); //Numer 0
     CreateDynamicObject(18766, 1811.1728500, -1747.3276400, 10.8514000, 0.0000000, 0.0000000, 90.0000000, 0, 0, -1, 250); //Numer 1
     CreateDynamicObject(18766, 1806.6711400, -1742.8082300, 10.8315000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); //Numer 2
     CreateDynamicObject(18766, 1796.6804200, -1742.8082300, 10.8315000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); //Numer 3
@@ -280,6 +281,7 @@ static StworzObiekty()
     CreateDynamicObject(19866, 1738.8293500, -1747.7668500, 11.8042000, 0.0000000, 0.0000000, 90.0000000, 0, 0, -1, 250); //Numer 242
     CreateDynamicObject(19866, 1738.8293500, -1744.0855700, 11.8042000, 0.0000000, 0.0000000, 90.0000000, 0, 0, -1, 250); //Numer 243
    
+	new obiekt;
     obiekt = CreateDynamicObject(18766, 1811.1728500, -1747.3276400, 10.8514000, 0.0000000, 0.0000000, 90.0000000, 0, 0, -1, 250); //Numer 1
     SetDynamicObjectMaterial(obiekt, 0, 12937, "sw_oldshack", "stonewall3_la", 0xFFFFFFFF);
    
@@ -599,8 +601,8 @@ static StworzBudynki()
 		1778.1587, -1763.1735, 13.5439, 
 		0, 0, 
 		0, 0,
-		"Zjed≈∫ windƒÖ na d√≥≈Ç",
-		"Wjed≈∫ windƒÖ na dach"
+		"Zjedü windπ na dÛ≥",
+		"Wjedü windπ na dach"
 	);
 	return 1;
 }

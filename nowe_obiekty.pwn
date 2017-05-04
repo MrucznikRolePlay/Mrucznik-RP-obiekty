@@ -81,7 +81,7 @@ obiekty_OnGameModeInit()
 	//exampleObjects_Init();
 	//template_Init();
 	
-	//centralBank_Init();
+	centralBank_Init();
 	siedzibaMechanikow_Init();
 	radaMiasta_Init();
 	cassinoAutoService_Init();
@@ -102,7 +102,7 @@ obiekty_OnGameModeInit()
 	moneyMakers_Init();
 	lowFolow_Init();
 	komisariatLS_Init();
-	
+	centralBank_Init();
 	return 1;
 }
 
@@ -111,7 +111,7 @@ obiekty_OnPlayerConnect(playerid)
 	//exampleObjects_Connect(playerid);
 	//template_Connect(playerid);
 	
-	//centralBank_Connect(playerid);
+	centralBank_Connect(playerid);
 	siedzibaMechanikow_Connect(playerid);
 	radaMiasta_Connect(playerid);
 	DMV_Connect(playerid);

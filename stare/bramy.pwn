@@ -16,9 +16,7 @@ ZaladujBramy()
 //	DrzwiTajniak2b = CreateDynamicObject(1569, 260.36807250977, 123.75452423096, 1007.9876708984, 0.000000, 0.000000, 90); //object (adam_v_door) (8) 17
 
 	// Nowa policja
-	lspdWjazdGora = CreateDynamicObject(980, 1539.6946, -1628.6476, 15.1434, 0.0000, 0.0000, 90.0000); //zamknieta brama
 	lspdWjazdDolny = CreateDynamicObject(19880, 1588.4932, -1638.2795, 17.0965, 0.0000, 0.0000, 0.0000); //zamknieta brama
-	lspdExtDoors = CreateDynamicObject(1535, 1568.6215, -1634.2524, 12.3902, 0.0000, 0.0000, 90.0000); //zamkniete drzwi
 	// End nowa policja
 
 	DrzwiPDKomi = CreateDynamicObject(1569,253.18164062,108.04980469,1002.21875000,0.00000000,0.00000000,90.00000000); //brama pd1 stary komisariat (old komi)
