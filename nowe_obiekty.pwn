@@ -30,7 +30,7 @@
 
 //-----------------<[ Include: ]>-------------------
 #if defined EXAMPLE_SCRIPT
-	//#include "..\nowe\CentralBank\centralBank.pwn"
+	#include "..\nowe\CentralBank\centralBank.pwn"
 	#include "..\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
 	#include "..\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
 	#include "..\nowe\CassinoAutoService\cassinoAutoService.pwn"
@@ -52,7 +52,7 @@
 	#include "..\nowe\LowFolow\lowFolow.pwn"
 	#include "..\nowe\KomisariatLS\komisariatLS.pwn"
 #else //Mrucznik-RP gamemode
-	//#include "modules\obiekty\nowe\CentralBank\centralBank.pwn"
+	#include "modules\obiekty\nowe\CentralBank\centralBank.pwn"
 	#include "modules\obiekty\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
 	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
 	#include "modules\obiekty\nowe\CassinoAutoService\cassinoAutoService.pwn"
