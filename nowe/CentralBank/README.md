@@ -3,4 +3,4 @@
 KilSon
 
 ## Edycja
-_Szymon
+_Szymon & Deduir
