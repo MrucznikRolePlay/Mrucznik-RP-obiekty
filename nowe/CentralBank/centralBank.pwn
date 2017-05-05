@@ -25,13 +25,13 @@
 centralBank_Init()
 {
 	StworzObiekty();
+	StworzBudynki();
 	return 1;
 }
 
 centralBank_Connect(playerid)
 {
 	UsunObiekty(playerid);
-	StworzBudynki();
 	return 1;
 }
 
