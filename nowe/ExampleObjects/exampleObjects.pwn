@@ -55,7 +55,11 @@ static StworzBramy()
 {
 	//Tutaj wstawiamy bramy w formacie: 
 		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-	
+		// fuprtyp - TYPY UPRAWNIEÑ:
+			//0 - BRAK
+			//1 - FRAKCJA
+			//2 - RODZINA
+		// fuprval - numer frakcji/rodziny
 	
 	
 	//Tutaj wstawiamy bramy w formacie (NOWY, JESZCZE NIE ZROBIONY):
