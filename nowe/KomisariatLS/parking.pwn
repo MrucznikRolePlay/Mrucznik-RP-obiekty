@@ -180,6 +180,11 @@ static StworzObiekty()
 	CreateDynamicObject(19360, 1544.6578400, -1637.5382100, 14.0813000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 37
 	
 	
+	CreateDynamicObject(19360, 1544.8355700, -1622.5205100, 14.0813000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 0
+	CreateDynamicObject(19360, 1544.8355700, -1619.3311800, 14.0813000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 1
+
+	
+	
 	new pedal =	CreateDynamicObject(19360, 1544.6556400, -1622.5205100, 14.0813000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 34
 	SetDynamicObjectMaterial(pedal, 0, 4887, "downtown_las", "Bow_stained_wall", 0xFFFFFFFF);
 	
@@ -190,6 +195,12 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(pedal, 0, 4887, "downtown_las", "Bow_stained_wall", 0xFFFFFFFF);
 	
 	pedal =	CreateDynamicObject(19360, 1544.6578400, -1637.5382100, 14.0813000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 37
+	SetDynamicObjectMaterial(pedal, 0, 4887, "downtown_las", "Bow_stained_wall", 0xFFFFFFFF);
+	
+	pedal =	CreateDynamicObject(19360, 1544.8355700, -1622.5205100, 14.0813000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 0
+	SetDynamicObjectMaterial(pedal, 0, 4887, "downtown_las", "Bow_stained_wall", 0xFFFFFFFF);
+	
+	pedal =	CreateDynamicObject(19360, 1544.8355700, -1619.3311800, 14.0813000, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 1
 	SetDynamicObjectMaterial(pedal, 0, 4887, "downtown_las", "Bow_stained_wall", 0xFFFFFFFF);
 	
 	
@@ -204,10 +215,10 @@ static StworzBramy()
 		15.0, 10.0, BRAMA_UPR_TYPE_FRACTION, 1
 	); //Brama wjazdowa na parking odh LSPD
 	
-	DodajBrame(CreateDynamicObject(2933, 1544.7086200, -1626.2047100, 14.0838000, 0.0000000, 0.0000000, -90.0000000, 0, 0, -1),
-		1544.7086200, -1626.2047100, 14.0838000, 0.0000000, 0.0000000, -90.0000000,
-		1544.7086200, -1626.2047100, 10.6679, 0.0000000, 0.0000000, -90.0000000,
-		15.0, 10.0, BRAMA_UPR_TYPE_FRACTION, 1
+	DodajBrame(CreateDynamicObject(980, 1544.6533200, -1624.8017600, 13.0357000, 0.0000000, 0.0000000, -90.0000000, 0, 0, -1),
+		1544.6533200, -1624.8017600, 13.0357000, 0.0000000, 0.0000000, -90.0000000,
+		1544.6533200, -1624.8017600, 13.0357000, 0.0000000, 0.0000000, 0.0000000,
+		5.0, 20.0, BRAMA_UPR_TYPE_FRACTION, 1
 	); //Brama wjazdowa do LSPD
 	
 	//CreateDynamicObject(980, 1544.6533200, -1624.8017600, 13.0357000, 0.0000000, 0.0000000, -90.0000000, 0, 0, -1, 250); // 38 --> Zamknięta
