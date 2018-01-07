@@ -159,7 +159,8 @@ noweMech_StworzObiekty()
     CreateDynamicObject(939, 2768.95776, -1621.89014, 12.23919,   0.00000, 0.00000, 90.89999);
     CreateDynamicObject(1348, 2791.66309, -1547.45178, 10.76554,   0.00000, 0.00000, 28.32000);
 
-	
+
+	CreateDynamic3DTextLabel("Pomnik pamięci wszystkich mechaników,\nktórzy polegli w walce z PD", 0x33AA33AA, 2824.06665, -1578.21606, 11.94490, 10, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 0, 0, -1, 10.0);  
 	return 1;
 }
 

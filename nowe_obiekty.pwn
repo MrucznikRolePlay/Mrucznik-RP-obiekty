@@ -4,7 +4,7 @@
 //--------------------------------------[ Obiekty: nowe_obiekty.pwn ]----------------------------------------//
 //Opis:
 /*
-	Plik zawieraj¹cy do³¹czenia wszystkich obiektów w nowym formacie
+	Plik zawierajÂ¹cy doÂ³Â¹czenia wszystkich obiektÃ³w w nowym formacie
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -25,7 +25,7 @@
 
 //
 
-//TODO: USUN¥Æ TO	
+//TODO: USUNÂ¥Ã† TO	
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
@@ -34,9 +34,9 @@
 	#include "..\nowe\DosSantosCarService\DSCS.pwn"
 	#include "..\nowe\CentralBank\centralBank.pwn"
 	#include "..\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
-	#include "..\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
+//	#include "..\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
 	#include "..\nowe\CassinoAutoService\cassinoAutoService.pwn"
-	#include "..\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
+//	#include "..\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
 	#include "..\nowe\DMV\DMV.pwn"
 	#include "..\nowe\FBI\FBI.pwn"
 	#include "..\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
@@ -46,6 +46,7 @@
 	#include "..\nowe\GlobalneLS\Pomnik\pomnik.pwn"
 	#include "..\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn"
 	#include "..\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn"
+	#include "..\nowe\GlobalneLV\lv.pwn"
 	#include "..\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn"
 	#include "..\nowe\GunShop\gunShop.pwn"
 	#include "..\nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn"
@@ -53,14 +54,30 @@
 	#include "..\nowe\MoneyMakers\moneyMakers.pwn"
 	#include "..\nowe\LowFolow\lowFolow.pwn"
 	#include "..\nowe\KomisariatLS\komisariatLS.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.85
+	//*****************************************************
+	
+	#include "..\nowe\przes\pub\pub.pwn" //PUB by lil frachty
+	#include "..\nowe\rondo\rondo.pwn"
+	#include "..\nowe\GlobalneLS\chinatown\chinatown.pwn"
+	#include "..\nowe\GlobalneLS\molo\molo.pwn"
+	#include "..\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
+	#include "..\nowe\przes\Ocult\ocult.pwn"
+	#include "..\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
+	#include "..\nowe\cjgirl\cjgirl.pwn"
+	#include "..\nowe\opdlaorg\StacjaMont\stam.pwn"
+	
+	
 #else //Mrucznik-RP gamemode
 	#include "modules\obiekty\nowe\AmmuNationBananov\ammuNationBananov.pwn"
 	#include "modules\obiekty\nowe\DosSantosCarService\DSCS.pwn"
 	#include "modules\obiekty\nowe\CentralBank\centralBank.pwn"
 	#include "modules\obiekty\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
-	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
+//	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
 	#include "modules\obiekty\nowe\CassinoAutoService\cassinoAutoService.pwn"
-	#include "modules\obiekty\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
+//	#include "modules\obiekty\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
 	#include "modules\obiekty\nowe\DMV\DMV.pwn"
 	#include "modules\obiekty\nowe\FBI\FBI.pwn"
 	#include "modules\obiekty\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
@@ -71,12 +88,26 @@
 	#include "modules\obiekty\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn" 
 	#include "modules\obiekty\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn" 
+	#include "modules\obiekty\nowe\GlobalneLV\lv.pwn"
 	#include "modules\obiekty\nowe\GunShop\gunShop.pwn" 
 	#include "modules\obiekty\nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn" 
 	#include "modules\obiekty\nowe\MountChiliad\mountChiliad.pwn" 
 	#include "modules\obiekty\nowe\MoneyMakers\moneyMakers.pwn" 
 	#include "modules\obiekty\nowe\LowFolow\lowFolow.pwn" 
 	#include "modules\obiekty\nowe\KomisariatLS\komisariatLS.pwn" 
+	
+	//*****************************************************
+	//Aktualizacja 2.5.85
+	//*****************************************************
+	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
+	#include "modules\obiekty\nowe\rondo\rondo.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\chinatown\chinatown.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
+	#include "modules\obiekty\nowe\przes\Ocult\ocult.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
+	#include "modules\obiekty\nowe\cjgirl\cjgirl.pwn"
+	#include "modules\obiekty\nowe\opdlaorg\StacjaMont\stam.pwn"
 #endif
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -89,9 +120,9 @@ obiekty_OnGameModeInit()
 	DosSantosCarService_Init();
 	centralBank_Init();
 	siedzibaMechanikow_Init();
-	radaMiasta_Init();
+//	radaMiasta_Init();
 	cassinoAutoService_Init();
-	barierkiDillimore_Init();
+//	barierkiDillimore_Init();
 	DMV_Init();
 	FBI_Init();
 	centralaGSA_Init();
@@ -109,6 +140,16 @@ obiekty_OnGameModeInit()
 	lowFolow_Init();
 	komisariatLS_Init();
 	centralBank_Init();
+	
+	rondo_Init();
+	chinatown_Init();
+	pub_Init();//PUB
+	ocult_Init();
+	molo_Init();
+	satan_Init();
+	miesko_Init();
+	kasia_Init();
+	opmont_Init();
 	return 1;
 }
 
@@ -119,7 +160,7 @@ obiekty_OnPlayerConnect(playerid)
 	
 	centralBank_Connect(playerid);
 	siedzibaMechanikow_Connect(playerid);
-	radaMiasta_Connect(playerid);
+//	radaMiasta_Connect(playerid);
 	DMV_Connect(playerid);
 	centralaGSA_Connect(playerid);
 	bazaNG_Connect(playerid);
@@ -130,5 +171,11 @@ obiekty_OnPlayerConnect(playerid)
 	komisariatLS_Connect(playerid);
 	parkingObokSzpitala_Connect(playerid);
 	
+	pub_Connect(playerid);
+	rondo_Connect(playerid);
+	molo_Connect(playerid);
+	satan_Connect(playerid);
+	kasia_Connect(playerid);
+	opmont_Connect(playerid);
 	return 1;
 }
