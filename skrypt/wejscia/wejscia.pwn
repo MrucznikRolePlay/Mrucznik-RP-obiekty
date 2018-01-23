@@ -1,13 +1,13 @@
 //MODULE_NAME.pwn
 
 //----------------------------------------------<< Source >>-------------------------------------------------//
-//---------------------------------------[ Modu³: MODULE_NAME.pwn ]------------------------------------------//
+//---------------------------------------[ ModuÂ³: MODULE_NAME.pwn ]------------------------------------------//
 //Opis:
 /*
 
 */
 //Adnotacje:
-/*JanPawe³DrugiGwa³cilMa³eDzieci
+/*JanPaweÂ³DrugiGwaÂ³cilMaÂ³eDzieci
 
 */
 //----------------------------------------------------*------------------------------------------------------//
@@ -50,7 +50,7 @@ stock DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:
 	else  
 	{
 		new Float:range = (int1 == 0 && vw1 == 0) ? EXTERIOR_3DTEXT_RANGE : INTERIOR_3DTEXT_RANGE;
-		CreateDynamic3DTextLabel(nazwain, 0xC2A2DAAA, fx1, fy1, fz1, range, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, vw1, int1);
+		CreateDynamic3DTextLabel(nazwain, 0x800080FF, fx1, fy1, fz1, range, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, vw1, int1);
 	}
 	if(isnull(nazwaout)) 
 	{
@@ -59,7 +59,7 @@ stock DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:
 	else 
 	{
 		new Float:range = ((int2 == 0 && vw2 == 0) ? (EXTERIOR_3DTEXT_RANGE) : (INTERIOR_3DTEXT_RANGE));
-		CreateDynamic3DTextLabel(nazwaout, 0xC2A2DAAA, fx2, fy2, fz2, range, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, vw2, int2);
+		CreateDynamic3DTextLabel(nazwaout, 0x800080FF, fx2, fy2, fz2, range, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, vw2, int2);
 	}
 	
 	return iloscwejsc++;
@@ -90,7 +90,7 @@ stock SprawdzWejscia(playerid)
 }
 
 forward Wchodzenie(playerid);
-public Wchodzenie(playerid) //Zmiana na inteligentny system odmra¿ania
+public Wchodzenie(playerid) //Zmiana na inteligentny system odmraÂ¿ania
 {
     if(GetPVarInt(playerid, "enter-check") == 0)
     {
@@ -129,7 +129,7 @@ public Wchodzenie(playerid) //Zmiana na inteligentny system odmra¿ania
             TogglePlayerControllable(playerid, 1);
             SetPVarInt(playerid, "enter-check", 0);
             new str[128];
-            SendClientMessage(playerid, -1, "(OBJ LOADER Inteligencja) - B³¹d z wczytaniem obiektów, nie mo¿na dodaæ nowych - zg³os to z debugiem:");
+            SendClientMessage(playerid, -1, "(OBJ LOADER Inteligencja) - BÂ³Â¹d z wczytaniem obiektÃ³w, nie moÂ¿na dodaÃ¦ nowych - zgÂ³os to z debugiem:");
             format(str, 128, "CHK |%d| NowOBJ |%d| Stuff |%d:%d| VW.o |%d| VW.n |%d| T |%d| T.n |%d| T.s |%d| Count |%d|", GetPVarInt(playerid, "enter-check"),GetPVarInt(playerid, "enter-nowobj"),GetPVarInt(playerid, "enter-stuffobj"),GetPVarInt(playerid, "enter-stuff"),GetPVarInt(playerid, "enter-oldvw"),GetPVarInt(playerid, "enter-vw"),GetPVarInt(playerid, "enter-time"), gettime(), gettime()-GetPVarInt(playerid, "enter-time"),count);
             SendClientMessage(playerid, -1, str);
             printf("(OBJ LOADER Inteligencja) FAIL [%d]! CHK |%d| NowOBJ |%d| Stuff |%d:%d| VW.o |%d| VW.n |%d| T |%d| T.n |%d| T.s |%d| Count |%d|", playerid, GetPVarInt(playerid, "enter-check"),GetPVarInt(playerid, "enter-nowobj"),GetPVarInt(playerid, "enter-stuffobj"),GetPVarInt(playerid, "enter-stuff"),GetPVarInt(playerid, "enter-oldvw"),GetPVarInt(playerid, "enter-vw"),GetPVarInt(playerid, "enter-time"), gettime(), gettime()-GetPVarInt(playerid, "enter-time"),count);
