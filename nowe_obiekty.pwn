@@ -2,9 +2,9 @@
 
 //----------------------------------------------<< Source >>-------------------------------------------------//
 //--------------------------------------[ Obiekty: nowe_obiekty.pwn ]----------------------------------------//
-//Opis:
+//Opis: NOWE OBIEKTY - TWORZONE W NOWYM FORMACIE
 /*
-	Plik zawieraj¹cy do³¹czenia wszystkich obiektów w nowym formacie
+	Plik zawierajÂ¹cy doÂ³Â¹czenia wszystkich obiektÃ³w w nowym formacie
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -25,7 +25,7 @@
 
 //
 
-//TODO: USU¥Æ TO	
+//TODO: USUÂ¥Ã† TO	
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
@@ -42,7 +42,7 @@
 	#include "..\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
 	#include "..\nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
 	#include "..\nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn" 
-	#include "..\nowe\NG\bazaNG.pwn" //TODO: Rozdziel
+//	#include "..\nowe\NG\bazaNG.pwn" //TODO: Rozdziel
 	#include "..\nowe\GlobalneLS\Pomnik\pomnik.pwn"
 	#include "..\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn"
 	#include "..\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn"
@@ -89,7 +89,7 @@
 	#include "modules\obiekty\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
 	#include "modules\obiekty\nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
 	#include "modules\obiekty\nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn"
-	#include "modules\obiekty\nowe\NG\bazaNG.pwn"  //TODO: Rozdziel
+//	#include "modules\obiekty\nowe\NG\bazaNG.pwn"  //TODO: Rozdziel
 	#include "modules\obiekty\nowe\GlobalneLS\Pomnik\pomnik.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn" 
@@ -141,7 +141,7 @@ obiekty_OnGameModeInit()
 	centralaGSA_Init();
 	obiektyCiekawostki_Init();
 	poprawkiRockstar_Init();
-	bazaNG_Init();
+	//bazaNG_Init();
 	pomnik_Init();
 	skracaneZakrety_Init();
 	znakiUpiekszenia_Init();
@@ -178,7 +178,7 @@ obiekty_OnPlayerConnect(playerid)
 //	radaMiasta_Connect(playerid);
 	DMV_Connect(playerid);
 	centralaGSA_Connect(playerid);
-	bazaNG_Connect(playerid);
+	//bazaNG_Connect(playerid);
 	pomnik_Connect(playerid);
 	skracaneZakrety_Connect(playerid);
 	znakiUpiekszenia_Connect(playerid);
