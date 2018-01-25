@@ -62,7 +62,7 @@
 	#include "..\nowe\przes\pub\pub.pwn" //PUB by lil frachty
 	#include "..\nowe\rondo\rondo.pwn"
 	#include "..\nowe\GlobalneLS\chinatown\chinatown.pwn"
-	#include "..\nowe\GlobalneLS\molo\molo.pwn"
+	//#include "..\nowe\GlobalneLS\molo\molo.pwn"
 	#include "..\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
 	#include "..\nowe\przes\Ocult\ocult.pwn"
 	#include "..\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
@@ -108,7 +108,7 @@
 	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
 	#include "modules\obiekty\nowe\rondo\rondo.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\chinatown\chinatown.pwn"
-	#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
+	//#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
 	#include "modules\obiekty\nowe\przes\Ocult\ocult.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
@@ -158,7 +158,7 @@ obiekty_OnGameModeInit()
 	chinatown_Init();
 	pub_Init();//PUB
 	ocult_Init();
-	molo_Init();
+	//molo_Init();
 	satan_Init();
 	miesko_Init();
 	kasia_Init();
@@ -188,7 +188,7 @@ obiekty_OnPlayerConnect(playerid)
 	
 	pub_Connect(playerid);
 	rondo_Connect(playerid);
-	molo_Connect(playerid);
+	//molo_Connect(playerid);
 	kasia_Connect(playerid);
 	opmont_Connect(playerid);
 	return 1;
