@@ -73,6 +73,7 @@
 	//-------------------------------------------------------------
 	
 	#include "..\nowe\Pizzernia idle\pizza.pwn"
+	#include "..\nowe\centralbank\bank.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -123,6 +124,7 @@
 	//------------------------------
 	
 	#include "modules\obiekty\nowe\Pizzernia idle\pizza.pwn"
+	#include "modules\obiekty\nowe\centralbank\bank.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -174,6 +176,7 @@ obiekty_OnGameModeInit()
 	opmont_Init();
 	sanVanInterior_Init();
 	houseInteriorWOSP_Init();
+	bank_Init();
 	return 1;
 }
 
