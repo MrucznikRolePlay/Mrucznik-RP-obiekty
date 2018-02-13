@@ -70,6 +70,10 @@
 	#include "..\nowe\opdlaorg\StacjaMont\stam.pwn"
 	#include "..\nowe\SanVanInterior\sanVanInterior.pwn"
 	
+	//-------------------------------------------------------------
+	
+	#include "..\nowe\Pizzernia idle\pizza.pwn"
+	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
 	//*****************************************************
@@ -116,6 +120,10 @@
 	#include "modules\obiekty\nowe\opdlaorg\StacjaMont\stam.pwn"
 	#include "modules\obiekty\nowe\SanVanInterior\sanVanInterior.pwn"
 	
+	//------------------------------
+	
+	#include "modules\obiekty\nowe\Pizzernia idle\pizza.pwn"
+	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
 	//*****************************************************
@@ -153,6 +161,7 @@ obiekty_OnGameModeInit()
 	lowFolow_Init();
 	komisariatLS_Init();
 	centralBank_Init();
+	idleop_Init();
 	
 	rondo_Init();
 	chinatown_Init();
@@ -191,5 +200,6 @@ obiekty_OnPlayerConnect(playerid)
 	//molo_Connect(playerid);
 	kasia_Connect(playerid);
 	opmont_Connect(playerid);
+	idleop_Connect(playerid);
 	return 1;
 }
