@@ -46,6 +46,7 @@
 	#include "..\nowe\GlobalneLS\Pomnik\pomnik.pwn"
 	#include "..\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn"
 	#include "..\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn"
+	#include "..\nowe\GlobalneLS\lslot\lslot.pwn"
 	#include "..\nowe\GlobalneLV\lv.pwn"
 	#include "..\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn"
 	#include "..\nowe\GunShop\gunShop.pwn"
@@ -99,6 +100,7 @@
 	#include "modules\obiekty\nowe\GlobalneLS\Pomnik\pomnik.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn" 
+	#include "modules\obiekty\nowe\GlobalneLS\lslot\lslot.pwn"
 	#include "modules\obiekty\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLV\lv.pwn"
 	#include "modules\obiekty\nowe\GunShop\gunShop.pwn" 
@@ -180,6 +182,7 @@ obiekty_OnGameModeInit()
 	houseInteriorWOSP_Init();
 	bank_Init();
 	sidle_Init();
+	lslot_Init();
 	return 1;
 }
 
