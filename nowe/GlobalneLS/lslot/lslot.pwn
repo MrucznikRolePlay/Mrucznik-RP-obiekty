@@ -22,7 +22,7 @@
 
 
 
-//-----------------<[ G3ówne funkcje: ]>-------------------
+//-----------------<[ G3Ã³wne funkcje: ]>-------------------
 lslot_Init()
 {
 	StworzObiekty();
@@ -37,7 +37,7 @@ static StworzObiekty()
 	simeonel = CreateDynamicObject(19327, 1967.542724, -2188.037841, 15.246877, 0.000000, 0.000000, 180.000000, -1, -1, -1, 315.00, 315.00);
 	SetDynamicObjectMaterialText(simeonel, 0, "{FFFFFF}Do wjazdu jedynie dla:\n>{FFFF00}Korporacji transportowej{FFFFFF}\n>{FFFF00}Sluzb porzadkowych", 140, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19327, 1967.542724, -2188.037841, 14.956871, 0.000000, 0.000000, 180.000000, -1, -1, -1, 315.00, 315.00);
-	SetDynamicObjectMaterialText(simeonel, 0, "{FF00FF}Cywilu!\nJezeli chcia3by? sie przedostaa:\n przejdz przez lotnisko!", 140, "Ariel", 24, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "{FF00FF}Cywilu!{FFFFFF}\nJezeli chcialbys sie przedostac:\n przejdz przez lotnisko!", 140, "Ariel", 24, 1, 0x00000000, 0x00000000, 1);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
