@@ -74,6 +74,7 @@
 	
 	#include "..\nowe\Pizzernia idle\pizza.pwn"
 	#include "..\nowe\centralbank\bank.pwn"
+	#include "..\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -125,6 +126,7 @@
 	
 	#include "modules\obiekty\nowe\Pizzernia idle\pizza.pwn"
 	#include "modules\obiekty\nowe\centralbank\bank.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -177,6 +179,7 @@ obiekty_OnGameModeInit()
 	sanVanInterior_Init();
 	houseInteriorWOSP_Init();
 	bank_Init();
+	sidle_Init();
 	return 1;
 }
 
@@ -204,5 +207,6 @@ obiekty_OnPlayerConnect(playerid)
 	kasia_Connect(playerid);
 	opmont_Connect(playerid);
 	idleop_Connect(playerid);
+	sidle_Connect(playerid);
 	return 1;
 }
