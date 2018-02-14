@@ -17,7 +17,7 @@
 	#include "../stare/grove.pwn"
 	#include "../stare/ha.pwn"
 	#include "../stare/ibiza.pwn"
-	#include "../stare/icc.pwn"
+	//#include "../stare/icc.pwn"
 	#include "../stare/kt.pwn"
 	//#include "../stare/ls_grape.pwn"
 	#include "../stare/lsfd.pwn"
@@ -49,7 +49,7 @@
 	#include "modules/obiekty/stare/grove.pwn"
 	#include "modules/obiekty/stare/ha.pwn"
 	#include "modules/obiekty/stare/ibiza.pwn"
-	#include "modules/obiekty/stare/icc.pwn"
+	//#include "modules/obiekty/stare/icc.pwn"
 	#include "modules/obiekty/stare/kt.pwn"
 	//#include "modules/obiekty/stare/ls_grape.pwn"
 	#include "modules/obiekty/stare/lsfd.pwn"
@@ -96,7 +96,7 @@ public obiekty_timer(wartosc)
     SN_Load();
     Int_BarBallas();
     VinylClub();
-    Ibiza_Club();
+   // Ibiza_Club();
     JettyLounge();
     INT_AT400();
     INT_AirTowerLS();
@@ -117,7 +117,7 @@ public obiekty_timer(wartosc)
   //  LS_ElCorona();
 	LadujObiektyBanku();
     ChangeLSMCElevatorState();
-    BudkiTelefoniczne();
+  //  BudkiTelefoniczne();
 	return 1;
 }
 
@@ -228,14 +228,14 @@ DeleteObjects(playerid)
 	RemoveBuildingForPlayer(playerid, 1283, 1161.5859, -1281.3594, 15.7109, 0.25);
 	RemoveBuildingForPlayer(playerid, 1283, 1150.5078, -1269.9375, 15.7109, 0.25);
 	RemoveBuildingForPlayer(playerid, 1297, 1190.7734, -1320.8594, 15.9453, 0.25);
-    //IBIZA
+    /*
     RemoveBuildingForPlayer(playerid, 1215, 409.2109, -1798.3359, 7.3750, 0.25);
 	RemoveBuildingForPlayer(playerid, 625, 408.8594, -1803.4922, 7.5859, 0.25);
 	RemoveBuildingForPlayer(playerid, 1368, 378.0234, -1821.9922, 7.4766, 0.25);
 	RemoveBuildingForPlayer(playerid, 1215, 388.5859, -1795.2031, 7.3750, 0.25);
 	RemoveBuildingForPlayer(playerid, 1215, 401.2109, -1795.3125, 7.3750, 0.25);
 	RemoveBuildingForPlayer(playerid, 6287, 400.8438, -1794.5547, 5.9063, 0.25);
-	RemoveBuildingForPlayer(playerid, 1215, 395.2266, -1793.6406, 7.3750, 0.25);
+	RemoveBuildingForPlayer(playerid, 1215, 395.2266, -1793.6406, 7.3750, 0.25); */
     //Vinyl
     RemoveBuildingForPlayer(playerid, 1297, 828.7656, -1390.1172, 15.6406, 0.25);
     RemoveBuildingForPlayer(playerid, 1462, 826.8516, -1385.6719, 12.5078, 0.25);
@@ -603,7 +603,7 @@ DeleteObjects(playerid)
 }
 
 BudkiTelefoniczne() {
-    // znaki informacyjne
+    /* znaki informacyjne
     CreateDynamicObject(1234, 2076.77466, -1793.24060, 13.95218,   0.00000, 0.00000, 91.31998);//idle
     CreateDynamicObject(1234, 1538.96326, -1597.73792, 13.81514,   0.00000, 0.00000, 0.00000);//PD
     CreateDynamicObject(1234, 1831.06897, -1830.49487, 13.97328,   0.00000, 0.00000, 0.00000);//24/7
@@ -617,7 +617,7 @@ BudkiTelefoniczne() {
     CreateDynamicObject(1234, 2849.16431, -1546.07800, 11.43921,   0.00000, 0.00000, 64.67998);//Znak mechy
     CreateDynamicObject(1234, 2622.55493, -1726.79504, 11.88914,   0.00000, 0.00000, 0.00000);//Znak BEACH
     CreateDynamicObject(1234, 662.49359, -535.38519, 16.82881,   0.00000, 0.00000, 0.00000);//Znak Dillimore
-    CreateDynamicObject(1234, 227.46706, -56.18393, 1.87736,   0.00000, 0.00000, 89.88001);//Znak Blueberry
+    CreateDynamicObject(1234, 227.46706, -56.18393, 1.87736,   0.00000, 0.00000, 89.88001);//Znak Blueberry 
 
         //Telefony pod Mechami
     dodajBudke(1216, 2847.55518, -1543.48450, 10.63379,   0.00000, 0.00000, 0.00000);
@@ -695,7 +695,7 @@ BudkiTelefoniczne() {
     //Telefony w Blueberry
     dodajBudke(1216, 223.25951, -54.67980, 1.11520,   0.00000, 0.00000, 90.00000);
     dodajBudke(1216, 223.25951, -52.98860, 1.11520,   0.00000, 0.00000, 90.00000);
-    dodajBudke(1216, 223.25951, -51.27120, 1.11520,   0.00000, 0.00000, 90.00000);
+    dodajBudke(1216, 223.25951, -51.27120, 1.11520,   0.00000, 0.00000, 90.00000); */
 }
 
 Stare_Obiekty()
@@ -3258,7 +3258,7 @@ Stare_Obiekty()
 
 	CreateDynamicObject(2955, 2324.40, -1263.73, 22.68, 0.00, 0.00, 0.00,0,0);//Drzwi NoA
 
-    //Stacja paliw  idlewood
+    /*Stacja paliw  idlewood
     CreateDynamicObject(970, 1942.25049, -1778.34497, 13.13570,   0.00000, 0.00000, 90.00000);
     CreateDynamicObject(970, 1942.25049, -1767.48206, 13.13570,   0.00000, 0.00000, 90.00000);
     CreateDynamicObject(970, 1942.25049, -1774.24731, 13.13570,   0.00000, 0.00000, 90.00000);
@@ -3272,7 +3272,7 @@ Stare_Obiekty()
     SetDynamicObjectMaterial(idleid, 4, 4029, "lanriver", "ws_hextile");
     idleid = CreateDynamicObject(5397, 1866.33215, -1789.78528, 20.94930,   0.00000, 0.00000, 0.00000); //change
     SetDynamicObjectMaterial(idleid, 6, 4029, "lanriver", "ws_hextile");
-    SetDynamicObjectMaterial(idleid, 4, 4029, "lanriver", "ws_hextile");
+    SetDynamicObjectMaterial(idleid, 4, 4029, "lanriver", "ws_hextile"); */
 	return 1;
 }
 
