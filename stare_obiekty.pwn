@@ -794,7 +794,7 @@ Stare_Obiekty()
 	CreateDynamicObject(2011,1440.9000244,-894.7000122,49.5000000,358.0000000,0.0000000,0.0000000,0,0); //object(nu_plant2_ofc) (1)
 	CreateDynamicObject(2614,1423.5000000,-886.4000244,53.7000008,0.0000000,0.0000000,180.0000000,0,0); //object(cj_us_flag) (1)
 	
-	//nowoczesny dom (interior) by abram01
+	/*nowoczesny dom (interior) by abram01
 	new home = CreateDynamicObject(15031, 1542.79736, -1145.87012, 135.10669,   0.00000, 0.00000, 0.00000);
 	SetDynamicObjectMaterial(home, 7, 15041, "bigsfsave", "ah_wpaper7", 0);
 	SetDynamicObjectMaterial(home, 4, 15041, "bigsfsave", "AH_wdpanscum", 0);
@@ -839,7 +839,7 @@ Stare_Obiekty()
 	CreateDynamicObject(2946, 1546.59583, -1152.14026, 135.09351,   0.00000, 0.00000, 90.00000);
     SetDynamicObjectMaterial(CreateDynamicObject(1492, 1541.71008, -1148.96045, 135.09180,   0.00000, 0.00000, 270.00000), 1, 19301, "mp_policesf", "mp_cop_panel", 0);
     SetDynamicObjectMaterial(CreateDynamicObject(1492, 1543.88794, -1143.28198, 134.91580,   0.00000, 0.00000, 270.00000), 1, 19301, "mp_policesf", "mp_cop_panel", 0);
-    SetDynamicObjectMaterial(CreateDynamicObject(1492, 1549.55786, -1146.94031, 135.11380,   0.00000, 0.00000, 270.00000), 1, 19301, "mp_policesf", "mp_cop_panel", 0);
+    SetDynamicObjectMaterial(CreateDynamicObject(1492, 1549.55786, -1146.94031, 135.11380,   0.00000, 0.00000, 270.00000), 1, 19301, "mp_policesf", "mp_cop_panel", 0);*/
 
 	//obiekty domu z konkursu by Sejciak
 	CreateDynamicObject(9829, 279.67, -1945.67, -64.42,   0.00, 0.00, 92.00,0,0);
