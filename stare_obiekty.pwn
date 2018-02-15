@@ -140,7 +140,7 @@ DeleteObjects(playerid)
     noweMech_UsunObiekty(playerid);
 
 
-    //___Obiekty usuniête - Osiedle Idlewood/Alhambra___
+    /*___Obiekty usuniête - Osiedle Idlewood/Alhambra___
     RemoveBuildingForPlayer(playerid, 5544, 1873.7422, -1682.4766, 34.7969, 0.25);
     RemoveBuildingForPlayer(playerid, 1524, 1837.6641, -1640.3828, 13.7578, 0.25);
     RemoveBuildingForPlayer(playerid, 620, 1855.7188, -1741.5391, 10.8047, 0.25);
@@ -164,7 +164,7 @@ DeleteObjects(playerid)
     RemoveBuildingForPlayer(playerid, 620, 1855.7188, -1623.2813, 10.8047, 0.25);
     RemoveBuildingForPlayer(playerid, 620, 1879.5078, -1623.1016, 10.8047, 0.25);
     RemoveBuildingForPlayer(playerid, 620, 1908.2188, -1622.9844, 10.8047, 0.25);
-    RemoveBuildingForPlayer(playerid, 712, 1929.5781, -1627.6250, 21.3906, 0.25);
+    RemoveBuildingForPlayer(playerid, 712, 1929.5781, -1627.6250, 21.3906, 0.25); */
     //VagosPub
     RemoveBuildingForPlayer(playerid, 5629, 2131.0859, -1029.3750, 50.1563, 0.25);
     //Trucker job
