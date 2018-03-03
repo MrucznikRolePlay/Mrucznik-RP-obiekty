@@ -76,6 +76,8 @@
 	#include "..\nowe\Pizzernia idle\pizza.pwn"
 	#include "..\nowe\centralbank\bank.pwn"
 	#include "..\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
+	#include "..\nowe\Pizzernia idle\intpidle.pwn"
+	
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -129,6 +131,7 @@
 	#include "modules\obiekty\nowe\Pizzernia idle\pizza.pwn"
 	#include "modules\obiekty\nowe\centralbank\bank.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
+	#include "modules\obiekty\nowe\Pizzernia idle\intpidle.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -183,6 +186,7 @@ obiekty_OnGameModeInit()
 	bank_Init();
 	sidle_Init();
 	lslot_Init();
+	intpidle_Init();
 	return 1;
 }
 
