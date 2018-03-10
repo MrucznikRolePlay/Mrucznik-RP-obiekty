@@ -193,6 +193,7 @@ obiekty_OnGameModeInit()
 	lslot_Init();
 	intpidle_Init();
 	inttv_Init();
+	autobusint_Init();
 	return 1;
 }
 
