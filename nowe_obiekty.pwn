@@ -23,7 +23,10 @@
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
 
-//
+//======={ZMIENNE}=======
+#include "..\skrypt\zmienne.pwn"//Dla pdst. gm
+//#include "..."//TODO: TU NALEŻY WPROWADZIĆ GDZIE ZNAJDUJE SIE PLIK "ZMIENNE" W MRUCZNIKOWYM VPS
+
 
 //TODO: USU¥Æ TO	
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
