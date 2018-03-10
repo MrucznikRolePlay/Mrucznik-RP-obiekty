@@ -22,7 +22,7 @@
 //By simeone
 
 //-----------------<[ Zmienne: ]>-------------------
-#new simpop
+
 
 //-----------------<[ Główne funkcje: ]>-------------------
 poprawkiRockstar_Init()
