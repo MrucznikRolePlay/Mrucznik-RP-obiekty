@@ -82,6 +82,7 @@
 	#include "..\nowe\Pizzernia idle\intpidle.pwn"
 	#include "..\nowe\GlobalneLS\inttv.pwn"
 	#include "..\nowe\autobusinterior\autobusint.pwn"
+	#include "..\nowe\enforcerint\enforcerint.pwn"
 	
 	
 	//*****************************************************
@@ -139,6 +140,7 @@
 	#include "modules\obiekty\nowe\Pizzernia idle\intpidle.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\inttv.pwn"
 	#include "modules\obiekty\nowe\autobusinterior\autobusint.pwn"
+	#include "modules\obiekty\nowe\enforcerint\enforcerint.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -196,6 +198,7 @@ obiekty_OnGameModeInit()
 	intpidle_Init();
 	inttv_Init();
 	autobusint_Init();
+	enforcer_Init();
 	return 1;
 }
 
