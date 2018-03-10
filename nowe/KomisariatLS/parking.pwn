@@ -108,7 +108,7 @@ static StworzObiekty()
 	CreateDynamicObject(19403, 1593.3383800, -1783.0799600, 10.7951000, 0.0000000, 0.0000000, 90.0000000, 0, 0, -1, 250); // 66
 
 
-	new ciec =	CreateDynamicObject(19450, 1622.0585900, -1783.9150400, 14.7439100, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 3 
+	ciec =	CreateDynamicObject(19450, 1622.0585900, -1783.9150400, 14.7439100, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 3 
 	SetDynamicObjectMaterial(ciec, 0, 3925, "weemap", "Bow_stained_wall", 0xFFFFFFFF);
 	
 	
@@ -139,7 +139,7 @@ static StworzObiekty()
 	
 	//___________________________________Parking LSPD____________________________________________________________
 	
-	new pevori2;
+	
 	pevori2 = CreateDynamicObject(19361, 1544.681884, -1622.651367, 14.124566, 0.000000, 0.000060, 0.000000, 0, 0, -1, 325.00, 325.00);
 	SetDynamicObjectMaterial(pevori2, 0, 10429, "hashblock1_sfs", "Bow_Concrete_drip", 0x00000000);
 	pevori2 = CreateDynamicObject(19361, 1544.681884, -1619.441284, 14.124566, 0.000000, 0.000060, 0.000000, 0, 0, -1, 325.00, 325.00);
