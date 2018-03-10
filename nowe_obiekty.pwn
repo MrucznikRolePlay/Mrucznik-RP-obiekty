@@ -81,6 +81,7 @@
 	#include "..\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
 	#include "..\nowe\Pizzernia idle\intpidle.pwn"
 	#include "..\nowe\GlobalneLS\inttv.pwn"
+	#include "..\nowe\autobusinterior\autobusint.pwn"
 	
 	
 	//*****************************************************
@@ -137,6 +138,7 @@
 	#include "modules\obiekty\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
 	#include "modules\obiekty\nowe\Pizzernia idle\intpidle.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\inttv.pwn"
+	#include "modules\obiekty\nowe\autobusinterior\autobusint.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
