@@ -21,7 +21,7 @@
 //BY- lil frachty
 //
 
-new tmpobjid;
+
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
 pub_Init()
