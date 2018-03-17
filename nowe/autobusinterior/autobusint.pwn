@@ -1,4 +1,4 @@
-/sanVanInterior.pwn
+//sanVanInterior.pwn
 //----------------------------------------------<< Source >>-------------------------------------------------//
 //-----------------------------------------[ Modu3: sanVanInterior.pwn ]--------------------------------------------//
 //Autor: Deduir, Santiago
@@ -24,7 +24,7 @@
 
 //
 
-//-----------------<[ G3ówne funkcje: ]>-------------------
+//-----------------<[ G3Ã³wne funkcje: ]>-------------------
 autobusint_Init() //t1 metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();
