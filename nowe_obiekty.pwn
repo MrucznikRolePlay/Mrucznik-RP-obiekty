@@ -25,7 +25,7 @@
 
 //======={ZMIENNE}=======
 //#include "..\skrypt\zmienne.pwn"//Dla pdst. gm
-//"modules\obiekty\skrypt\zmienne.pwn"
+#include "modules\obiekty\skrypt\zmienne.pwn"
 
 
 //TODO: USU¥Æ TO	
