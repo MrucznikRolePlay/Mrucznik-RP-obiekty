@@ -190,9 +190,9 @@ obiekty_OnGameModeInit()
 	miesko_Init();
 	kasia_Init();
 	opmont_Init();
-	sanVanInterior_Init();
+	//sanVanInterior_Init();
 	houseInteriorWOSP_Init();
-	bank_Init();
+	//bank_Init();
 	sidle_Init();
 	lslot_Init();
 	intpidle_Init();
