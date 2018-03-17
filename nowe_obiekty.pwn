@@ -72,12 +72,12 @@
 	#include "..\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	#include "..\nowe\cjgirl\cjgirl.pwn"
 	#include "..\nowe\opdlaorg\StacjaMont\stam.pwn"
-	#include "..\nowe\SanVanInterior\sanVanInterior.pwn"
+	//#include "..\nowe\SanVanInterior\sanVanInterior.pwn"
 	
 	//-------------------------------------------------------------
 	
 	#include "..\nowe\Pizzernia idle\pizza.pwn"
-	#include "..\nowe\centralbank\bank.pwn"
+	//#include "..\nowe\centralbank\bank.pwn"
 	#include "..\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
 	#include "..\nowe\Pizzernia idle\intpidle.pwn"
 	#include "..\nowe\GlobalneLS\inttv.pwn"
@@ -130,12 +130,12 @@
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	#include "modules\obiekty\nowe\cjgirl\cjgirl.pwn"
 	#include "modules\obiekty\nowe\opdlaorg\StacjaMont\stam.pwn"
-	#include "modules\obiekty\nowe\SanVanInterior\sanVanInterior.pwn"
+	//#include "modules\obiekty\nowe\SanVanInterior\sanVanInterior.pwn"
 	
 	//------------------------------
 	
 	#include "modules\obiekty\nowe\Pizzernia idle\pizza.pwn"
-	#include "modules\obiekty\nowe\centralbank\bank.pwn"
+	//#include "modules\obiekty\nowe\centralbank\bank.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
 	#include "modules\obiekty\nowe\Pizzernia idle\intpidle.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\inttv.pwn"
