@@ -362,7 +362,7 @@ DeleteObjects(playerid)
 	BazaKTDestroyObjects(playerid);
 	
 	//baza NG by Dywan
-	RemoveBuildingForPlayer(playerid, 5156, 2838.0391, -2423.8828, 10.9609, 0.25);
+	/* RemoveBuildingForPlayer(playerid, 5156, 2838.0391, -2423.8828, 10.9609, 0.25);
 	RemoveBuildingForPlayer(playerid, 5159, 2838.0313, -2371.9531, 7.2969, 0.25);
 	RemoveBuildingForPlayer(playerid, 5160, 2829.9531, -2479.5703, 5.2656, 0.25);
 	RemoveBuildingForPlayer(playerid, 5161, 2838.0234, -2358.4766, 21.3125, 0.25);
@@ -589,7 +589,7 @@ DeleteObjects(playerid)
 	RemoveBuildingForPlayer(playerid, 1278, 2804.2422, -2333.3828, 26.7031, 0.25);
 	RemoveBuildingForPlayer(playerid, 5158, 2837.7734, -2334.4766, 11.9922, 0.25);
 	RemoveBuildingForPlayer(playerid, 4270, 2657.0781, -2711.4531, -4.0000, 0.25);
-	RemoveBuildingForPlayer(playerid, 4404, 2657.0781, -2711.4531, -4.0000, 0.25);
+	RemoveBuildingForPlayer(playerid, 4404, 2657.0781, -2711.4531, -4.0000, 0.25); */
 
     //SN
     RemoveBuildingForPlayer(playerid, 1689, 745.5859, -1381.1094, 25.8750, 0.25);
