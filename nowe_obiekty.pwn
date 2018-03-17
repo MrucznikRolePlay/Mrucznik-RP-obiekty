@@ -24,8 +24,8 @@
 //----------------------------------------------------*------------------------------------------------------//
 
 //======={ZMIENNE}=======
-#include "..\skrypt\zmienne.pwn"//Dla pdst. gm
-//#include "..."//TODO: TU NALEŻY WPROWADZIĆ GDZIE ZNAJDUJE SIE PLIK "ZMIENNE" W MRUCZNIKOWYM VPS
+//#include "..\skrypt\zmienne.pwn"//Dla pdst. gm
+//"modules\obiekty\skrypt\zmienne.pwn"
 
 
 //TODO: USU¥Æ TO	
