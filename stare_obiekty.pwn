@@ -97,7 +97,7 @@ public obiekty_timer(wartosc)
     Int_BarBallas();
     VinylClub();
    // Ibiza_Club();
-    JettyLounge();
+  //  JettyLounge();
     INT_AT400();
     INT_AirTowerLS();
     PC_UM();
