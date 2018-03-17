@@ -188,7 +188,7 @@ DeleteObjects(playerid)
     RemoveBuildingForPlayer(playerid, 13024, -87.3047, -347.5000, 3.1719, 0.25); //HA
 	RemoveBuildingForPlayer(playerid, 12932, -117.9609, -337.4531, 3.6172, 0.25); //HA
     //Grapestreet
-    RemoveBuildingForPlayer(playerid, 3562, 2232.3984, -1464.7969, 25.6484, 0.25);
+    /* RemoveBuildingForPlayer(playerid, 3562, 2232.3984, -1464.7969, 25.6484, 0.25);
     RemoveBuildingForPlayer(playerid, 3562, 2247.5313, -1464.7969, 25.5469, 0.25);
     RemoveBuildingForPlayer(playerid, 3562, 2263.7188, -1464.7969, 25.4375, 0.25);
     RemoveBuildingForPlayer(playerid, 3562, 2243.7109, -1401.7813, 25.6406, 0.25);
@@ -216,7 +216,7 @@ DeleteObjects(playerid)
     RemoveBuildingForPlayer(playerid, 1221, 2251.2891, -1461.8281, 23.6328, 0.25);
     RemoveBuildingForPlayer(playerid, 1220, 2256.6563, -1456.8984, 22.8594, 0.25);
     RemoveBuildingForPlayer(playerid, 1230, 2255.9844, -1457.9063, 22.8594, 0.25);
-    RemoveBuildingForPlayer(playerid, 5682, 2241.4297, -1433.6719, 31.2813, 0.25);
+    RemoveBuildingForPlayer(playerid, 5682, 2241.4297, -1433.6719, 31.2813, 0.25); */
     //LSMC ext
     RemoveBuildingForPlayer(playerid, 5935, 1120.1563, -1303.4531, 18.5703, 0.25);
 	RemoveBuildingForPlayer(playerid, 1440, 1141.9844, -1346.1094, 13.2656, 0.25);
