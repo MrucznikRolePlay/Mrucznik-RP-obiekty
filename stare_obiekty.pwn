@@ -91,7 +91,7 @@ public obiekty_timer(wartosc)
     BazaNG();
 	LSPDintek();
 	BazaKT();
-	Risto();
+	//Risto();
 	LOADLSMC();
     SN_Load();
     Int_BarBallas();
