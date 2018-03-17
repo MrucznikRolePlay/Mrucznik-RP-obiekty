@@ -26,7 +26,7 @@
 lslot_Init()
 {
 	StworzObiekty();
-	StworzBramy();
+	//StworzBramy();
 	return 1;
 }
 
