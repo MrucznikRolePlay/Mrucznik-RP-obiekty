@@ -2,9 +2,9 @@
 
 //----------------------------------------------<< Source >>-------------------------------------------------//
 //--------------------------------------[ Obiekty: nowe_obiekty.pwn ]----------------------------------------//
-//Opis:
+//Opis: NOWE OBIEKTY - TWORZONE W NOWYM FORMACIE
 /*
-	Plik zawieraj¹cy do³¹czenia wszystkich obiektów w nowym formacie
+	Plik zawierajÂ¹cy doÂ³Â¹czenia wszystkich obiektÃ³w w nowym formacie
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -23,9 +23,12 @@
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
 
-//
+//======={ZMIENNE}=======
+//#include "..\skrypt\zmienne.pwn"//Dla pdst. gm
+#include "modules\obiekty\skrypt\zmienne.pwn"
 
-//TODO: USU¥Æ TO	
+
+//TODO: USUÂ¥Ã† TO	
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
@@ -42,10 +45,11 @@
 	#include "..\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
 	#include "..\nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
 	#include "..\nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn" 
-	#include "..\nowe\NG\bazaNG.pwn" //TODO: Rozdziel
+//	#include "..\nowe\NG\bazaNG.pwn" //TODO: Rozdziel
 	#include "..\nowe\GlobalneLS\Pomnik\pomnik.pwn"
 	#include "..\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn"
 	#include "..\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn"
+	#include "..\nowe\GlobalneLS\lslot\lslot.pwn"
 	#include "..\nowe\GlobalneLV\lv.pwn"
 	#include "..\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn"
 	#include "..\nowe\GunShop\gunShop.pwn"
@@ -62,13 +66,24 @@
 	#include "..\nowe\przes\pub\pub.pwn" //PUB by lil frachty
 	#include "..\nowe\rondo\rondo.pwn"
 	#include "..\nowe\GlobalneLS\chinatown\chinatown.pwn"
-	#include "..\nowe\GlobalneLS\molo\molo.pwn"
+	//#include "..\nowe\GlobalneLS\molo\molo.pwn"
 	#include "..\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
 	#include "..\nowe\przes\Ocult\ocult.pwn"
 	#include "..\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	#include "..\nowe\cjgirl\cjgirl.pwn"
 	#include "..\nowe\opdlaorg\StacjaMont\stam.pwn"
-	#include "..\nowe\SanVanInterior\sanVanInterior.pwn"
+	//#include "..\nowe\SanVanInterior\sanVanInterior.pwn"
+	
+	//-------------------------------------------------------------
+	
+	#include "..\nowe\Pizzernia idle\pizza.pwn"
+	//#include "..\nowe\centralbank\bank.pwn"
+	#include "..\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
+	#include "..\nowe\Pizzernia idle\intpidle.pwn"
+	#include "..\nowe\GlobalneLS\inttv.pwn"
+	#include "..\nowe\autobusinterior\autobusint.pwn"
+	#include "..\nowe\enforcerint\enforcerint.pwn"
+	
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -89,10 +104,11 @@
 	#include "modules\obiekty\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
 	#include "modules\obiekty\nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
 	#include "modules\obiekty\nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn"
-	#include "modules\obiekty\nowe\NG\bazaNG.pwn"  //TODO: Rozdziel
+//	#include "modules\obiekty\nowe\NG\bazaNG.pwn"  //TODO: Rozdziel
 	#include "modules\obiekty\nowe\GlobalneLS\Pomnik\pomnik.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn" 
+	#include "modules\obiekty\nowe\GlobalneLS\lslot\lslot.pwn"
 	#include "modules\obiekty\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLV\lv.pwn"
 	#include "modules\obiekty\nowe\GunShop\gunShop.pwn" 
@@ -108,13 +124,23 @@
 	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
 	#include "modules\obiekty\nowe\rondo\rondo.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\chinatown\chinatown.pwn"
-	#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
+	//#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
 	#include "modules\obiekty\nowe\przes\Ocult\ocult.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	#include "modules\obiekty\nowe\cjgirl\cjgirl.pwn"
 	#include "modules\obiekty\nowe\opdlaorg\StacjaMont\stam.pwn"
-	#include "modules\obiekty\nowe\SanVanInterior\sanVanInterior.pwn"
+	//#include "modules\obiekty\nowe\SanVanInterior\sanVanInterior.pwn"
+	
+	//------------------------------
+	
+	#include "modules\obiekty\nowe\Pizzernia idle\pizza.pwn"
+	//#include "modules\obiekty\nowe\centralbank\bank.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
+	#include "modules\obiekty\nowe\Pizzernia idle\intpidle.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\inttv.pwn"
+	#include "modules\obiekty\nowe\autobusinterior\autobusint.pwn"
+	#include "modules\obiekty\nowe\enforcerint\enforcerint.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
@@ -141,7 +167,7 @@ obiekty_OnGameModeInit()
 	centralaGSA_Init();
 	obiektyCiekawostki_Init();
 	poprawkiRockstar_Init();
-	bazaNG_Init();
+	//bazaNG_Init();
 	pomnik_Init();
 	skracaneZakrety_Init();
 	znakiUpiekszenia_Init();
@@ -153,18 +179,26 @@ obiekty_OnGameModeInit()
 	lowFolow_Init();
 	komisariatLS_Init();
 	centralBank_Init();
+	idleop_Init();
 	
 	rondo_Init();
 	chinatown_Init();
 	pub_Init();//PUB
 	ocult_Init();
-	molo_Init();
+	//molo_Init();
 	satan_Init();
 	miesko_Init();
 	kasia_Init();
 	opmont_Init();
-	sanVanInterior_Init();
+	//sanVanInterior_Init();
 	houseInteriorWOSP_Init();
+	//bank_Init();
+	sidle_Init();
+	lslot_Init();
+	intpidle_Init();
+	inttv_Init();
+	autobusint_Init();
+	enforcer_Init();
 	return 1;
 }
 
@@ -178,7 +212,7 @@ obiekty_OnPlayerConnect(playerid)
 //	radaMiasta_Connect(playerid);
 	DMV_Connect(playerid);
 	centralaGSA_Connect(playerid);
-	bazaNG_Connect(playerid);
+	//bazaNG_Connect(playerid);
 	pomnik_Connect(playerid);
 	skracaneZakrety_Connect(playerid);
 	znakiUpiekszenia_Connect(playerid);
@@ -188,8 +222,10 @@ obiekty_OnPlayerConnect(playerid)
 	
 	pub_Connect(playerid);
 	rondo_Connect(playerid);
-	molo_Connect(playerid);
+	//molo_Connect(playerid);
 	kasia_Connect(playerid);
 	opmont_Connect(playerid);
+	idleop_Connect(playerid);
+	sidle_Connect(playerid);
 	return 1;
 }

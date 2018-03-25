@@ -19,9 +19,12 @@
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
 
-//
+//By simeone
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
+//-----------------<[ Zmienne: ]>-------------------
+
+
+//-----------------<[ GÅ‚Ã³wne funkcje: ]>-------------------
 poprawkiRockstar_Init()
 {
 	StworzObiekty();
@@ -31,12 +34,14 @@ poprawkiRockstar_Init()
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-	new d_Object[6];
-	d_Object[0] = CreateDynamicObject(18756, 287.9355, -1609.6456, 18.7720, 0.0000, 0.0000, 79.2001); //ElevatorDoor1
-	d_Object[1] = CreateDynamicObject(18756, 287.3032, -1613.3823, 18.7720, 0.0000, 0.0000, -100.1999); //ElevatorDoor1
-	d_Object[2] = CreateDynamicObject(18756, 287.2960, -1613.4245, 33.9502, 0.0000, 0.0000, -100.2999); //ElevatorDoor1
-	d_Object[3] = CreateDynamicObject(18756, 287.9165, -1609.6625, 33.9502, 0.0000, 0.0000, 79.7999); //ElevatorDoor1
-	d_Object[4] = CreateDynamicObject(978, -1229.2559, -762.3387, 63.7193, 0.0000, 0.0000, -137.0999); //sub_roadright
-	d_Object[5] = CreateDynamicObject(979, -1236.5260, -768.1512, 64.0295, -0.1999, -3.9999, -145.2999); //sub_roadleft
+	
+	simpop = CreateDynamicObject(18756, 287.9355, -1609.6456, 18.7720, 0.0000, 0.0000, 79.2001); //ElevatorDoor1
+	simpop = CreateDynamicObject(18756, 287.3032, -1613.3823, 18.7720, 0.0000, 0.0000, -100.1999); //ElevatorDoor1
+	simpop = CreateDynamicObject(18756, 287.2960, -1613.4245, 33.9502, 0.0000, 0.0000, -100.2999); //ElevatorDoor1
+	simpop = CreateDynamicObject(18756, 287.9165, -1609.6625, 33.9502, 0.0000, 0.0000, 79.7999); //ElevatorDoor1
+	simpop = CreateDynamicObject(978, -1229.2559, -762.3387, 63.7193, 0.0000, 0.0000, -137.0999); //sub_roadright
+	simpop = CreateDynamicObject(979, -1236.5260, -768.1512, 64.0295, -0.1999, -3.9999, -145.2999); //sub_roadleft
+	simpop = CreateDynamicObject(19862, 2824.707519, -1597.654418, 12.528013, 90.000000, -8.600000, 70.000000, -1, -1, -1, 50.00, 50.00);
+	simpop = CreateDynamicObject(1507, 2401.753173, -1714.481689, 13.097446, 0.000000, 0.000000, 18.099994, -1, -1, -1, 50.00, 50.00);
 	return 1;
 }

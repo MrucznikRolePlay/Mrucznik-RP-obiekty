@@ -1,7 +1,7 @@
 //houseInteriorWOSP.pwn
 
 //----------------------------------------------<< Source >>-------------------------------------------------//
-//-----------------------------------------[ Modu³: houseInteriorWOSP.pwn ]--------------------------------------------//
+//-----------------------------------------[ ModuÂ³: houseInteriorWOSP.pwn ]--------------------------------------------//
 //Autor:
 /*
 	lil frachty
@@ -25,8 +25,8 @@
 
 //
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
-houseInteriorWOSP_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
+//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
+houseInteriorWOSP_Init() //tÂ¹ metodÃª wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();
 	return 1;
@@ -35,7 +35,7 @@ houseInteriorWOSP_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameM
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-	new tmpobjid;
+	
 	tmpobjid = CreateDynamicObject(19377, 1278.941040, -823.577575, 111.365051, 0.000000, 90.000045, 0.000000, 2001, -1, -1, 250.00, 250.00);
 	SetDynamicObjectMaterial(tmpobjid, 0, 14488, "dogsgym", "ah_yelplnks", 0x00000000);
 	tmpobjid = CreateDynamicObject(19377, 1289.441162, -823.577575, 111.365051, 0.000000, 90.000045, 0.000000, 2001, -1, -1, 250.00, 250.00);
