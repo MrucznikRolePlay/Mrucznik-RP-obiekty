@@ -24,9 +24,9 @@
 #define FBI:: FBI_
 
 #if defined EXAMPLE_SCRIPT
-	#include "..\nowe\FBI\parking.pwn"
+	#include "../nowe/FBI/parking.pwn"
 #else
-	#include "parking.pwn"
+	#include "modules/obiekty/nowe/FBI/parking.pwn"
 #endif
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------

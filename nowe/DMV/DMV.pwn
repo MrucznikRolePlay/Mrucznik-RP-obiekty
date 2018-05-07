@@ -24,9 +24,9 @@
 #define DMV:: DMV_
 
 #if defined EXAMPLE_SCRIPT
-	#include "..\nowe\DMV\exterior.pwn"
+	#include "../nowe/DMV/exterior.pwn"
 #else
-	#include "exterior.pwn"
+	#include "modules/obiekty/nowe/DMV/exterior.pwn"
 #endif
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------

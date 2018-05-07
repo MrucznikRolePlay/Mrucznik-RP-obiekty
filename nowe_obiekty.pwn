@@ -24,8 +24,8 @@
 //----------------------------------------------------*------------------------------------------------------//
 
 //======={ZMIENNE}=======
-//#include "..\skrypt\zmienne.pwn"//Dla pdst. gm
-#include "modules\obiekty\skrypt\zmienne.pwn"
+//#include "../skrypt/zmienne.pwn"//Dla pdst. gm
+#include "modules/obiekty/skrypt/zmienne.pwn"
 
 
 //TODO: USU¥Æ TO	
@@ -33,119 +33,119 @@
 
 //-----------------<[ Include: ]>-------------------
 #if defined EXAMPLE_SCRIPT
-	#include "..\nowe\AmmuNationBananov\ammuNationBananov.pwn"
-	#include "..\nowe\DosSantosCarService\DSCS.pwn"
-	#include "..\nowe\CentralBank\centralBank.pwn"
-	#include "..\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
-//	#include "..\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
-	#include "..\nowe\CassinoAutoService\cassinoAutoService.pwn"
-//	#include "..\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
-	#include "..\nowe\DMV\DMV.pwn"
-	#include "..\nowe\FBI\FBI.pwn"
-	#include "..\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
-	#include "..\nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
-	#include "..\nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn" 
-//	#include "..\nowe\NG\bazaNG.pwn" //TODO: Rozdziel
-	#include "..\nowe\GlobalneLS\Pomnik\pomnik.pwn"
-	#include "..\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn"
-	#include "..\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn"
-	#include "..\nowe\GlobalneLS\lslot\lslot.pwn"
-	#include "..\nowe\GlobalneLV\lv.pwn"
-	#include "..\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn"
-	#include "..\nowe\GunShop\gunShop.pwn"
-	#include "..\nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn"
-	#include "..\nowe\MountChiliad\mountChiliad.pwn"
-	#include "..\nowe\MoneyMakers\moneyMakers.pwn"
-	#include "..\nowe\LowFolow\lowFolow.pwn"
-	#include "..\nowe\KomisariatLS\komisariatLS.pwn"
+	#include "../nowe/AmmuNationBananov/ammuNationBananov.pwn"
+	#include "../nowe/DosSantosCarService/DSCS.pwn"
+	#include "../nowe/CentralBank/centralBank.pwn"
+	#include "../nowe/SiedzibaMechanikow/siedzibaMechanikow.pwn"
+//	#include "../nowe/Bluberry/RadaMiasta/radaMiasta.pwn"
+	#include "../nowe/CassinoAutoService/cassinoAutoService.pwn"
+//	#include "../nowe/Dillimore/BarierkiDillimore/barierkiDillimore.pwn"
+	#include "../nowe/DMV/DMV.pwn"
+	#include "../nowe/FBI/FBI.pwn"
+	#include "../nowe/GSA/centralaGSA.pwn" //TODO: Rozdziel
+	#include "../nowe/Globalne/ObiektyCiekawostki/obiektyCiekawostki.pwn"
+	#include "../nowe/Globalne/PoprawkiRockstar/poprawkiRockstar.pwn" 
+//	#include "../nowe/NG/bazaNG.pwn" //TODO: Rozdziel
+	#include "../nowe/GlobalneLS/Pomnik/pomnik.pwn"
+	#include "../nowe/GlobalneLS/SkracaneZakrety/skracaneZakrety.pwn"
+	#include "../nowe/GlobalneLS/ZnakiUpiekszenia/znakiUpiekszenia.pwn"
+	#include "../nowe/GlobalneLS/lslot/lslot.pwn"
+	#include "../nowe/GlobalneLV/lv.pwn"
+	#include "../nowe/CentrumRozrywkiLS/centrumRozrywkiLS.pwn"
+	#include "../nowe/GunShop/gunShop.pwn"
+	#include "../nowe/ParkingObokSzpitala/parkingObokSzpitala.pwn"
+	#include "../nowe/MountChiliad/mountChiliad.pwn"
+	#include "../nowe/MoneyMakers/moneyMakers.pwn"
+	#include "../nowe/LowFolow/lowFolow.pwn"
+	#include "../nowe/KomisariatLS/komisariatLS.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.85
 	//*****************************************************
 	
-	#include "..\nowe\przes\pub\pub.pwn" //PUB by lil frachty
-	#include "..\nowe\rondo\rondo.pwn"
-	#include "..\nowe\GlobalneLS\chinatown\chinatown.pwn"
-	//#include "..\nowe\GlobalneLS\molo\molo.pwn"
-	#include "..\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
-	#include "..\nowe\przes\Ocult\ocult.pwn"
-	#include "..\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
-	#include "..\nowe\cjgirl\cjgirl.pwn"
-	#include "..\nowe\opdlaorg\StacjaMont\stam.pwn"
-	//#include "..\nowe\SanVanInterior\sanVanInterior.pwn"
+	#include "../nowe/przes/pub/pub.pwn" //PUB by lil frachty
+	#include "../nowe/rondo/rondo.pwn"
+	#include "../nowe/GlobalneLS/chinatown/chinatown.pwn"
+	//#include "../nowe/GlobalneLS/molo/molo.pwn"
+	#include "../nowe/GlobalneLS/syskanalow/wej1/kanal.pwn"
+	#include "../nowe/przes/Ocult/ocult.pwn"
+	#include "../nowe/GlobalneLS/syskanalow/wej1/norakan/miesko.pwn"
+	#include "../nowe/cjgirl/cjgirl.pwn"
+	#include "../nowe/opdlaorg/StacjaMont/stam.pwn"
+	//#include "../nowe/SanVanInterior/sanVanInterior.pwn"
 	
 	//-------------------------------------------------------------
 	
-	#include "..\nowe\Pizzernia idle\pizza.pwn"
-	//#include "..\nowe\centralbank\bank.pwn"
-	#include "..\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
-	#include "..\nowe\Pizzernia idle\intpidle.pwn"
-	#include "..\nowe\GlobalneLS\inttv.pwn"
-	#include "..\nowe\autobusinterior\autobusint.pwn"
-	#include "..\nowe\enforcerint\enforcerint.pwn"
+	#include "../nowe/Pizzernia idle/pizza.pwn"
+	//#include "../nowe/centralbank/bank.pwn"
+	#include "../nowe/GlobalneLS/stacja_paliw_idle/sidle.pwn"
+	#include "../nowe/Pizzernia idle/intpidle.pwn"
+	#include "../nowe/GlobalneLS/inttv.pwn"
+	#include "../nowe/autobusinterior/autobusint.pwn"
+	#include "../nowe/enforcerint/enforcerint.pwn"
 	
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
 	//*****************************************************
-	#include "..\nowe\HouseInteriorWOSP\houseInteriorWOSP.pwn"
+	#include "../nowe/HouseInteriorWOSP/houseInteriorWOSP.pwn"
 	
 	
 #else //Mrucznik-RP gamemode
-	#include "modules\obiekty\nowe\AmmuNationBananov\ammuNationBananov.pwn"
-	#include "modules\obiekty\nowe\DosSantosCarService\DSCS.pwn"
-	#include "modules\obiekty\nowe\CentralBank\centralBank.pwn"
-	#include "modules\obiekty\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
-//	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
-	#include "modules\obiekty\nowe\CassinoAutoService\cassinoAutoService.pwn"
-//	#include "modules\obiekty\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
-	#include "modules\obiekty\nowe\DMV\DMV.pwn"
-	#include "modules\obiekty\nowe\FBI\FBI.pwn"
-	#include "modules\obiekty\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
-	#include "modules\obiekty\nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
-	#include "modules\obiekty\nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn"
-//	#include "modules\obiekty\nowe\NG\bazaNG.pwn"  //TODO: Rozdziel
-	#include "modules\obiekty\nowe\GlobalneLS\Pomnik\pomnik.pwn" 
-	#include "modules\obiekty\nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn" 
-	#include "modules\obiekty\nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn" 
-	#include "modules\obiekty\nowe\GlobalneLS\lslot\lslot.pwn"
-	#include "modules\obiekty\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn" 
-	#include "modules\obiekty\nowe\GlobalneLV\lv.pwn"
-	#include "modules\obiekty\nowe\GunShop\gunShop.pwn" 
-	#include "modules\obiekty\nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn" 
-	#include "modules\obiekty\nowe\MountChiliad\mountChiliad.pwn" 
-	#include "modules\obiekty\nowe\MoneyMakers\moneyMakers.pwn" 
-	#include "modules\obiekty\nowe\LowFolow\lowFolow.pwn" 
-	#include "modules\obiekty\nowe\KomisariatLS\komisariatLS.pwn" 
+	#include "modules/obiekty/nowe/AmmuNationBananov/ammuNationBananov.pwn"
+	#include "modules/obiekty/nowe/DosSantosCarService/DSCS.pwn"
+	#include "modules/obiekty/nowe/CentralBank/centralBank.pwn"
+	#include "modules/obiekty/nowe/SiedzibaMechanikow/siedzibaMechanikow.pwn"
+//	#include "modules/obiekty/nowe/Bluberry/RadaMiasta/radaMiasta.pwn"
+	#include "modules/obiekty/nowe/CassinoAutoService/cassinoAutoService.pwn"
+//	#include "modules/obiekty/nowe/Dillimore/BarierkiDillimore/barierkiDillimore.pwn"
+	#include "modules/obiekty/nowe/DMV/DMV.pwn"
+	#include "modules/obiekty/nowe/FBI/FBI.pwn"
+	#include "modules/obiekty/nowe/GSA/centralaGSA.pwn" //TODO: Rozdziel
+	#include "modules/obiekty/nowe/Globalne/ObiektyCiekawostki/obiektyCiekawostki.pwn"
+	#include "modules/obiekty/nowe/Globalne/PoprawkiRockstar/poprawkiRockstar.pwn"
+//	#include "modules/obiekty/nowe/NG/bazaNG.pwn"  //TODO: Rozdziel
+	#include "modules/obiekty/nowe/GlobalneLS/Pomnik/pomnik.pwn" 
+	#include "modules/obiekty/nowe/GlobalneLS/SkracaneZakrety/skracaneZakrety.pwn" 
+	#include "modules/obiekty/nowe/GlobalneLS/ZnakiUpiekszenia/znakiUpiekszenia.pwn" 
+	#include "modules/obiekty/nowe/GlobalneLS/lslot/lslot.pwn"
+	#include "modules/obiekty/nowe/CentrumRozrywkiLS/centrumRozrywkiLS.pwn" 
+	#include "modules/obiekty/nowe/GlobalneLV/lv.pwn"
+	#include "modules/obiekty/nowe/GunShop/gunShop.pwn" 
+	#include "modules/obiekty/nowe/ParkingObokSzpitala/parkingObokSzpitala.pwn" 
+	#include "modules/obiekty/nowe/MountChiliad/mountChiliad.pwn" 
+	#include "modules/obiekty/nowe/MoneyMakers/moneyMakers.pwn" 
+	#include "modules/obiekty/nowe/LowFolow/lowFolow.pwn" 
+	#include "modules/obiekty/nowe/KomisariatLS/komisariatLS.pwn" 
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84
 	//*****************************************************
-	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
-	#include "modules\obiekty\nowe\rondo\rondo.pwn"
-	#include "modules\obiekty\nowe\GlobalneLS\chinatown\chinatown.pwn"
-	//#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
-	#include "modules\obiekty\nowe\przes\Ocult\ocult.pwn"
-	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
-	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
-	#include "modules\obiekty\nowe\cjgirl\cjgirl.pwn"
-	#include "modules\obiekty\nowe\opdlaorg\StacjaMont\stam.pwn"
-	//#include "modules\obiekty\nowe\SanVanInterior\sanVanInterior.pwn"
+	#include "modules/obiekty/nowe/przes/pub/pub.pwn"
+	#include "modules/obiekty/nowe/rondo/rondo.pwn"
+	#include "modules/obiekty/nowe/GlobalneLS/chinatown/chinatown.pwn"
+	//#include "modules/obiekty/nowe/GlobalneLS/molo/molo.pwn"
+	#include "modules/obiekty/nowe/przes/Ocult/ocult.pwn"
+	#include "modules/obiekty/nowe/GlobalneLS/syskanalow/wej1/kanal.pwn"
+	#include "modules/obiekty/nowe/GlobalneLS/syskanalow/wej1/norakan/miesko.pwn"
+	#include "modules/obiekty/nowe/cjgirl/cjgirl.pwn"
+	#include "modules/obiekty/nowe/opdlaorg/StacjaMont/stam.pwn"
+	//#include "modules/obiekty/nowe/SanVanInterior/sanVanInterior.pwn"
 	
 	//------------------------------
 	
-	#include "modules\obiekty\nowe\Pizzernia idle\pizza.pwn"
-	//#include "modules\obiekty\nowe\centralbank\bank.pwn"
-	#include "modules\obiekty\nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
-	#include "modules\obiekty\nowe\Pizzernia idle\intpidle.pwn"
-	#include "modules\obiekty\nowe\GlobalneLS\inttv.pwn"
-	#include "modules\obiekty\nowe\autobusinterior\autobusint.pwn"
-	#include "modules\obiekty\nowe\enforcerint\enforcerint.pwn"
+	#include "modules/obiekty/nowe/Pizzernia idle/pizza.pwn"
+	//#include "modules/obiekty/nowe/centralbank/bank.pwn"
+	#include "modules/obiekty/nowe/GlobalneLS/stacja_paliw_idle/sidle.pwn"
+	#include "modules/obiekty/nowe/Pizzernia idle/intpidle.pwn"
+	#include "modules/obiekty/nowe/GlobalneLS/inttv.pwn"
+	#include "modules/obiekty/nowe/autobusinterior/autobusint.pwn"
+	#include "modules/obiekty/nowe/enforcerint/enforcerint.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.84 - dodatki
 	//*****************************************************
-	#include "modules\obiekty\nowe\HouseInteriorWOSP\houseInteriorWOSP.pwn"
+	#include "modules/obiekty/nowe/HouseInteriorWOSP/houseInteriorWOSP.pwn"
 #endif
 
 

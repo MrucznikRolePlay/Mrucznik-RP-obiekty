@@ -24,11 +24,11 @@
 #define SiedzibaMechanikow:: O_SMech_
 
 #if defined EXAMPLE_SCRIPT
-	#include "..\nowe\SiedzibaMechanikow\interior.pwn"
-	#include "..\nowe\SiedzibaMechanikow\exterior.pwn"
+	#include "../nowe/SiedzibaMechanikow/interior.pwn"
+	#include "../nowe/SiedzibaMechanikow/exterior.pwn"
 #else
-	#include "interior.pwn"
-	#include "exterior.pwn"
+	#include "modules/obiekty/nowe/SiedzibaMechanikow/interior.pwn"
+	#include "modules/obiekty/nowe/SiedzibaMechanikow/exterior.pwn"
 #endif
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------

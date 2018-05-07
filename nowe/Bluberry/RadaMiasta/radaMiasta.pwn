@@ -24,11 +24,11 @@
 #define RadaMiasta:: Blu_RM_
 
 #if defined EXAMPLE_SCRIPT
-	#include "..\nowe\Bluberry\RadaMiasta\interior.pwn"
-	#include "..\nowe\Bluberry\RadaMiasta\exterior.pwn"
+	#include "../nowe/Bluberry/RadaMiasta/interior.pwn"
+	#include "../nowe/Bluberry/RadaMiasta/exterior.pwn"
 #else
-	#include "interior.pwn"
-	#include "exterior.pwn"
+	#include "modules/obiekty/nowe/RadaMiasta/interior.pwn"
+	#include "modules/obiekty/nowe/RadaMiasta/exterior.pwn"
 #endif
 
 //-----------------<[ G³ówne funkcje: ]>-------------------

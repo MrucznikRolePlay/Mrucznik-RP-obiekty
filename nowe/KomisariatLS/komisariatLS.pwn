@@ -24,9 +24,9 @@
 #define KomisariatLS:: KomisariatLS_
 
 #if defined EXAMPLE_SCRIPT
-	#include "..\nowe\KomisariatLS\parking.pwn"
+	#include "../nowe/KomisariatLS/parking.pwn"
 #else
-	#include "parking.pwn"
+	#include "modules/obiekty/nowe/KomisariatLS/parking.pwn"
 #endif
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
