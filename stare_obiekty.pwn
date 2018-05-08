@@ -17,7 +17,7 @@
 	#include "../stare/grove.pwn"
 	#include "../stare/ha.pwn"
 	#include "../stare/ibiza.pwn"
-	//#include "../stare/icc.pwn"
+	#include "../stare/icc.pwn"
 	#include "../stare/kt.pwn"
 	//#include "../stare/ls_grape.pwn"
 	#include "../stare/lsfd.pwn"
@@ -49,7 +49,7 @@
 	#include "modules/obiekty/stare/grove.pwn"
 	#include "modules/obiekty/stare/ha.pwn"
 	#include "modules/obiekty/stare/ibiza.pwn"
-	//#include "modules/obiekty/stare/icc.pwn"
+	#include "modules/obiekty/stare/icc.pwn"
 	#include "modules/obiekty/stare/kt.pwn"
 	//#include "modules/obiekty/stare/ls_grape.pwn"
 	#include "modules/obiekty/stare/lsfd.pwn"
@@ -91,13 +91,13 @@ public obiekty_timer(wartosc)
     BazaNG();
 	LSPDintek();
 	BazaKT();
-	//Risto();
+	Risto();
 	LOADLSMC();
     SN_Load();
     Int_BarBallas();
     VinylClub();
    // Ibiza_Club();
-  //  JettyLounge();
+  	JettyLounge();
     INT_AT400();
     INT_AirTowerLS();
     PC_UM();
@@ -188,7 +188,7 @@ DeleteObjects(playerid)
     RemoveBuildingForPlayer(playerid, 13024, -87.3047, -347.5000, 3.1719, 0.25); //HA
 	RemoveBuildingForPlayer(playerid, 12932, -117.9609, -337.4531, 3.6172, 0.25); //HA
     //Grapestreet
-    /* RemoveBuildingForPlayer(playerid, 3562, 2232.3984, -1464.7969, 25.6484, 0.25);
+    /*RemoveBuildingForPlayer(playerid, 3562, 2232.3984, -1464.7969, 25.6484, 0.25);
     RemoveBuildingForPlayer(playerid, 3562, 2247.5313, -1464.7969, 25.5469, 0.25);
     RemoveBuildingForPlayer(playerid, 3562, 2263.7188, -1464.7969, 25.4375, 0.25);
     RemoveBuildingForPlayer(playerid, 3562, 2243.7109, -1401.7813, 25.6406, 0.25);
@@ -216,7 +216,7 @@ DeleteObjects(playerid)
     RemoveBuildingForPlayer(playerid, 1221, 2251.2891, -1461.8281, 23.6328, 0.25);
     RemoveBuildingForPlayer(playerid, 1220, 2256.6563, -1456.8984, 22.8594, 0.25);
     RemoveBuildingForPlayer(playerid, 1230, 2255.9844, -1457.9063, 22.8594, 0.25);
-    RemoveBuildingForPlayer(playerid, 5682, 2241.4297, -1433.6719, 31.2813, 0.25); */
+    RemoveBuildingForPlayer(playerid, 5682, 2241.4297, -1433.6719, 31.2813, 0.25);*/
     //LSMC ext
     RemoveBuildingForPlayer(playerid, 5935, 1120.1563, -1303.4531, 18.5703, 0.25);
 	RemoveBuildingForPlayer(playerid, 1440, 1141.9844, -1346.1094, 13.2656, 0.25);
@@ -362,7 +362,7 @@ DeleteObjects(playerid)
 	BazaKTDestroyObjects(playerid);
 	
 	//baza NG by Dywan
-	/* RemoveBuildingForPlayer(playerid, 5156, 2838.0391, -2423.8828, 10.9609, 0.25);
+	RemoveBuildingForPlayer(playerid, 5156, 2838.0391, -2423.8828, 10.9609, 0.25);
 	RemoveBuildingForPlayer(playerid, 5159, 2838.0313, -2371.9531, 7.2969, 0.25);
 	RemoveBuildingForPlayer(playerid, 5160, 2829.9531, -2479.5703, 5.2656, 0.25);
 	RemoveBuildingForPlayer(playerid, 5161, 2838.0234, -2358.4766, 21.3125, 0.25);
@@ -589,7 +589,7 @@ DeleteObjects(playerid)
 	RemoveBuildingForPlayer(playerid, 1278, 2804.2422, -2333.3828, 26.7031, 0.25);
 	RemoveBuildingForPlayer(playerid, 5158, 2837.7734, -2334.4766, 11.9922, 0.25);
 	RemoveBuildingForPlayer(playerid, 4270, 2657.0781, -2711.4531, -4.0000, 0.25);
-	RemoveBuildingForPlayer(playerid, 4404, 2657.0781, -2711.4531, -4.0000, 0.25); */
+	RemoveBuildingForPlayer(playerid, 4404, 2657.0781, -2711.4531, -4.0000, 0.25);
 
     //SN
     RemoveBuildingForPlayer(playerid, 1689, 745.5859, -1381.1094, 25.8750, 0.25);
