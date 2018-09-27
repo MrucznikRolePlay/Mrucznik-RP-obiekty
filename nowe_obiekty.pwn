@@ -58,8 +58,9 @@
 	#include "../nowe/LowFolow/lowFolow.pwn"
 	#include "../nowe/KomisariatLS/komisariatLS.pwn"
 	
+	
 	//*****************************************************
-	//Aktualizacja 2.5.85
+	//Aktualizacja 2.5.85 - By Simeone
 	//*****************************************************
 	
 	#include "../nowe/przes/pub/pub.pwn" //PUB by lil frachty
@@ -90,6 +91,10 @@
 	//*****************************************************
 	#include "../nowe/HouseInteriorWOSP/houseInteriorWOSP.pwn"
 	
+	//*****************************************************
+	//Aktualizacja 2.5.93 - By Simeone
+	//*****************************************************
+	#include "../nowe/hitman/hitmans.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -121,7 +126,7 @@
 	#include "modules/obiekty/nowe/KomisariatLS/komisariatLS.pwn" 
 	
 	//*****************************************************
-	//Aktualizacja 2.5.84
+	//Aktualizacja 2.5.84- By Simeone
 	//*****************************************************
 	#include "modules/obiekty/nowe/przes/pub/pub.pwn"
 	#include "modules/obiekty/nowe/rondo/rondo.pwn"
@@ -149,6 +154,11 @@
 	//Aktualizacja 2.5.84 - dodatki
 	//*****************************************************
 	#include "modules/obiekty/nowe/HouseInteriorWOSP/houseInteriorWOSP.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.93 - By Simeone
+	//*****************************************************
+	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
 #endif
 
 
@@ -203,6 +213,7 @@ obiekty_OnGameModeInit()
 	autobusint_Init();
 	enforcer_Init();
 	LSMC_Init();
+	hitmans_Init();
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
