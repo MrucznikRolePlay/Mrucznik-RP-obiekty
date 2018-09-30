@@ -73,7 +73,7 @@
 	#include "../nowe/cjgirl/cjgirl.pwn"
 	#include "../nowe/LSMC/LSMC.pwn"
 	#include "../nowe/opdlaorg/StacjaMont/stam.pwn"
-	//#include "../nowe/SanVanInterior/sanVanInterior.pwn"
+	#include "../nowe/SanVanInterior/sanVanInterior.pwn"
 	
 	//-------------------------------------------------------------
 	
@@ -138,7 +138,7 @@
 	#include "modules/obiekty/nowe/cjgirl/cjgirl.pwn"
 	#include "modules/obiekty/nowe/LSMC/lsmc.pwn"
 	#include "modules/obiekty/nowe/opdlaorg/StacjaMont/stam.pwn"
-	//#include "modules/obiekty/nowe/SanVanInterior/sanVanInterior.pwn"
+	#include "modules/obiekty/nowe/SanVanInterior/sanVanInterior.pwn"
 	
 	//------------------------------
 	
