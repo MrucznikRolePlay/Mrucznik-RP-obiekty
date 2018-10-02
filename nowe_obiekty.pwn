@@ -95,6 +95,7 @@
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
 	#include "../nowe/hitman/hitmans.pwn"
+	#include "../nowe/DMV/intekDMV.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -159,6 +160,7 @@
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
 	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
+	#include "modules/obiekty/nowe/DMV/intekDMV.pwn"
 #endif
 
 
@@ -217,6 +219,7 @@ obiekty_OnGameModeInit()
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
+	intekdmv_Init()
 	return 1;
 }
 
