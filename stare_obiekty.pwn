@@ -11,7 +11,7 @@
 	#include "../stare/bus.pwn"
 	#include "../stare/christmas.pwn"
 	#include "../stare/dillimore.pwn"
-	#include "../stare/dmv.pwn"
+	//WYŁĄCZONE PRZEZ SIMEONE 02-10-2018 #include "../stare/dmv.pwn"
 	#include "../stare/fbi.pwn"
 	#include "../stare/fam_fdu.pwn"
 	#include "../stare/grove.pwn"
@@ -43,7 +43,7 @@
 	#include "modules/obiekty/stare/bus.pwn"
 	#include "modules/obiekty/stare/christmas.pwn"
 	#include "modules/obiekty/stare/dillimore.pwn"
-	#include "modules/obiekty/stare/dmv.pwn"
+	//WYŁĄCZONE PRZEZ SIMEONE 02-10-2018 #include "modules/obiekty/stare/dmv.pwn"
 	#include "modules/obiekty/stare/fbi.pwn"
 	#include "modules/obiekty/stare/fam_fdu.pwn"
 	#include "modules/obiekty/stare/grove.pwn"
@@ -104,7 +104,7 @@ public obiekty_timer(wartosc)
     Basen_Load();
     FBI_Load();
     WPS_Load();
-    DMV_Load();
+   // DMV_Load();
     KT_Lotniska();
     Load_AdminIsland();
     //Rodziny
