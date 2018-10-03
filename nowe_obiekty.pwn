@@ -97,6 +97,7 @@
 	#include "../nowe/hitman/hitmans.pwn"
 	#include "../nowe/DMV/intekDMV.pwn"
 	#include "../nowe/ramirezaservice/ramirezext.pwn"
+	#include "../nowe/dscs/dscs.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -163,6 +164,7 @@
 	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
 	#include "modules/obiekty/nowe/DMV/intekDMV.pwn"
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezext.pwn"
+	#include "modules/obiekty/nowe/dscs/dscs.pwn"
 #endif
 
 
@@ -223,6 +225,7 @@ obiekty_OnGameModeInit()
 	lv_Init();
 	intekdmv_Init()
 	ramirezext_Init()
+	dossantos_Init()
 	return 1;
 }
 
