@@ -98,6 +98,7 @@
 	#include "../nowe/DMV/intekDMV.pwn"
 	#include "../nowe/ramirezaservice/ramirezext.pwn"
 	#include "../nowe/dscs/dscs.pwn"
+	#include "../nowe/hellsangelsmc/hamc.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -165,6 +166,7 @@
 	#include "modules/obiekty/nowe/DMV/intekDMV.pwn"
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezext.pwn"
 	#include "modules/obiekty/nowe/dscs/dscs.pwn"
+	#include "modules/obiekty/nowe/hellsangelsmc/hamc.pwn"
 #endif
 
 
@@ -223,9 +225,10 @@ obiekty_OnGameModeInit()
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
-	intekdmv_Init()
-	ramirezext_Init()
-	dossantos_Init()
+	intekdmv_Init();
+	ramirezext_Init();
+	dossantos_Init();
+	hamcint_Init();
 	return 1;
 }
 
