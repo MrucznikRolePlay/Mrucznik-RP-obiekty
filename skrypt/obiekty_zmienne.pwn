@@ -7,5 +7,6 @@ new ciec;//Parking na odholowane LSPD
 new lukesqly;//Zmienna LukeSQL
 new tmpobjid;//Podstawowa zmienna
 new hitmans;//Zmienna obiektow dla Hitmanów 
-new ramirezext;
-new dossantos;
+new ramirezext;//Zmienna dla ramirez car service
+new dossantos;//Zmienna dla Dos Santos Car sercice
+new hellsy;//Zmienna dla Hells Angels MC
