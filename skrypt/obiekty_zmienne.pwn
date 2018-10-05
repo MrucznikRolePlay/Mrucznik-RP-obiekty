@@ -21,6 +21,7 @@ new ramirezext;//Zmienna dla ramirez car service exterior
 new ramint;//Zmienna dla ramirez car service interior
 new dossantos;//Zmienna dla Dos Santos Car sercice
 new hellsy;//Zmienna dla Hells Angels MC
+new banklsext;//Zmienna banku Los Santos
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 +++++++++++++++++++++++Inne zmienne+++++++++++++++++++++++++++++++
