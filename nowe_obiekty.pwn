@@ -4,7 +4,11 @@
 //--------------------------------------[ Obiekty: nowe_obiekty.pwn ]----------------------------------------//
 //Opis: NOWE OBIEKTY - TWORZONE W NOWYM FORMACIE
 /*
+<<<<<<< HEAD
 	Plik zawierajacy dolaczenia wszystkich obiektów w nowym formacie
+=======
+	Plik zawieraajacy dolaczenia wszystkich obiektów w nowym formacie
+>>>>>>> 2a06f414cb63a9e5e07e7106849183fe10cf182b
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -25,7 +29,11 @@
 
 
 
+<<<<<<< HEAD
 //TODO: USUNAC TO GOWNO
+=======
+//TODO: USUNAC TO
+>>>>>>> 2a06f414cb63a9e5e07e7106849183fe10cf182b
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
