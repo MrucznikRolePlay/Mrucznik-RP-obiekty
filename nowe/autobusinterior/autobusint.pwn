@@ -24,7 +24,7 @@
 
 //
 
-//-----------------<[ G3Ã³wne funkcje: ]>-------------------
+//-----------------<[ G3ówne funkcje: ]>-------------------
 autobusint_Init() //t1 metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();
