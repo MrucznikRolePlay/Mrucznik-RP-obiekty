@@ -1636,7 +1636,7 @@ Stare_Obiekty()
 	//SetDynamicObjectMaterialText(obiekt_petla, 0, "{000000}Przystanek\nBaza Mechanikow (petla)\nKursuje linia: 72",OBJECT_MATERIAL_SIZE_256x128, "Arial", 24, 1,0xFFFFFFFF, 0, 0);
 	CreateDynamicObject(970,2834.5000000,-1580.3000488,10.6000004,0.0000000,0.0000000,58.0000000,0,0); //object(fencesmallb) (1)
 	CreateDynamicObject(949,2822.5000000,-1576.8000488,10.6999998,0.0000000,0.0000000,0.0000000,0,0); //object(plant_pot_4) (1)
-	CreateDynamicObject(949,2821.3999023,-1580.5000000,10.6999998,0.0000000,0.0000000,0.0000000,0,0); //object(plant_pot_4) (2)
+	CreateDynamicObject(949,2821.3999023,-1580.5000000,10.6999998,0.0000000,0.0000000,0.0000000,0,0); //object(plant_pot_4) (2)teraz
 	CreateDynamicObject(950,2826.1000977,-1585.4000244,10.5000000,0.0000000,0.0000000,333.9949951,0,0); //object(plant_pot_12) (3)
 	CreateDynamicObject(970,2837.8000488,-1574.9000244,10.6000004,0.0000000,0.0000000,57.9968262,0,0); //object(fencesmallb) (2)
 	CreateDynamicObject(950,2834.0000000,-1580.0000000,10.5000000,0.0000000,0.0000000,59.9873047,0,0); //object(plant_pot_12) (6)
