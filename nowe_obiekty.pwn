@@ -101,6 +101,7 @@
 	#include "../nowe/hellsangelsmc/hamc.pwn"
 	#include "../nowe/ramirezaservice/ramirezint.pwn"
 	#include "../nowe/GlobalneLS/banklsext.pwn"
+	#include "../nowe/GunShop/gunshopls.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -171,6 +172,7 @@
 	#include "modules/obiekty/nowe/hellsangelsmc/hamc.pwn"
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezint.pwn"
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
+	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 #endif
 
 
@@ -235,6 +237,7 @@ obiekty_OnGameModeInit()
 	hamcint_Init();
 	ramirezint_Init();
 	banklsext_Init();
+	gunshopls_Init();
 	return 1;
 }
 
