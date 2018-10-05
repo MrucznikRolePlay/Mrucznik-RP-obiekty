@@ -302,7 +302,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(gldmv, 1, 15033, "vegassavesmal", "ah_wallstyle3", 0x00000000);
 	gldmv = CreateDynamicObject(19358, 1441.736450, -1811.265502, 78.695281, 0.000000, 0.000000, 151.700103, 50, 5, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(gldmv, 0, 15041, "bigsfsave", "ah_utilbor1", 0x00000000);
-	SetDynamicObjectMaterial(gldmv, 1, 15033, "vegassavesmal", "ah_wallstyle3", 0x00000000);//Tu skończyłem (już drugi dzien) 9:12
+	SetDynamicObjectMaterial(gldmv, 1, 15033, "vegassavesmal", "ah_wallstyle3", 0x00000000);//Tu sko�czylem (juz drugi dzien) 9:12
 	
 	
 	//Tutaj 9:20
@@ -1762,14 +1762,14 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(bramaduza5, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(bramaduza5, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
 	SetDynamicObjectMaterial(bramaduza5, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramaduza5, 1460.467163, -1818.117187, 78.104232, 0.000000, 0.000000, 90.000000, 1460.467163, -1818.117187, 78.104232, 0.000000, 0.000000, 4.1400, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//duże Drzwi do akademii 1
+	DodajBrame(bramaduza5, 1460.467163, -1818.117187, 78.104232, 0.000000, 0.000000, 90.000000, 1460.467163, -1818.117187, 78.104232, 0.000000, 0.000000, 4.1400, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//duze Drzwi do akademii 1
 	
 	
 	bramaduza6 = CreateDynamicObject(3089, 1460.470703, -1815.165649, 78.110229, 0.000000, 0.000000, 270.000000, 50, 5, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(bramaduza6, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(bramaduza6, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
 	SetDynamicObjectMaterial(bramaduza6, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramaduza6, 1460.470703, -1815.165649, 78.110229, 0.000000, 0.000000, 270.000000, 1460.470703, -1815.165649, 78.110229, 0.000000, 0.000000, 355.9200, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//duże Drzwi do akademii 2
+	DodajBrame(bramaduza6, 1460.470703, -1815.165649, 78.110229, 0.000000, 0.000000, 270.000000, 1460.470703, -1815.165649, 78.110229, 0.000000, 0.000000, 355.9200, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//duze Drzwi do akademii 2
 	
 	okienka1 = CreateDynamicObject(3089, 1443.515014, -1808.515258, 78.065223, 0.000000, 0.000000, 720.000000, 50, 5, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(okienka1, 0, 1649, "wglass", "carshowwin2", 0x00000000);

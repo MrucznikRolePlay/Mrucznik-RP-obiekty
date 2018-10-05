@@ -19,7 +19,7 @@
 //BY- Abstynent
 //-----------------<[ ZMIENNE ]>---------------------------
 
-//S¹ w pliku ./zmienne
+//Sa w pliku ./zmienne
 
 //-----------------<[ Wyw Funkcje ]>---------------------------
 
