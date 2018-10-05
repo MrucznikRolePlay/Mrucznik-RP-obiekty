@@ -1,7 +1,7 @@
 //sanVanInterior.pwn
 
 //----------------------------------------------<< Source >>-------------------------------------------------//
-//-----------------------------------------[ Modu³: sanVanInterior.pwn ]--------------------------------------------//
+//-----------------------------------------[ Modul: sanVanInterior.pwn ]--------------------------------------------//
 //Autor:
 /*
 	
@@ -25,8 +25,8 @@
 
 //
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
-sanVanInterior_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
+//-----------------<[ Glowne funkcje: ]>-------------------
+sanVanInterior_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();
 	return 1;
