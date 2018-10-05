@@ -4,7 +4,7 @@
 //--------------------------------------[ Obiekty: nowe_obiekty.pwn ]----------------------------------------//
 //Opis: NOWE OBIEKTY - TWORZONE W NOWYM FORMACIE
 /*
-	Plik zawieraj¹cy do³¹czenia wszystkich obiektów w nowym formacie
+	Plik zawieraajacy dolaczenia wszystkich obiektów w nowym formacie
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -25,7 +25,7 @@
 
 
 
-//TODO: USUN¥Æ TO
+//TODO: USUNAC TO
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
