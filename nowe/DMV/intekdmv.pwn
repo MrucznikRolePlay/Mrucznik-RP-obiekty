@@ -1711,6 +1711,12 @@ static StworzObiekty()
 	gldmv = CreateDynamicObject(18608, 1430.599487, -1816.532226, 81.667175, 0.000000, 0.000000, 90.000000, 50, 5, -1, 400.00, 400.00);
 	gldmv = CreateDynamicObject(2241, 1475.359863, -1819.070556, 77.461242, 0.000000, 0.000000, 0.000000, 50, 5, -1, 400.00, 400.00);
 
+
+	return 1;
+}
+
+static StworzBramy()
+{
 	bramawej1 =	CreateDynamicObject(3089, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 50, 5, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(bramawej1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(bramawej1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
@@ -1881,5 +1887,6 @@ static StworzObiekty()
 	obrazek = CreateDynamicObject(19175, 1456.556030, -1856.649658, 82.401084, 0.000000, 0.000000, 270.000000, 50, 5, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(obrazek, 0, 15040, "cuntcuts", "GB_canvas17", 0x00000000);
 	DodajBrame(obrazek, 1456.556030, -1856.649658, 82.401084, 0.000000, 0.000000, 270.000000, 1456.5560, -1856.6497, 81.2198, -7.0800, 1.2000, 270.0000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Obrazek, ktory kryje sejf
- return 1;
+	
+	return 1;
 }

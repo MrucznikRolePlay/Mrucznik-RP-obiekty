@@ -20,8 +20,8 @@
 //-----------------<[ ZMIENNE ]>---------------------------
 
 //Sa w pliku ./zmienne
-new bramahell1
-new bramahell2
+new bramahell1;
+new bramahell2;
 
 //-----------------<[ Wyw Funkcje ]>---------------------------
 
@@ -489,14 +489,22 @@ static StworzObiekty()
 
 	DodajWejscie(33.5437,-2649.7981,40.7285, 50.9963,-2650.9519,13.0701, 0, 0, 5, 0, "Hells Angels MC", "Juz upity? Wynocha!");//Glowne wejscie
 
+
+
+
+	return 1;
+}
+
+static StworzBramy()
+{
 	bramahell1= CreateDynamicObject(1495, 46.9822, -2667.191894, 6.260055, 0.000000, 0.000000, -179.7399, 5, -1, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(bramahell1, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
 	DodajBrame(bramahell1, 46.9822, -2667.191894, 6.260055, 0.000000, 0.000000, -179.7399, 46.9822, -2667.191894, 6.260055, 0.000000, 0.000000, -103.5999, 2, 2, BRAMA_UPR_TYPE_FAMILY, 28);
 
-    	bramahell2= CreateDynamicObject(1495, 39.791118, -2662.4826, 6.260055, 0.000000, 0.000000, -91.9000, 5, -1, -1, 300.00, 300.00);
+    bramahell2= CreateDynamicObject(1495, 39.791118, -2662.4826, 6.260055, 0.000000, 0.000000, -91.9000, 5, -1, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(bramahell2, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
 	DodajBrame(bramahell2, 39.791118, -2662.4826, 6.260055, 0.000000, 0.000000, -91.9000, 39.791118, -2662.4826, 6.260055, 0.000000, 0.000000, -188.5600, 2, 2, BRAMA_UPR_TYPE_FAMILY, 28);
 
 
-	 return 1;
+	return 1;
 }

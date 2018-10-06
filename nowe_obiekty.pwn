@@ -39,7 +39,7 @@
 	#include "../nowe/AmmuNationBananov/ammuNationBananov.pwn"
 	#include "../nowe/DosSantosCarService/DSCS.pwn"
 	//#include "../nowe/CentralBank/centralBank.pwn"
-	#include "../nowe/SiedzibaMechanikow/siedzibaMechanikow.pwn"
+	#include "../nowe/SiedzibaMechanikow/exterior.pwn"
 //	#include "../nowe/Bluberry/RadaMiasta/radaMiasta.pwn"
 	#include "../nowe/CassinoAutoService/cassinoAutoService.pwn"
 //	#include "../nowe/Dillimore/BarierkiDillimore/barierkiDillimore.pwn"

@@ -25,7 +25,6 @@
 DMV::exterior_Init()
 {
 	StworzObiekty();
-	StworzBramy();
 	return 1;
 }
 
@@ -572,13 +571,10 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(4199, 1362.777709, -1829.157226, 14.576860, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 
 
-	DodajBrame(968, 1378.818237, -1809.188598, 13.496878, 0.000000, 90.000000, 90.000000, 1378.818237, -1809.188598, 13.496878, 0.000000, 0.000000, 90.000000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);
-	return 1;
+    DodajBrame(968, 1378.818237, -1809.188598, 13.496878, 0.000000, 90.000000, 90.000000, 1378.818237, -1809.188598, 13.496878, 0.000000, 0.000000, 90.000000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);
+    
+    return 1;
 }
-
-	return 1;
-}
-
 static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 1283, 1441.8594, -1733.0078, 15.6250, 0.25);

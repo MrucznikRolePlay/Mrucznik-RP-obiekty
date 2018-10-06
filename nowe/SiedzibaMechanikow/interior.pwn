@@ -21,7 +21,7 @@
 
 //
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
+//-----------------<[ Glowne funkcje: ]>-------------------
 SiedzibaMechanikow::interior_Init()
 {
 	StworzObiekty();
@@ -106,6 +106,6 @@ static StworzObiekty()
 
 static StworzBudynki()
 {
-	DodajWejscie(2770.8071, -1628.0632, 12.7701, 2792.6665, -1622.5383, 15.9749, 0, 0, 16, 0, "Siedziba Mechaników", "Wyjœcie");
+	DodajWejscie(2770.8071, -1628.0632, 12.7701, 2792.6665, -1622.5383, 15.9749, 0, 0, 16, 0, "Siedziba Mechanikow", "Wyjscie");
 	return 1;
 }
