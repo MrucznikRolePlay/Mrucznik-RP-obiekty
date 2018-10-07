@@ -21,7 +21,7 @@ Aby poprawnie wgrać obiekty na nasze repozytorium postępuj według określonyc
 4. Dodaj swoje obiekty zgodnie z formatem, jaki jest podany w pliku: /nowe_obiekty/ExampleObjects/exampleObjects.pwn.
  * W razie, gdy posiadasz obiekty, które nie zgadzają się z formatem podanym w exampleObjects.pwn, skorzystaj z [konwertera obiektów](http://convertffs.com/). Jako output wybierz "Icognito's Streamer Plugin".
 5. Dodaj do pliku nowe_obiekty.pwn dyrektywę #include załączającą twój plik projektu oraz wklej wywołania funkcji twojego projektu do ich odpowiedników w pliku nowe_obiekty.pwn. Przekładając na język polski skopiuj odniesienie (#include) do pliku nowe_obiekty.pwn (przykładowo: #include "../nowe/AmmuNationBananov/ammuNationBananov.pwn"(WAŻNE! Abyś to zrobił razy 2 - Pierwszy na Gamemode "objecttest", drugi na gamemode mrucznika. Różni się to jedynie początkiem(W mrucznikowym nie ma "../", tylko "modules/obiekty/")))
-*Nie zapomnij dodać wywołania funkcji (które użyłeś w swojej pracy .pwn) - przykładowo "ammuNationBananov_Init();"
+* Nie zapomnij dodać wywołania funkcji (które użyłeś w swojej pracy .pwn) - przykładowo "ammuNationBananov_Init();", bądź Connect'ów
 6. Gdy skończysz sprawdź wszystko za pomocą Gamemoda dołączonego w folderze "skrypt"
 
 * UWAGA WAŻNE! Przy edycji jakiegoś pliku, wrzucaniu nowego etc zawsze stosuj Commit (tkzw. Komentarz) i wyjaśniaj w nim co dodałeś. 
