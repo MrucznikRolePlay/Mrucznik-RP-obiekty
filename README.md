@@ -1,5 +1,7 @@
 # Mrucznik-RP-obiekty
-Repozytorium Mrucznik-RP-obiekty zostało stworzone, aby ułatwić wgrywanie obiektów na serwer oraz współpracę między skrypterami i mapperami.
+Repozytorium Mrucznik-RP-obiekty zostało stworzone, aby ułatwić wgrywanie obiektów na serwer oraz współpracę między skrypterami i mapperami. 
+
+--> Aktualnie jest zawieszone dla szerszej ilości osób.
 
 ## Pliki, foldery
 W głównym folderze repozytorium znajdziesz pliki nowe_obiekty.pwn oraz stare_obiekty.pwn.
@@ -30,4 +32,4 @@ Musisz tylko stworzyć pull-request do brancha "do-przygotowania" a odpowiednie 
 Zachęcam do umieszczania dodatkowych plików związanych z danymi obiektami (jak na przykład opis, surowe obiekty z edytora, notatki autora) w folderze projektu obiektów.
 
 ## Pytania
-W razie jakichkolwiek pytań i problemów zapraszam na [naszego slack'a](http://mrpku.slack.com/)
+W razie jakichkolwiek pytań i problemów zapraszamy na naszego discorda! Zgłoś się do Mrucznik bądź Simeone. 
