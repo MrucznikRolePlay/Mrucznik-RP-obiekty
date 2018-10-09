@@ -106,6 +106,7 @@
 	#include "../nowe/ramirezaservice/ramirezint.pwn"
 	#include "../nowe/GlobalneLS/banklsext.pwn"
 	#include "../nowe/GunShop/gunshopls.pwn"
+	#include "../nowe/Globalne/nagrodyeventy/sktom.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -177,6 +178,7 @@
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezint.pwn"
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
+	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
 #endif
 
 
@@ -242,6 +244,7 @@ obiekty_OnGameModeInit()
 	ramirezint_Init();
 	banklsext_Init();
 	gunshopls_Init();
+	sktomdom_Init();
 	return 1;
 }
 
