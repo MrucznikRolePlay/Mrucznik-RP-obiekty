@@ -18,7 +18,7 @@
 //----------------------------------------------------*------------------------------------------------------//
 //BY- SkTom
 //-----------------<[ ZMIENNE ]>---------------------------
-//Znajduj¹ siê w pliku obiekty_zmienne.pwn
+//Znajduja sie w pliku obiekty_zmienne.pwn
 
 //-----------------<[ Wyw Funkcje ]>---------------------------
 
@@ -38,7 +38,7 @@ static StworzObiekty()
 		Created by "Tom_Russell"
 		Spawn Position: -/-
 		Script by: Simeone
-		Added Info: Dom zosta³ wgrany jako nagroda za sumienn¹ pracê dla Najlepszego admina SkToma <3 ~Simeone 9-10-2018
+		Added Info: Dom zosta³ wgrany jako nagroda za sumienna prace dla Najlepszego admina SkToma <3 ~Simeone 9-10-2018
 	*/
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
