@@ -10,7 +10,7 @@ stock DodajWejscia_Dillimore()
 
 stock Bramy_Dillimore()
 {
-	//intek SASP
+	//intek SASP Ÿ
 	DodajBrame(CreateDynamicObject(1569, 222.16035, 68.89352, 1004.04041,   0.00000, 0.00000, 90.00000), 
 		222.16035, 68.89352, 1004.04041,   0.00000, 0.00000, 90.00000,
 		222.16035, 67.7135, 1004.04041,   0.00000, 0.00000, 90.00000,

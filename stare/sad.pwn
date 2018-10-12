@@ -34,7 +34,7 @@ INT_FamilySad()
     CreateDynamicObject(19121, 1285.00000, -1290.66003, 13.08620,   0.00000, 0.00000, -200.00000);
     CreateDynamicObject(19121, 1286.50000, -1290.66003, 13.08620,   0.00000, 0.00000, -200.00000);
     CreateDynamicObject(19121, 1288.09998, -1384.69995, 13.08620,   0.00000, 0.00000, -200.00000);
-    	//Exterior SƒΩDU
+    	//Exterior S•U
 	GATE_SAD[19] = CreateDynamicObject(19121, 1310.18359, -1384.99634, 13.27060,   0.00000, 0.00000, 0.00000);
 	GATE_SAD[20] = CreateDynamicObject(19121, 1311.99561, -1384.99634, 13.27060,   0.00000, 0.00000, 0.00000);
 	GATE_SAD[21] = CreateDynamicObject(19121, 1308.37158, -1384.99634, 13.27060,   0.00000, 0.00000, 0.00000);
@@ -60,7 +60,7 @@ INT_FamilySad()
 	CreateDynamicObject(1256, 1301.14587, -1382.11780, 13.42330,   0.00000, 0.00000, 180.00000);
 	CreateDynamicObject(1256, 1293.29358, -1378.27112, 13.42330,   0.00000, 0.00000, 180.00000);
 	CreateDynamicObject(1256, 1326.92908, -1378.11035, 13.53430,   0.00000, 0.00000, 0.00000);
-	//SƒΩD STANU SAN ANDREAS PIƒòTO[0]
+	//S•D STANU SAN ANDREAS POTO[0]
 	//POD≈ÅOGA
 	new sad0 = CreateDynamicObject(19379, 1297.76099, -1324.77393, 37.80280,   0.00000, 90.00000, 0.00000, 500);
 	CreateDynamicObject(19379, 1308.25684, -1324.77087, 37.80280,   0.00000, 90.00000, 0.00000, 500);
@@ -71,7 +71,7 @@ INT_FamilySad()
 	CreateDynamicObject(19379, 1316.38708, -1315.03088, 38.52680,   0.00000, 90.00000, 0.00000, 500);
 	new asad0 = CreateDynamicObject(19379, 1326.86646, -1324.65845, 38.52680,   0.00000, 90.00000, 0.00000, 500);
 	for(new i=sad0;i<=asad0;i++)	SetDynamicObjectMaterial(i, 0, 6099, "law_doontoon", "fancy_slab128", 0xFFD2B48C);
-	SetDynamicObjectMaterial(CreateDynamicObject(19380, 1315.95239, -1334.31482, 38.55280,   0.00000, 90.00000, 0.00000, 500), 0, 18029, "genintintsmallrest", "GB_restaursmll07", 0); //≈ÅAZIE≈ÉKA POD≈ÅOGA!!!
+	SetDynamicObjectMaterial(CreateDynamicObject(19380, 1315.95239, -1334.31482, 38.55280,   0.00000, 90.00000, 0.00000, 500), 0, 18029, "genintintsmallrest", "GB_restaursmll07", 0); //£AZIENKA POD£OGA!!!
 	//KOLUMNY
 	new kolumnas = CreateDynamicObject(18762, 1292.96814, -1329.08740, 40.28390,   0.00000, 0.00000, 0.00000, 500);
 	CreateDynamicObject(18762, 1292.98792, -1320.43982, 40.28390,   0.00000, 0.00000, 0.00000, 500);
@@ -100,7 +100,7 @@ INT_FamilySad()
 	CreateDynamicObject(19303, 1312.40942, -1315.54504, 39.86070,   0.00000, 0.00000, 0.00000, 500);
 	CreateDynamicObject(19304, 1316.77478, -1315.17371, 41.57370,   -40.00000, 0.00000, 0.00000, 500);
     CreateDynamicObject(19304, 1313.22742, -1315.13232, 41.57370,   -45.00000, 0.00000, 0.00000, 500);
-	//¬åCIANY WIƒòZIENIE
+	//åCIANY WI òZIENIE
 	CreateDynamicObject(19456, 1316.53870, -1312.39124, 40.29480,   0.00000, 0.00000, 90.00000, 500);
 	CreateDynamicObject(19364, 1311.78223, -1313.97852, 40.29480,   0.00000, 0.00000, 0.00000, 500);
 	CreateDynamicObject(19364, 1314.93262, -1314.00903, 40.29480,   0.00000, 0.00000, 0.00000, 500);
@@ -122,7 +122,7 @@ INT_FamilySad()
     for(new i=toaletas;i<=toaletae;i++)	SetDynamicObjectMaterial(i, 0, 18029, "genintintsmallrest", "GB_restaursmll08", 0);
     SetDynamicObjectMaterial(CreateDynamicObject(19380, 1315.95239, -1334.31482, 41.95820,   0.00000, 90.00000, 0.00000, 500), 0, 18029, "genintintsmallrest", "GB_restaursmll07", 0);
 	SetDynamicObjectMaterial(CreateDynamicObject(19378, 1326.86646, -1324.65845, 41.95820,   0.00000, 90.00000, 0.00000, 500),0, 5767, "capitol_lawn", "capitol3_lawn", 0);
-	//¬åCIANY
+	//åCIANY
 	SetDynamicObjectMaterial(CreateDynamicObject(19459, 1298.18970, -1329.41589, 36.86280,   0.00000, 0.00000, 90.00000, 500), 0, 6099, "law_doontoon", "fancy_slab128", 0xFFD2B48C);
 	SetDynamicObjectMaterial(CreateDynamicObject(19459, 1298.15491, -1320.07446, 36.86280,   0.00000, 0.00000, 90.00000, 500), 0, 6099, "law_doontoon", "fancy_slab128", 0xFFD2B48C);
 	new scianys = CreateDynamicObject(19461, 1298.18518, -1329.43542, 40.29480,   0.00000, 0.00000, 90.00000, 500);
@@ -278,7 +278,7 @@ INT_FamilySad()
 	CreateDynamicObject(2412, 1320.28674, -1325.95923, 38.59820,   0.00000, 0.00000, 90.00000, 500);
 	CreateDynamicObject(2412, 1320.25964, -1322.75647, 38.59820,   0.00000, 0.00000, 90.00000, 500);
 	CreateDynamicObject(1893, 1311.88831, -1332.08386, 42.24710,   0.00000, 0.00000, 90.00000, 500);
-	SetDynamicObjectMaterialText(CreateDynamicObject(19173, 1322.59998, -1328.62122, 41.14390,   0.00000, 0.00000, 0.00000, 500), 0, "ZAKAZ WCHODZENIA\nNA SALE Z BRONIƒΩ!", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 20, 0, 0xFFC7151C, 0xFFFFFFFF , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
+	SetDynamicObjectMaterialText(CreateDynamicObject(19173, 1322.59998, -1328.62122, 41.14390,   0.00000, 0.00000, 0.00000, 500), 0, "ZAKAZ WCHODZENIA\nNA SALE Z BRONI•!", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 20, 0, 0xFFC7151C, 0xFFFFFFFF , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
     //SetDynamicObjectMaterialText(CreateDynamicObject(19173, 1317.31958, -1329.27063, 41.14390,   0.00000, 0.00000, 0.00000, 500), 0, "SZATNIA", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 35, 0, 0xFFC7151C, 0xFFFFFFFF , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
     new tablicawsad = CreateDynamicObject(3077, 1306.78467, -1327.11426, 38.47020,   0.00000, 0.00000, 0.00000, 500);
     new tablicawsad2 = CreateDynamicObject(3077, 1306.78467, -1322.39929, 38.47020,   0.00000, 0.00000, 0.00000, 500);
@@ -286,20 +286,20 @@ INT_FamilySad()
     SetDynamicObjectMaterial(tablicawsad2,1, 5767, "capitol_lawn", "capitol3_lawn", 0x00000000);
     new string[2000];
     strcat(string, "{FF0000}REGULAMIN OBIEKTU\n");
-	strcat(string, "{000000}1. Zakaz wnoszenia na sale rozpraw walizek,\nakt√≥wek, plecak√≥w, broni palnej, broni bia≈Çej.\nMo≈ºesz je przechowaƒá w szatni na tym piƒôtrze.[/wb]\n");
-	strcat(string, "2. Na terenie obiektu obowi≈°zuje stosowny ubi√≥r\n");
-	strcat(string, "3. Na terenie budynku nie:\nbiegamy, skaczemy,krzyczymy, ha≈Çasujemy.\n");
-	strcat(string, "4. Wykonujemy wszystkie polecenia\nsƒôdziƒôgo g≈Ç√≥wnego oraz ochrony.\n");
-	strcat(string, "5. Przed wej¬úciem na sale wycisz telefon [/togtel]\n");
-	strcat(string, "6. Na terenie budynku obowi≈°zuje ca≈Çkowity zakaz\npalenia, spo≈ºywania alkoholu oraz\nkorzystania ze ¬úrodk√≥w odurzaj≈°cych\n");
-	strcat(string, "{FF0000}Nieznajomo¬úƒá regulaminu\nnie upowa≈ºnia do jego ≈Çamania!");
+	strcat(string, "{000000}1. Zakaz wnoszenia na sale rozpraw walizek,\naktÛwek, plecakÛw, broni palnej, broni bia≥ej.\nMoøesz je przechowaÊ w szatni na tym piÍtrze.[/wb]\n");
+	strcat(string, "2. Na terenie obiektu obowiπzuje stosowny ubiÛr\n");
+	strcat(string, "3. Na terenie budynku nie:\nbiegamy, skaczemy,krzyczymy, ha≥asujemy.\n");
+	strcat(string, "4. Wykonujemy wszystkie polecenia\nsÍdziego g≥Ûwnego oraz ochrony.\n");
+	strcat(string, "5. Przed wejúciem na sale wycisz telefon [/togtel]\n");
+	strcat(string, "6. Na terenie budynku obowiπzuje ca≥kowity zakaz\npalenia, spoøywania alkoholu oraz\nkorzystania ze úrodkÛw odurzajπcych\n");
+	strcat(string, "{FF0000}NieznajomoúÊ regulaminu\nnie upowaønia do jego ≥amania!");
     SetDynamicObjectMaterialText(tablicawsad, 0, string, 100, "Times New Roman", 15, 0, 0xFFC7151C, 0xFFFFFFFF , 1);
     new string2[2000];
-    strcat(string2, "{FF0000}SƒΩD STANOWY - SAN ANDREAS");
-	strcat(string2, "{000000}\nObiekt w 75% ($75.000.000) zosta≈Ç op≈Çacony\n z bud≈ºet stanu {0000FF}San Andreas\n");
-	strcat(string2, "{000000}Obiekt w 10% ($10.000.000) zosta≈Ç op≈Çacony\n z prywatnego bud≈ºetu {0000FF}John 'a Mrucznika\n");
-	strcat(string2, "{000000}Obiekt w 10% ($10.000.000) zosta≈Ç op≈Çacony\n z prywatnego bud≈ºetu {0000FF}Sven 'a Helvetick 'i\n");
-	strcat(string2, "{000000}Projekt architektoniczny wykona≈Ç:\n{0000FF}Jack Simon.\n");
+    strcat(string2, "{FF0000}S•D STANOWY - SAN ANDREAS");
+	strcat(string2, "{000000}\nObiekt w 75% ($75.000.000) zosta≥ op≥acony\n z budøet stanu {0000FF}San Andreas\n");
+	strcat(string2, "{000000}Obiekt w 10% ($10.000.000) zosta≥ op≥acony\n z prywatnego budøetu {0000FF}John 'a Mrucznika\n");
+	strcat(string2, "{000000}Obiekt w 10% ($10.000.000) zosta≥ op≥acony\n z prywatnego budøetu {0000FF}Sven 'a Helvetick 'i\n");
+	strcat(string2, "{000000}Projekt architektoniczny wykona≥:\n{0000FF}Jack Simon.\n");
 	strcat(string2, "{000000}Ochrone nad budykiem sprawuje:\n{0000FF}United States Secret Service (U.S.S.S.)\n{000000}Przewodnictwo nad sadem prowadzi:\nPrezes Sadu {0000FF}Anthony Hartman\n{E9E9E9}69 ?");
     SetDynamicObjectMaterialText(tablicawsad2, 0, string2, 100, "Times New Roman", 15, 0, 0xFFC7151C, 0xFFFFFFFF , 1);
 	//SUFIT
@@ -315,9 +315,9 @@ INT_FamilySad()
 	CreateDynamicObject(1893, 1316.28027, -1332.08386, 42.24710,   0.00000, 0.00000, 90.00000, 500);
 	CreateDynamicObject(1734, 1305.04358, -1317.85449, 42.22600,   0.00000, 0.00000, 0.00000, 500);
 	CreateDynamicObject(1734, 1305.04529, -1331.63953, 42.22600,   0.00000, 0.00000, 0.00000, 500);
- //---->S≈°d Piƒôtro [1]<----//
+ //---->Sπd PiÍtro [1]<----//
 	CreateDynamicObject(18755, 1289.12219, -1292.81824, 36.62910,   0.00000, 0.00000, 90.00000, 501); //winda
-	//-->Pod≈Çoga<--//
+	//-->Pod≥oga<--//
 	new sadpods = CreateDynamicObject(19379, 1292.04199, -1294.63379, 34.58920,   0.00000, 90.00000, 0.00000, 501);
 	CreateDynamicObject(19379, 1292.04688, -1304.24500, 34.58920,   0.00000, 90.00000, 0.00000, 501);
 	CreateDynamicObject(19379, 1302.54138, -1294.63379, 34.58920,   0.00000, 90.00000, 0.00000, 501);
@@ -340,8 +340,8 @@ INT_FamilySad()
 	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1309.54395, -1299.78186, 33.44010,   0.00000, 0.00000, 0.00000, 501),0, 14569, "traidman", "darkgrey_carpet_256", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1302.75330, -1300.07874, 34.19410,   0.00000, 90.00000, 0.00000, 501),0 ,14703, "vghsb3int2", "hs2_3carpet1",0);
 	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1299.75269, -1300.07935, 34.19610,   0.00000, 90.00000, 0.00000, 501),0 ,14703, "vghsb3int2", "hs2_3carpet1",0);
-	//-->¬åciany<--//
-	//¬åciany boczne sƒôdziego: 2208 CJ_OFFICE cj_wood_dark
+	//-->åciany<--//
+	//åciany boczne sÍdziego: 2208 CJ_OFFICE cj_wood_dark
 	SetDynamicObjectMaterial(CreateDynamicObject(19360, 1308.82568, -1296.32263, 33.97820,   0.00000, 0.00000, 90.00000, 501),0, 14544, "ab_woozieB", "ab_wood02", 0);
 	SetDynamicObjectMaterial(CreateDynamicObject(19360, 1305.62549, -1296.31824, 33.97820,   0.00000, 0.00000, 90.00000, 501),0, 14544, "ab_woozieB", "ab_wood02", 0);
 	SetDynamicObjectMaterial(CreateDynamicObject(19360, 1304.06812, -1294.80859, 33.98020,   0.00000, 0.00000, 0.00000, 501),0, 14544, "ab_woozieB", "ab_wood02", 0);
@@ -350,7 +350,7 @@ INT_FamilySad()
 	SetDynamicObjectMaterial(CreateDynamicObject(19360, 1308.79749, -1303.70313, 33.97820,   0.00000, 0.00000, 90.00000, 501),0, 14544, "ab_woozieB", "ab_wood02", 0);
 	SetDynamicObjectMaterial(CreateDynamicObject(19452, 1308.69910, -1292.38879, 33.98920,   0.00000, 0.00000, 0.00000, 501),0, 14544, "ab_woozieB", "ab_wood02", 0);
 	SetDynamicObjectMaterial(CreateDynamicObject(19452, 1308.69910, -1302.03259, 33.98920,   0.00000, 0.00000, 0.00000, 501),0,14544, "ab_woozieB", "ab_wood02", 0);
-	//Pod≈Çoga sƒôdziego: ,18095, "cj_barb", "ab_panel_woodgrime",0);
+	//Pod≥oga sÍdziego: ,18095, "cj_barb", "ab_panel_woodgrime",0);
 	SetDynamicObjectMaterial(CreateDynamicObject(19356, 1309.26196, -1294.78784, 35.63770,   0.00000, 90.00000, 0.00000, 501),0,14709, "lamidint2", "mp_apt1_roomfloor",0xFF808080);
 	SetDynamicObjectMaterial(CreateDynamicObject(19356, 1309.26196, -1305.23633, 35.63770,   0.00000, 90.00000, 0.00000, 501),0,14709, "lamidint2", "mp_apt1_roomfloor",0xFF808080);
 	SetDynamicObjectMaterial(CreateDynamicObject(19356, 1305.77478, -1294.78516, 35.63570,   0.00000, 90.00000, 0.00000, 501),0,14709, "lamidint2", "mp_apt1_roomfloor",0xFF808080);
@@ -358,7 +358,7 @@ INT_FamilySad()
 	SetDynamicObjectMaterial(CreateDynamicObject(19356, 1313.80200, -1299.69592, 35.04170,   0.00000, 110.00000, 0.00000, 501),0,14709, "lamidint2", "mp_apt1_roomfloor",0xFF808080);
 	SetDynamicObjectMaterial(CreateDynamicObject(19448, 1310.47180, -1302.08398, 35.64170,   0.00000, 90.00000, 0.00000, 501),0,14709, "lamidint2", "mp_apt1_roomfloor",0xFF808080);
 	SetDynamicObjectMaterial(CreateDynamicObject(19448, 1310.45874, -1292.45874, 35.64170,   0.00000, 90.00000, 0.00000, 501),0,14709, "lamidint2", "mp_apt1_roomfloor",0xFF808080);
-	//¬åciany ca≈Çego budynku (dolne):
+	//åciany ca≥ego budynku (dolne):
 	new scianadgs = CreateDynamicObject(19451, 1291.39673, -1290.24316, 36.39520,   0.00000, 0.00000, 0.00000, 501);
 	CreateDynamicObject(19451, 1292.49854, -1290.60010, 36.39520,   0.00000, 0.00000, 90.00000, 501);
 	CreateDynamicObject(19451, 1286.84155, -1292.49951, 36.39520,   0.00000, 0.00000, 0.00000, 501);
@@ -395,7 +395,7 @@ INT_FamilySad()
 	CreateDynamicObject(19451, 1318.22375, -1304.50061, 36.39520,   0.00000, 0.00000, 0.00000, 501);
 	CreateDynamicObject(19451, 1318.21985, -1314.11487, 36.39520,   0.00000, 0.00000, 0.00000, 501);
 	CreateDynamicObject(19451, 1317.17639, -1310.92688, 36.39520,   0.00000, 0.00000, 90.00000, 501);
-	//¬åciany ca≈Çego budynku (g√≥rne):
+	//åciany ca≥ego budynku (gÛrne):
 	CreateDynamicObject(19359, 1288.47388, -1301.66040, 39.89520,   0.00000, 180.00000, 90.00000, 501);
 	CreateDynamicObject(19451, 1297.26624, -1293.77637, 39.89520,   0.00000, 180.00000, 0.00000, 501);
 	CreateDynamicObject(19451, 1286.87561, -1297.42346, 39.89520,   0.00000, 180.00000, 0.00000, 501);
@@ -521,11 +521,11 @@ INT_FamilySad()
 	CreateDynamicObject(1714, 1311.1039, -1299.80432, 35.93640,   0.00000, 0.00000, 270.00000, 501);
 	CreateDynamicObject(1714, 1311.1039, -1301.08105, 35.72640,   0.00000, 0.00000, 270.00000, 501);
 	CreateDynamicObject(1714, 1311.1039, -1298.52710, 35.72640,   0.00000, 0.00000, 270.00000, 501);
-	new mownica = CreateDynamicObject(2491, 1305.30396, -1299.82019, 33.91940,   0.00000, 0.00000, 0.00000, 501); //obiekt br≈°zowy
+	new mownica = CreateDynamicObject(2491, 1305.30396, -1299.82019, 33.91940,   0.00000, 0.00000, 0.00000, 501); //obiekt brπzowy
 	SetDynamicObjectMaterial(mownica, 0, 1811, "cj_tables", "CJ_WOOD5",0);
 	SetDynamicObjectMaterial(mownica, 1, 1811, "cj_tables", "CJ_WOOD5",0);
-	SetDynamicObjectMaterial(CreateDynamicObject(3850, 1302.75903, -1297.62463, 35.15480,   0.00000, 0.00000, -45.00000, 501),0 , 13438, "sw_library", "sjmornfnce",0); //≈Çadna barierka (?)/mmat
-	SetDynamicObjectMaterial(CreateDynamicObject(3850, 1302.84717, -1302.45557, 35.15480,   0.00000, 0.00000, 225.00000, 501),0 , 13438, "sw_library", "sjmornfnce",0); //≈Çadna barierka (?)/mmat
+	SetDynamicObjectMaterial(CreateDynamicObject(3850, 1302.75903, -1297.62463, 35.15480,   0.00000, 0.00000, -45.00000, 501),0 , 13438, "sw_library", "sjmornfnce",0); //≥adna barierka (?)/mmat
+	SetDynamicObjectMaterial(CreateDynamicObject(3850, 1302.84717, -1302.45557, 35.15480,   0.00000, 0.00000, 225.00000, 501),0 , 13438, "sw_library", "sjmornfnce",0); //≥adna barierka (?)/mmat
 	SetDynamicObjectMaterial(CreateDynamicObject(2180, 1305.82336, -1295.63428, 35.71880,   0.00000, 0.00000, 0.00000, 501),0, 1811, "cj_tables", "CJ_WOOD5",0);
 	SetDynamicObjectMaterial(CreateDynamicObject(2180, 1306.81738, -1304.32947, 35.71880,   0.00000, 0.00000, 180.00000, 501),0, 1811, "cj_tables", "CJ_WOOD5",0);
 	CreateDynamicObject(2112, 1308.86646, -1304.41284, 36.06680,   0.00000, 0.00000, 40.00000, 501);
@@ -573,9 +573,9 @@ INT_FamilySad()
 	CreateDynamicObject(1811, 1303.57654, -1302.59473, 35.28500,   0.00000, 0.00000, 225.00000, 501);
 	CreateDynamicObject(1811, 1303.08057, -1302.12915, 35.28500,   0.00000, 0.00000, 225.00000, 501);
 	CreateDynamicObject(1811, 1302.60388, -1301.65735, 35.28500,   0.00000, 0.00000, 225.00000, 501);
-	SetDynamicObjectMaterial(GATE_SAD[7] = CreateDynamicObject(1569, 1291.72351, -1301.62598, 34.60920,   0.00000, 0.00000, 0.00000, 501),0,14852, "mp_policeSF","mp_cop_panel",0); //≈Çadne drzwi
-	SetDynamicObjectMaterial(GATE_SAD[8] = CreateDynamicObject(1569, 1300.22229, -1293.13440, 34.60920,   0.00000, 0.00000, 0.00000, 501),0,14852, "mp_policeSF","mp_cop_panel",0); //≈Çadne drzwi
-	SetDynamicObjectMaterial(GATE_SAD[9] = CreateDynamicObject(1569, 1315.34851, -1300.52722, 34.60920,   0.00000, 0.00000, 90.00000, 501),0,14852, "mp_policeSF","mp_cop_panel",0); //≈Çadne drzwi
+	SetDynamicObjectMaterial(GATE_SAD[7] = CreateDynamicObject(1569, 1291.72351, -1301.62598, 34.60920,   0.00000, 0.00000, 0.00000, 501),0,14852, "mp_policeSF","mp_cop_panel",0); //≥adne drzwi
+	SetDynamicObjectMaterial(GATE_SAD[8] = CreateDynamicObject(1569, 1300.22229, -1293.13440, 34.60920,   0.00000, 0.00000, 0.00000, 501),0,14852, "mp_policeSF","mp_cop_panel",0); //≥adne drzwi
+	SetDynamicObjectMaterial(GATE_SAD[9] = CreateDynamicObject(1569, 1315.34851, -1300.52722, 34.60920,   0.00000, 0.00000, 90.00000, 501),0,14852, "mp_policeSF","mp_cop_panel",0); //≥adne drzwi
     SetDynamicObjectMaterial(GATE_SAD[10] = CreateDynamicObject(1569, 1297.24097, -1301.56958, 34.60920,   0.00000, 0.00000, 0.00000, 501),0,14852, "mp_policeSF","mp_cop_panel",0);
 	SetDynamicObjectMaterial(GATE_SAD[11] = CreateDynamicObject(1569, 1297.23438, -1298.58276, 34.60920,   0.00000, 0.00000, 0.00000, 501),0,14852, "mp_policeSF","mp_cop_panel",0);
 	CreateDynamicObject(19172, 1303.69922, -1293.07507, 36.15600,   0.00000, 0.00000, 180.00000, 501);
@@ -633,7 +633,7 @@ INT_FamilySad()
 	new telewizor = CreateDynamicObject(19172, 1311.14441, -1294.29724, 40.28030,   10.00000, 0.00000, -45.00000, 501);
 	SetDynamicObjectMaterial(telewizor,1, 2265, "picture_frame_clip", "CJ_PAINTING26", 0xFF000000); //telewizor czarny
 	SetDynamicObjectMaterial(telewizor,0, 2265, "picture_frame_clip", "CJ_PAINTING26", 0xFF000000); //telewizor czarny
-	SetDynamicObjectMaterial(CreateDynamicObject(19087, 1312.46191, -1292.99158, 42.03570,   0.00000, 50.00000, 45.00000, 501),0, 2265, "picture_frame_clip", "CJ_PAINTING26", 0xFF000000); //trzymade≈Çko czarne
+	SetDynamicObjectMaterial(CreateDynamicObject(19087, 1312.46191, -1292.99158, 42.03570,   0.00000, 50.00000, 45.00000, 501),0, 2265, "picture_frame_clip", "CJ_PAINTING26", 0xFF000000); //trzymade≥ko czarne
 	SetDynamicObjectMaterial(CreateDynamicObject(19327, 1311.12891, -1294.31226, 40.26700,   10.00000, 0.00000, -45.00000, 501),0, 14640, "chinese_furn", "ab_tv_tricas2",0); //telewizor kolor
 	//Sufit:
 	new sufitexs = CreateDynamicObject(19380, 1292.04199, -1294.63379, 41.45120,   0.00000, 90.00000, 0.00000, 501);
@@ -646,9 +646,9 @@ INT_FamilySad()
 	CreateDynamicObject(19380, 1313.03943, -1313.85999, 41.45120,   0.00000, 90.00000, 0.00000, 501);
 	new sufittexe = CreateDynamicObject(19380, 1292.04688, -1313.85999, 41.45120,   0.00000, 90.00000, 0.00000, 501);
     for(new i=sufitexs;i<=sufittexe;i++)	SetDynamicObjectMaterial(i,0, 4604, "buildblk555", "gm_labuld5_b", 0xFFFFFFFF);
-	////---->SƒΩD PIETRO [3]<------////
+	////---->S•D PIETRO [3]<------////
 	CreateDynamicObject(18755, 1310.24451, -1361.62231, 39.85350,   0.00000, 0.00000, 270.00000,502); //winda
-	//Pod≈Çoga:
+	//Pod≥oga:
 	SetDynamicObjectMaterial(CreateDynamicObject(19379, 1315.48242, -1352.71399, 37.82490,   0.00000, 90.00000, 0.00000, 502),0, 14569, "traidman", "darkgrey_carpet_256", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19379, 1304.99463, -1352.71399, 37.82490,   0.00000, 90.00000, 0.00000, 502),0, 14569, "traidman", "darkgrey_carpet_256", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19379, 1304.99341, -1362.32239, 37.82490,   0.00000, 90.00000, 0.00000, 502),0, 14569, "traidman", "darkgrey_carpet_256", 0xFFFFFFFF);
@@ -657,7 +657,7 @@ INT_FamilySad()
 	SetDynamicObjectMaterial(CreateDynamicObject(19379, 1315.48242, -1343.10400, 37.82490,   0.00000, 90.00000, 0.00000, 502),0, 14569, "traidman", "darkgrey_carpet_256", 0xFFFFFFFF);
     SetDynamicObjectMaterial(CreateDynamicObject(19379, 1294.5106, -1352.71497, 37.82490,   0.00000, 90.00000, 0.00000, 502),0, 14569, "traidman", "darkgrey_carpet_256", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19379, 1294.5106, -1362.32239, 37.82490,   0.00000, 90.00000, 0.00000, 502),0, 14569, "traidman", "darkgrey_carpet_256", 0xFFFFFFFF);
-	//¬åciany:
+	//åciany:
 	new scianysad3 = CreateDynamicObject(19354, 1313.44470, -1358.55029, 39.66110,   0.00000, 0.00000, -45.00000, 502);
 	CreateDynamicObject(19354, 1306.91626, -1358.53613, 39.66110,   0.00000, 0.00000, 45.00000, 502);
 	CreateDynamicObject(19354, 1316.11316, -1357.43774, 39.66110,   0.00000, 0.00000, 90.00000, 502);
@@ -930,7 +930,7 @@ INT_FamilySad()
 	CreateDynamicObject(2265, 1298.03015, -1358.02136, 39.97230,   0.00000, 0.00000, 0.00000, 502);
 	SetDynamicObjectMaterialText(CreateDynamicObject(19327, 1301.01440, -1357.32251, 40.86790,   0.00000, 0.00000, 180.00000, 502), 0, "BIURO SƒòDZI NAJWY≈ªSZEGO", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 20, 0, 0xff000000, 0x00000000 , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
     SetDynamicObjectMaterialText(CreateDynamicObject(19327, 1319.20605, -1357.32666, 40.86790,   0.00000, 0.00000, 180.00000, 502), 0, "BIURO SƒòDZI STANOWEGO", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 20, 0, 0xff000000, 0x00000000 , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
-    SetDynamicObjectMaterialText(CreateDynamicObject(19327, 1310.15466, -1348.91772, 40.86790,   0.00000, 0.00000, 0.00000, 502), 0, "SALA OBRAD SƒΩDU\n W SAN ANDREAS", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 20, 0, 0xff000000, 0x00000000 , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
+    SetDynamicObjectMaterialText(CreateDynamicObject(19327, 1310.15466, -1348.91772, 40.86790,   0.00000, 0.00000, 0.00000, 502), 0, "SALA OBRAD S•DU\n W SAN ANDREAS", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 20, 0, 0xff000000, 0x00000000 , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
     SetDynamicObjectMaterialText(CreateDynamicObject(19327, 1296.42090, -1355.79553, 40.86790,   0.00000, 0.00000, 90.00000, 502), 0, "SALA WYK≈ÅADOWCZA", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 20, 0, 0xff000000, 0x00000000 , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
 	//Drzwi:
 	SetDynamicObjectMaterial(GATE_SAD[12] = CreateDynamicObject(1569, 1300.26611, -1357.41284, 37.90160,   0.00000, 0.00000, 0.00000, 502),0,14852, "mp_policeSF","mp_cop_panel",0);

@@ -25,7 +25,7 @@
 
 //
 
-//-----------------<[ Glowne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 sanVanInterior_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();
@@ -37,7 +37,6 @@ static StworzObiekty()
 { 
 	// 739.39001, -1365.34473, 7.62120 // WEJSCIE PO /WEJDZW
 	//
-	new tmpobjid;
 	tmpobjid = CreateDynamicObject(19377, 739.583435, -1368.812622, 6.322053, 0.000000, -89.999946, 0.000000, -1, 1, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(tmpobjid, 0, 18773, "tunnelsections", "stonewall4", 0x00000000);
 	tmpobjid = CreateDynamicObject(19461, 741.035156, -1361.041137, 7.572047, 0.000000, 0.000022, 0.000000, -1, 1, -1, 300.00, 300.00);

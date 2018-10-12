@@ -19,7 +19,7 @@
 //BY- Charlie112
 //-----------------<[ ZMIENNE ]>---------------------------
 
-//Sa w pliku ./zmienne
+//S¹ w pliku ./zmienne
 new bramahell1;
 new bramahell2;
 
@@ -487,7 +487,7 @@ static StworzObiekty()
 	hellsy= CreateDynamicObject(2263, 37.188377, -2671.023681, 8.160055, 0.000000, 0.000000, 180.000000, 5, -1, -1, 300.00, 300.00);
 	hellsy= CreateDynamicObject(14455, 37.983169, -2661.829101, 7.840061, 0.000000, 0.000000, 540.000000, 5, -1, -1, 300.00, 300.00);
 
-	DodajWejscie(33.5437,-2649.7981,40.7285, 50.9963,-2650.9519,13.0701, 0, 0, 5, 0, "Hells Angels MC", "Juz upity? Wynocha!");//Glowne wejscie
+	DodajWejscie(33.5437,-2649.7981,40.7285, 50.9963,-2650.9519,13.0701, 0, 0, 5, 0, "Hells Angels MC", "Ju¿ upity? Wynocha!");//Glowne wejscie
 
 
 

@@ -1,4 +1,4 @@
-//DodajBrame(,2, 2, BRAMA_UPR_TYPE_FRACTION, 4);
+//DodajBrame(,2, 2, BRAMA_UPR_TYPE_FRACTION, 4);Ÿ
 LSMC_Init()
 {
 	StworzObiekty();
@@ -4614,7 +4614,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(drzwilsmc15, 0, 18646, "matcolours", "grey-10-percent", 0x00000000);
 	DodajBrame(drzwilsmc15,-2809.981933, 2605.141601, -98.132957, 0.000000, 0.000000, 450.000000,-2809.981933, 2605.141601, -98.132957, 0.000000, 0.000000, 360.000000,2, 2, BRAMA_UPR_TYPE_FRACTION, 4);
 
-    DodajWejscie(1173.3959,-1323.5605,15.3924, 1160.0648,-1322.5054,68.2710, 0, 0, 90, 0, "San Andreas Medical Center", "Wyjscie");
+    DodajWejscie(1173.3959,-1323.5605,15.3924, 1160.0648,-1322.5054,68.2710, 0, 0, 90, 0, "San Andreas Medical Center", "Wyjœcie");
 	return 1;
 }
 

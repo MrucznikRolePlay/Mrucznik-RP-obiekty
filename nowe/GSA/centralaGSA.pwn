@@ -21,7 +21,7 @@
 
 //
 
-//-----------------<[ Glowne funkcje: ]>-------------------
+//-----------------<[ G≥Ûwne funkcje: ]>-------------------
 centralaGSA_Init()
 {
 	StworzObiekty();
@@ -130,7 +130,7 @@ static StworzObiekty()
 
 static StworzBudynki()
 {
-	DodajWejscie(1798.8914, -1578.2751, 14.0796, 1498.7653, -1452.1604, 63.9963, 0, 0, 80, 0, "Centrala USSS", "Wyjdz");
+	DodajWejscie(1798.8914, -1578.2751, 14.0796, 1498.7653, -1452.1604, 63.9963, 0, 0, 80, 0, "Centrala USSS", "Wyjdü");
 	return 1;
 }
 
