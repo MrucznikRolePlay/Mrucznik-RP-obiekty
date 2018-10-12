@@ -21,10 +21,11 @@
 
 //
 
-//-----------------<[ Glowne funkcje: ]>-------------------
+//-----------------<[ Główne funkcje: ]>-------------------
 DMV::exterior_Init()
 {
 	StworzObiekty();
+	StworzBramy();
 	return 1;
 }
 
@@ -326,7 +327,7 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(994, 1355.439697, -1785.330078, 12.532040, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(19329, 1356.307006, -1798.523193, 13.825936, 360.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} luk Manewrowy", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} £uk Manewrowy", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1343.160522, -1777.808105, 12.493474, 90.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} STOP!", 20, "Ariel", 20, 1, 0x00000000, 0x00000000, 0);
 	placdmv = CreateDynamicObject(19445, 1379.021484, -1790.720947, 14.278890, 0.000000, 0.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
@@ -457,9 +458,9 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(19329, 1350.046752, -1804.453613, 14.015938, 360.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Symulator", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1350.046752, -1804.453613, 13.705934, 360.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagrozenia", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagro¿enia", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1346.556640, -1793.253540, 12.565951, 450.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagrozenie HAMUJ!", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagro¿enie HAMUJ!", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1346.556640, -1805.304443, 12.565951, 450.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Start", 80, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(18762, 1347.123657, -1824.905517, 13.536890, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
@@ -477,7 +478,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Start", 80, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19470, 1379.323730, -1801.269897, 13.716871, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 18646, "matcolours", "grey-60-percent", 0x00000000);
-	SetDynamicObjectMaterialText(placdmv, 0, "{FF0000}Zakaz Wstepu!", 50, "Ariel", 20, 1, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FF0000}Zakaz Wstêpu!", 50, "Ariel", 20, 1, 0x00000000, 0x00000000, 0);
 	placdmv = CreateDynamicObject(19376, 1379.182250, -1818.879150, 13.002799, 90.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19297, "matlights", "invisible", 0x00000000);
 	placdmv = CreateDynamicObject(19376, 1379.182250, -1796.510253, 13.002799, 90.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
@@ -571,10 +572,14 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(4199, 1362.777709, -1829.157226, 14.576860, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 
 
-    DodajBrame(968, 1378.818237, -1809.188598, 13.496878, 0.000000, 90.000000, 90.000000, 1378.818237, -1809.188598, 13.496878, 0.000000, 0.000000, 90.000000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);
-    
-    return 1;
+	//placdmv = CreateDynamicObject(968, 1378.818237, -1809.188598, 13.496878, 0.000000, 90.000000, 90.000000, 0, 0, -1, 300.00, 300.00);
+	DodajBrame(968, 1378.818237, -1809.188598, 13.496878, 0.000000, 90.000000, 90.000000, 1378.818237, -1809.188598, 13.496878, 0.000000, 0.000000, 90.000000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);
+	return 1;
 }
+
+	return 1;
+}
+
 static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 1283, 1441.8594, -1733.0078, 15.6250, 0.25);
