@@ -147,7 +147,7 @@ stock WPS_Load()
 	CreateDynamicObject(970, 2455.09, -1958.20, 13.08,   0.00, 0.00, 360.00,0,0);
 	CreateDynamicObject(970, 2460.50, -1958.16, 13.08,   0.00, 0.00, 359.99,0,0);
 
-	//obiekty cywile wnetrze klubu WPS
+	//obiekty cywile wnêtrze klubu WPS
 	CreateDynamicObject(19378, 2450.69, -1957.58, 119.73,   0.00, 90.00, 0.00,1,0);
 	CreateDynamicObject(19378, 2450.68, -1947.96, 119.73,   0.00, 90.00, 0.00,1,0);
 	CreateDynamicObject(19378, 2440.20, -1957.58, 119.73,   0.00, 90.00, 0.00,1,0);

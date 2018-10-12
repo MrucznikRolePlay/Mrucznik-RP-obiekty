@@ -31,7 +31,7 @@
 	#include "modules/obiekty/nowe/SiedzibaMechanikow/exterior.pwn"
 #endif
 	
-//-----------------<[ Glowne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 siedzibaMechanikow_Init()
 {
 	SiedzibaMechanikow::interior_Init();

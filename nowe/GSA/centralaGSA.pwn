@@ -21,7 +21,7 @@
 
 //
 
-//-----------------<[ Glowne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 centralaGSA_Init()
 {
 	StworzObiekty();

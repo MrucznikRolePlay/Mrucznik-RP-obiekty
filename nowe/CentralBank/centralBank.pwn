@@ -21,7 +21,7 @@
 
 //
 
-//-----------------<[ Glowne funkcje: ]>-------------------
+//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
 centralBank_Init()
 {
 	StworzObiekty();
@@ -601,8 +601,8 @@ static StworzBudynki()
 		1778.1587, -1763.1735, 13.5439, 
 		0, 0, 
 		0, 0,
-		"Zjedz winda na dol",
-		"Wjedz winda na dach"
+		"Zjed wind¹ na dó³",
+		"Wjed wind¹ na dach"
 	);
 	return 1;
 }

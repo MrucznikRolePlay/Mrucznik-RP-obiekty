@@ -4,7 +4,6 @@ LSMC_Init()
 	StworzObiekty();
 	return 1;
 }
-
 stock LoadLSMCElevatorDoor()
 {
     for(new i=0;i<8;i++)
