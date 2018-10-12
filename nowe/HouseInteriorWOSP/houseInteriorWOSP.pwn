@@ -1,7 +1,7 @@
 //houseInteriorWOSP.pwn
 
 //----------------------------------------------<< Source >>-------------------------------------------------//
-//-----------------------------------------[ ModuÂ³: houseInteriorWOSP.pwn ]--------------------------------------------//
+//-----------------------------------------[ Modu³: houseInteriorWOSP.pwn ]--------------------------------------------//
 //Autor:
 /*
 	lil frachty
@@ -25,8 +25,8 @@
 
 //
 
-//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
-houseInteriorWOSP_Init() //tÂ¹ metodÃª wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
+//-----------------<[ G³ówne funkcje: ]>-------------------
+houseInteriorWOSP_Init()
 {
 	StworzObiekty();
 	return 1;

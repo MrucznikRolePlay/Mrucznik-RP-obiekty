@@ -31,7 +31,7 @@
 	#include "modules/obiekty/nowe/RadaMiasta/exterior.pwn"
 #endif
 
-//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 radaMiasta_Init()
 {
 	RadaMiasta::interior_Init();

@@ -21,7 +21,7 @@
 
 //
 
-//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 skracaneZakrety_Init()
 {
 	StworzObiekty();

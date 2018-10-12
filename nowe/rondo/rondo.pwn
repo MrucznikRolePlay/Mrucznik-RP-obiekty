@@ -21,7 +21,7 @@
 //BY- DEDUIR
 //
 
-//-----------------<[ GÅ‚Ã³wne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 rondo_Init()
 {
 	StworzObiekty();

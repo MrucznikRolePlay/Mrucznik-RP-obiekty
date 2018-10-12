@@ -21,7 +21,7 @@
 //BY- lil frachty
 //
 
-//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 chinatown_Init()
 {
 	StworzObiekty();

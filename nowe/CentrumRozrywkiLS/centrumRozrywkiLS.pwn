@@ -21,7 +21,7 @@
 
 //
 
-//-----------------<[ GÅ‚Ã³wne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 centrumRozrywkiLS_Init()
 {
 	StworzObiekty();
@@ -301,7 +301,7 @@ static StworzBudynki()
 		1413.64905, -1487.30603, 19.99940, 
 		3, 0, 
 		0, 0,
-		"Wyjscie",
+		"Wyjœcie",
 		"Centrum Rozrywki"
 	);
 	return 1;
