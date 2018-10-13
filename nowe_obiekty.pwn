@@ -98,7 +98,7 @@
 	//*****************************************************
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
-	#include "../nowe/hitman/hitmans.pwn"
+	//#include "../nowe/hitman/hitmans.pwn"
 	#include "../nowe/DMV/intekDMV.pwn"
 	#include "../nowe/ramirezaservice/ramirezext.pwn"
 	#include "../nowe/dscs/dscs.pwn"
@@ -170,7 +170,7 @@
 	//*****************************************************
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
-	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
+//	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
 	#include "modules/obiekty/nowe/DMV/intekdmv.pwn"
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezext.pwn"
 	#include "modules/obiekty/nowe/dscs/dscs.pwn"
@@ -233,7 +233,7 @@ obiekty_OnGameModeInit()
 	autobusint_Init();
 	enforcer_Init();
 	LSMC_Init();
-	hitmans_Init();
+//	hitmans_Init();
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
