@@ -21,7 +21,7 @@
 
 //
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
+//-----------------<[ Glowne funkcje: ]>-------------------
 DMV::exterior_Init()
 {
 	StworzObiekty();
@@ -326,7 +326,7 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(994, 1355.439697, -1785.330078, 12.532040, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(19329, 1356.307006, -1798.523193, 13.825936, 360.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} luk Manewrowy", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} Luk Manewrowy", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1343.160522, -1777.808105, 12.493474, 90.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} STOP!", 20, "Ariel", 20, 1, 0x00000000, 0x00000000, 0);
 	placdmv = CreateDynamicObject(19445, 1379.021484, -1790.720947, 14.278890, 0.000000, 0.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
@@ -375,12 +375,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(placdmv, 0, 4550, "skyscr1_lan2", "gm_labuld2_b", 0x00000000);
 	placdmv = CreateDynamicObject(18762, 1363.815551, -1770.019042, 13.536890, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 4550, "skyscr1_lan2", "gm_labuld2_b", 0x00000000);
-	placdmv = CreateDynamicObject(1495, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(placdmv, 0, 19058, "xmasboxes", "silk5-128x128", 0x00000000);
-	SetDynamicObjectMaterial(placdmv, 1, 18646, "matcolours", "grey-70-percent", 0x00000000);
-	SetDynamicObjectMaterial(placdmv, 2, 18646, "matcolours", "grey-40-percent", 0x00000000);
-	SetDynamicObjectMaterial(placdmv, 3, 18646, "matcolours", "grey-70-percent", 0x00000000);
-	SetDynamicObjectMaterial(placdmv, 4, 18646, "matcolours", "grey-70-percent", 0x00000000);
+	//
 	placdmv = CreateDynamicObject(19445, 1364.214477, -1765.039306, 14.278890, 0.000000, 0.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 8130, "vgsschurch", "vgschurchwall04_256", 0x00000000);
 	placdmv = CreateDynamicObject(19445, 1363.273437, -1767.271118, 14.278890, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
@@ -435,7 +430,7 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(994, 1351.176879, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(19329, 1372.311767, -1790.124267, 13.494655, 0.200005, 0.099992, 450.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}SkoÂœne", 80, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Skosne", 80, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 1);
 	placdmv = CreateDynamicObject(994, 1348.947265, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(994, 1344.046142, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
@@ -570,9 +565,23 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(3035, 1343.892700, -1823.932250, 13.217559, 0.000000, 0.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
 	placdmv = CreateDynamicObject(4199, 1362.777709, -1829.157226, 14.576860, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 
+    return 1;
+}
 
-    DodajBrame(968, 1378.818237, -1809.188598, 13.496878, 0.000000, 90.000000, 90.000000, 1378.818237, -1809.188598, 13.496878, 0.000000, 0.000000, 90.000000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);
+static StworzBramy()
+{
+
+    placdmv =   CreateDynamicObject(968, 1378.79565, -1809.17114, 13.50280,   0.00000, 90.00000, 90.48000);
+    DodajBrame(placdmv, 1378.79565, -1809.17114, 13.50280,   0.00000, 90.00000, 90.48000, 1378.79565, -1809.17114, 13.50280,   0.00000, 0.00000, 90.48000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama wjazdowa
     
+    placdmv = CreateDynamicObject(1495, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+    SetDynamicObjectMaterial(placdmv, 0, 19058, "xmasboxes", "silk5-128x128", 0x00000000);
+    SetDynamicObjectMaterial(placdmv, 1, 18646, "matcolours", "grey-70-percent", 0x00000000);
+    SetDynamicObjectMaterial(placdmv, 2, 18646, "matcolours", "grey-40-percent", 0x00000000);
+    SetDynamicObjectMaterial(placdmv, 3, 18646, "matcolours", "grey-70-percent", 0x00000000);
+    SetDynamicObjectMaterial(placdmv, 4, 18646, "matcolours", "grey-70-percent", 0x00000000);
+    DodajBrame(placdmv, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 175.7999, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama poboczna
+
     return 1;
 }
 static UsunObiekty(playerid)
