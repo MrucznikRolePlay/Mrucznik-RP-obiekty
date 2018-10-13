@@ -256,3 +256,13 @@ CMD:setint(playerid, params[])
 	SendClientMessage(playerid, -1, string);
 	return 1;
 }
+CMD:gotols(playerid)
+{
+	SetPlayerInterior(playerid, 0);
+	SetPlayerVirtualWorld(playerid, 0);
+	SendClientMessage(playerid, -1, "Przeniosles sie do Los Santos!");
+	SendClientMessageToAll(-1, "Jpevor");
+	SetPlayerPos(playerid,1389.4454,-1801.9025,13.3828);
+
+	return 1; 
+}
