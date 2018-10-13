@@ -36,4 +36,5 @@ Skontaktuj się z Simeone lub Mrucznik - Pomożemy Ci!
 Zachęcam do umieszczania dodatkowych plików związanych z danymi obiektami (jak na przykład opis, surowe obiekty z edytora, notatki autora) w folderze projektu obiektów. Format .txt
 
 ## Pytania, propozycje zmian (skryptu etc)
-W razie jakichkolwiek pytań, propozycji i problemów zapraszamy na naszego discorda! Zgłoś się do Mrucznik bądź Simeone. 
+W razie jakichkolwiek pytań, propozycji i problemów zapraszamy na naszego discorda! 
+Zgłoś się do Mrucznik bądź Simeone. 
