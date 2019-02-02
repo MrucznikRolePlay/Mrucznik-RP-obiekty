@@ -37,4 +37,4 @@ Zachęcam do umieszczania dodatkowych plików związanych z danymi obiektami (ja
 
 ## Pytania, propozycje zmian (skryptu etc)
 W razie jakichkolwiek pytań, propozycji i problemów zapraszamy na naszego discorda! 
-Zgłoś się do Mrucznik bądź Simeone
+Zgłoś się do Mrucznik bądź Simeone//
