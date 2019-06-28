@@ -5673,7 +5673,7 @@ static StworzBramy()
 	SetDynamicObjectMaterial(skgang, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
 	DodajBrame(skgang, 1306.993041, -1356.453247, 62.319213, 0.000000, 0.000000, 90.000000, 1306.993041, -1358.233154, 62.319213, 0.000000, 0.000000, 90.000000, 2, 2, 2, 1);
 	
-	skgang = CreateDynamicObject(19302, ,10,0,-1,350.00,350.00);// Arch.Cela2.Zamknieta
+	skgang = CreateDynamicObject(19302, 1306.993041, -1354.433105, 62.319213, 0.000000, 0.000000, 90.000000,10,0,-1,350.00,350.00);// Arch.Cela2.Zamknieta
 	SetDynamicObjectMaterial(skgang, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
 	DodajBrame(skgang, 1306.993041, -1354.433105, 62.319213, 0.000000, 0.000000, 90.000000, 1306.993041, -1352.632812, 62.319213, 0.000000, 0.000000, 90.000000, 2, 2, 2, 1);
 
