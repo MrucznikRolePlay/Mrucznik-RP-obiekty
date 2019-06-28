@@ -150,6 +150,7 @@
 //Aktualizacja 2.6.03 - By Simeone 
 //*****************************************************
 #include "nowe\SanNews/interiorSN.pwn"
+#include "nowe\Sad/interiorSCOSA.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -204,6 +205,7 @@ obiekty_OnGameModeInit()
 	hitmans_Init();
 	ChangeLSMCElevatorState();
 	intSN_Init(); 
+	interiorSCOSA_Init();
 	
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
