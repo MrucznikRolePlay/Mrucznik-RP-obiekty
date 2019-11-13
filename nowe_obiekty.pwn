@@ -171,6 +171,8 @@
 #include "nowe\PowerGym/powergym.pwn"
 #include "nowe\AmmunationWillowfield/ammunationw.pwn"
 #include "nowe\Octagon/octagon.pwn"
+#include "nowe\KorporacjaTransportowa/ktext.pwn"
+#include "nowe\KorporacjaTransportowa/ktint.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -282,6 +284,8 @@ obiekty_OnGameModeInit()
 	powergym_Init();
 	ammuwill_Init();
 	octagon_Init();
+	ktext_Init();
+	ktint_Init();
 	return 1;
 }
 
@@ -332,6 +336,8 @@ obiekty_OnPlayerConnect(playerid)
 	westeagle_Connect(playerid);
 	firmab_Connect(playerid);
 	powergym_Connect(playerid);
+	ktext_Connect(playerid);
+	ktint_Connect(playerid);
 	
 	return 1;
 }

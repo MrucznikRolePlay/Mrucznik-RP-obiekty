@@ -15,7 +15,7 @@
 #include "stare/grove.pwn"
 #include "stare/ha.pwn"
 #include "stare/icc.pwn"
-#include "stare/kt.pwn"
+//#include "stare/kt.pwn" Wy³¹czone przez skPembleton -13.11.2019r.
 #include "stare/lsfd.pwn"
 #include "stare/lspd.pwn"
 #include "stare/ng.pwn"
@@ -49,7 +49,7 @@ public obiekty_timer(wartosc)
     EXT_Yakuza();
     BazaNG();
 	LSPDintek();
-	BazaKT();
+	//BazaKT();
 	Risto();
     SN_Load();
     Int_BarBallas();
