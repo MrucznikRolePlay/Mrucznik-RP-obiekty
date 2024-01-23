@@ -668,6 +668,7 @@ obiekty_OnPlayerConnect(playerid)
 	opTreylo_Connect(playerid);
 	opJeffMatson_Connect(playerid);
 	opFuBu_Connect(playerid);
+	farmadillmore_Connect(playerid);
 
 	// OLD
     //Trucker job
