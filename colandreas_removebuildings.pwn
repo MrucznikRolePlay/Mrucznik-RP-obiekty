@@ -1163,4 +1163,8 @@ ColAndreas_UsunBudynki()
     CA_RemoveBuilding(1294, 1248.150, 257.500, 23.007, 0.250);
     CA_RemoveBuilding(1690, 1252.880, 206.539, 25.312, 0.250);
     CA_RemoveBuilding(1351, 1277.500, 248.203, 18.476, 0.250);
+
+    // gamemodes/obiekty/nowe/DziupleZlodziejAut/DziupleZlodziejAut.pwn
+    CA_RemoveBuilding(3286, -420.21875, -1765.25, 8.64063, 7.7117);
+	CA_RemoveBuilding(3253, -420.35937, -1756.2187, 5.21875, 8.0446663);
 }

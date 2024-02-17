@@ -334,6 +334,8 @@
 #include "nowe\opJeffMatson/opJeffMatson.pwn"
 #include "nowe\opFuBu/opFuBu.pwn"
 
+#include "nowe\DziupleZlodziejAut\DziupleZlodziejAut.pwn"
+
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -569,6 +571,8 @@ obiekty_OnGameModeInit()
 	opJeffMatson_Init();
 	opFuBu_Init();
 
+	DziupleZlodziejAut_Init();
+
 	//OLD
 	ZaladujBramy();
 	return 1;
@@ -668,6 +672,8 @@ obiekty_OnPlayerConnect(playerid)
 	opTreylo_Connect(playerid);
 	opJeffMatson_Connect(playerid);
 	opFuBu_Connect(playerid);
+
+	DziupleZlodziejAut_Connect(playerid);
 
 	// OLD
     //Trucker job
