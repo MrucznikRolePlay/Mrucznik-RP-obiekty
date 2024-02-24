@@ -100,4 +100,9 @@ PushActors()
 	CreateActorEx(166, "Joe_Pea", 1265.3063,-1547.7554,3.1350,269.1132, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT); 
 	//LSPD komisariat
 	CreateActorEx(281, "Josh_Camert", 1583.8292,-1677.2463,62.2463,87.8659, 1, 40.0, 25, -1, -1, AGROUP_DEFAULT, "COP_AMBIENT", "Coplook_loop");
+
+	// boty mats w gunshopach
+	CreateActorEx(121, "Andrzej_Mac", 1827.1561,-1169.4484,61.5103,271.6440, 1, 40.0, 5, -1, -1, AGROUP_DEFAULT); //gs ls
+	CreateActorEx(121, "Boguslaw_Mac", 307.5707,-131.4255,1004.0547,188.0849, 1, 40.0, 7, -1, -1, AGROUP_DEFAULT); //gs commerce
+	CreateActorEx(121, "Cezary_Mac", 2379.4192,-1989.3339,33.5663,266.8402, 1, 40.0, 31, -1, -1, AGROUP_DEFAULT); //gs willowfield
 }
