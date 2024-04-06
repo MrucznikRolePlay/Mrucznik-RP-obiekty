@@ -27,7 +27,7 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Praca Zlodzieja Aut", 0xFFA500AA, 1109.3318,-1796.3042,16.5938, 30.0); //CarJacker Registration 7
 	CreateDynamic3DTextLabel("Praca Mechanika", 0xFFA500AA, -1932.3859,276.2117,41.0391,30.0); //CarMechanic Registration
 	CreateDynamic3DTextLabel("Praca Mechanika", 0xFFA500AA, 2769.8376,-1610.7819,10.9219,30.0); //CarMechanic Registration
-	CreateDynamic3DTextLabel("Praca Ochroniarza", 0xFFA500AA, 2226.1716,-1718.1792,13.5165, 30.0); //BodyGuard Registration
+	CreateDynamic3DTextLabel("Praca Przemytnika", 0xFFA500AA, 2226.1716,-1718.1792,13.5165, 30.0); //BodyGuard Registration
 	CreateDynamic3DTextLabel("Praca Dilera Broni", 0xFFA500AA, 1366.4325,-1275.2096,13.5469, 30.0); //ArmsDealer Registration
 	//CreateDynamic3DTextLabel("Praca Dilera Aut", 0xFFA500AA, 531.7930,-1292.4044,17.2422, 30.0); //CarDealer Registration 12
 	CreateDynamic3DTextLabel("Praca Boksera", 0xFFA500AA, 766.0804,14.5133,1000.7004, 30.0); //Boxer Registration
