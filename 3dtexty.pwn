@@ -49,7 +49,6 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("Przebieralnia", COLOR_NEWS, 988.94909667969,-3676.5551757813,1.2307510375977, 10.0);
     CreateDynamic3DTextLabel("Przebieralnia", COLOR_NEWS, 994.54052734375,-3676.474609375,1.2307510375977, 10.0);
     CreateDynamic3DTextLabel("Sala przes³uchañ", COLOR_NEWS, 276.32934570313,122.20029449463,1004.1166992188, 10.0);
-    CreateDynamic3DTextLabel("SAN - g³ówne wejœcie", COLOR_NEWS, 646.9418,-1355.8645,13.5625, 30.0);
     CreateDynamic3DTextLabel("Dyrekcja", COLOR_BLUE, 1523.0439,-1466.9510,64.7786, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 32);
     CreateDynamic3DTextLabel("Sala posiedzeñ", COLOR_BLUE, -778.3271484375,496.4326171875,1368.5303955078, 5.0);
     CreateDynamic3DTextLabel("Gabinet Oyabuna", COLOR_BLUE, 368.3667,193.8689,1008.3828, 5.0);
