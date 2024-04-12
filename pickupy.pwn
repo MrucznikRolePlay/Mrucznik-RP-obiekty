@@ -4,7 +4,6 @@ ZaladujPickupy()
 {
 	//Pickupy
 	CreateDynamicPickup(1239, 1, 1173.2563,-1323.3102,15.3943, -1); //Hospital 1 near Ammu
-	CreateDynamicPickup(1239, 0, 2029.5945,-1404.6426,17.2512, -1); //Hospital 2 near speedway
 	
 	CreateDynamicPickup(371, 2, 1544.2,-1353.4,329.4, -1); //LS towertop
 	CreateDynamicPickup(371, 2, 1536.0, -1360.0, 1150.0, -1); //LS towertop
