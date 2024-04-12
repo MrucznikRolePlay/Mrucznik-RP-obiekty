@@ -19,30 +19,13 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("/kuppozwolenie", 0x42F5C5AA, 1582.4530,-1678.2080,63.5498, 8.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 25);
 	CreateDynamic3DTextLabel("/kupbilet", 0x42F5C5AA, 401.07, -1809.11, 9.41, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 21);
 	CreateDynamic3DTextLabel("Urz¹d Miasta", 0x9ACD32AA, 1481.1531,-1770.0277,18.7958, 50.0); //City Hall
-	CreateDynamic3DTextLabel("Urz¹d Miasta - zaplecze", 0x9ACD32AA, 1412.3348388672, -1790.5777587891, 15.370599746704, 10.0); //City Hall
-	CreateDynamic3DTextLabel("Praca £owcy Nagród", 0xFFA500AA, 322.3034,317.0233,999.1484, 30.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 0, 5); //Detective Registration
-	CreateDynamic3DTextLabel("Praca Prawnika", 0xFFA500AA, 310.3626,-1503.3282,13.8096, 10.0); //Lawyer Registration
-	CreateDynamic3DTextLabel("Praca Dziwki", 0xFFA500AA, 1215.1304,-11.8431,1000.9219, 15.0); //Whore Registration
-	CreateDynamic3DTextLabel("Praca Dilera Dragow", 0xFFA500AA, 2166.3772,-1675.3829,15.0859, 30.0); //DrugDealer Registration
-	CreateDynamic3DTextLabel("Praca Zlodzieja Aut", 0xFFA500AA, 1109.3318,-1796.3042,16.5938, 30.0); //CarJacker Registration 7
-	CreateDynamic3DTextLabel("Praca Mechanika", 0xFFA500AA, -1932.3859,276.2117,41.0391,30.0); //CarMechanic Registration
-	CreateDynamic3DTextLabel("Praca Mechanika", 0xFFA500AA, 2769.8376,-1610.7819,10.9219,30.0); //CarMechanic Registration
-	CreateDynamic3DTextLabel("Praca lekarza", 0xFFA500AA, 2029.4490,-1404.7776,17.2507, 30.0);
-	CreateDynamic3DTextLabel("Praca Przemytnika", 0xFFA500AA, 2226.1716,-1718.1792,13.5165, 30.0); //BodyGuard Registration
-	CreateDynamic3DTextLabel("Praca Dilera Broni", 0xFFA500AA, 1366.4325,-1275.2096,13.5469, 30.0); //ArmsDealer Registration
-	//CreateDynamic3DTextLabel("Praca Dilera Aut", 0xFFA500AA, 531.7930,-1292.4044,17.2422, 30.0); //CarDealer Registration 12
-	CreateDynamic3DTextLabel("Praca Boksera", 0xFFA500AA, 766.0804,14.5133,1000.7004, 30.0); //Boxer Registration
-	CreateDynamic3DTextLabel("Praca Kierowcy Autobusu", 0xFFA500AA, 1154.2208,-1770.8203,16.5992, 10.0); //BusDriver Registration
-	//CreateDynamic3DTextLabel("Praca Taksówkarza\nMo¿liwoœc podjêcia tej\npracy zosta³a wy³¹czona\nna czas nieokreœlony.", 0xFFA500AA, 1750.7670,-1944.7601,13.5655, 20.0); //BusDriver Registration
-	//CreateDynamic3DTextLabel("Praca Truckera", 0xFFA500AA, -77.7288,-1136.3896,1.0781, 30.0); //Trucker Registration
-	CreateDynamic3DTextLabel("Melina Dragowa", 0xFFA500AA, 323.0342,1118.5804,1083.8828, 30.0); //Getting Drugs for DrugDealers 17
+	CreateDynamic3DTextLabel("Urz¹d Miasta - zaplecze", 0x9ACD32AA, 1412.3348388672, -1790.5777587891, 15.370599746704, 10.0); //City Hall	CreateDynamic3DTextLabel("Melina Dragowa", 0xFFA500AA, 323.0342,1118.5804,1083.8828, 30.0); //Getting Drugs for DrugDealers 17
     CreateDynamic3DTextLabel("Paczka z zio³em\n/get drugs", 0xFFA500AA, -1022.34930420,-2158.46484375,33.91813278, 30.0);
 	CreateDynamic3DTextLabel("Helvetica Cargo Ltd.", 0xAA3333AA, 597.1277,-1248.6479,18.2734, 50.0);
 	CreateDynamic3DTextLabel("Fabryka Broni", 0xAA3333AA, -2119.5469,-178.5679,35.3203, 50.0); //Factory SF
 	CreateDynamic3DTextLabel("Koœció³", COLOR_NEWS, 2254.8652,-1334.2078,23.9922, 30.0); //Koœció³
 	//CreateDynamic3DTextLabel("O³tarz", COLOR_NEWS, 1964.2332,-369.1353,1093.7289, 10.0); //Koœció³
 	CreateDynamic3DTextLabel("Kosció³ w Palomino Creek [/slub]", COLOR_NEWS, 2256.8000488281,-43.900001525879,26.5, 10.0); //Koœció³
-	//CreateDynamic3DTextLabel("Baza Puro Cubano", COLOR_NEWS, -382.5024, -1426.3225, 26.1998, 20.0); //Baza Puro Cubano
 	CreateDynamic3DTextLabel("Witamy na torze ¿u¿lowym\nWpisz /zuzel aby zobaczyc komendy", 0x0080FFFF, -1150.0270,-990.5195,130.8855, 10.0); //Tor ¿u¿lowy
 	CreateDynamic3DTextLabel("Publiczne\nTory szkoleniowe FBI", COLOR_NEWS, 1271.0920,-1667.8794,19.7344, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 60);
     CreateDynamic3DTextLabel("Wyjœcie z toru", COLOR_NEWS, 1630.513671875,5232.2626953125,2.6707870960236, 10.0);
@@ -326,7 +309,6 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("Wejœcie ewakuacyjne", COLOR_LIGHTBLUE, 1286.0413,-1329.2007,13.5515, 9.0);
     CreateDynamic3DTextLabel("Wyjœcie ewakuacyjne", COLOR_LIGHTBLUE, 1305.0424,-1291.6113,35.6751, 9.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 501);
     CreateDynamic3DTextLabel("Sala rozpraw", COLOR_LIGHTBLUE, 1297.2946,-1300.0739,37.9, 7.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 501);
-    CreateDynamic3DTextLabel("Firma kurierska\n{FFFFFF}Praca dorywcza (/{929292}dolacz{FFFFFF})", 0x99311EFF, 1751.4445, -2054.9761, 14.5, 25.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 
     //FD
     CreateDynamic3DTextLabel("Lista zas³u¿onych:\n+ Shoji Ertubo +\n+ Brayan Johnson +\n+ Jack Stanley +\n+ Raul Alvarez +\n+ Patrick Robinson +", COLOR_YELLOW, 1742.34100, -1126.92000, 229.35000, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 22, -1, -1, 10.0);
