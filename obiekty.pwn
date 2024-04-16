@@ -336,6 +336,14 @@
 
 #include "nowe\DziupleZlodziejAut\DziupleZlodziejAut.pwn"
 
+//*****************************************************
+//Aktualizacja 2.8.0
+//*****************************************************
+#include "nowe\szpital_z_neta/interior.pwn"
+#include "nowe\szpital_z_neta_2/interior.pwn"
+#include "nowe\lotnisko_z_neta/interior.pwn"
+#include "nowe\samolot_z_neta/interior.pwn"
+
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -572,6 +580,12 @@ obiekty_OnGameModeInit()
 	opFuBu_Init();
 
 	DziupleZlodziejAut_Init();
+
+	// nowe szpitale
+	szpital_z_neta_Init();
+	szpital_z_neta_2_Init();
+	samolot_z_neta_Init();
+	lotnisko_z_neta_Init();
 
 	//OLD
 	ZaladujBramy();
