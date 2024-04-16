@@ -343,6 +343,7 @@
 #include "nowe\szpital_z_neta_2/interior.pwn"
 #include "nowe\lotnisko_z_neta/interior.pwn"
 #include "nowe\samolot_z_neta/interior.pwn"
+#include "nowe\bank_z_neta/interior.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -584,8 +585,10 @@ obiekty_OnGameModeInit()
 	// nowe szpitale
 	szpital_z_neta_Init();
 	szpital_z_neta_2_Init();
+
 	samolot_z_neta_Init();
 	lotnisko_z_neta_Init();
+	bank_z_neta_Init();
 
 	//OLD
 	ZaladujBramy();
