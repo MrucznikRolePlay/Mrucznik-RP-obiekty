@@ -256,6 +256,8 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Stocznia Vice City\n/kuplodz", COLOR_BLUE, 4358.7139,-2435.2607,13.2627, 15.0);
     CreateDynamic3DTextLabel("Fabryka pojazdów lataj¹cych\n/kupsamolot\n/kuphelikopter", COLOR_BLUE, 3314.7239,-1883.0383,14.3252, 15.0);
 
+    CreateDynamic3DTextLabel("Wodoloty\n/kupwodolot", COLOR_BLUE, 4703.3, -2687.7, 5.32, 15.0);
+
 	CreateDynamic3DTextLabel("Naprawa ³odzi", COLOR_BLUE, 698.51708984375 , -2050.6135253906 , 1.4432492256165, 15.0);//129
 	CreateDynamic3DTextLabel("Wejœcie na dach", COLOR_BLUE, 2289.8876953125,-1206.8327636719,-18.008888244629, 15.0);//130
 //3d texty wejscia

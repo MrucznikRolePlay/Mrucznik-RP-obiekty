@@ -8,6 +8,7 @@ ZaladujIkony()
 
 	CreateDynamicMapIcon(4769.6387,-2250.5742,8.5730, 9, 1, -1, -1, -1, 10000.0);//³odzie Vice City Ocean Beach
 	CreateDynamicMapIcon(4358.7139,-2435.2607,13.2627, 9, 1, -1, -1, -1, 10000.0);//³odzie Vice City Doki
+	CreateDynamicMapIcon(4703.3, -2687.7, 5.32, 9, 1, -1, -1, -1, 10000.0);//wodolot Vice City dom na wodzie
 	CreateDynamicMapIcon(3314.7239,-1883.0383,14.3252, 5, 1, -1, -1, -1, 10000.0);//samoloty Vice City
 	CreateDynamicMapIcon(3965.4802,-1796.3794,12.5452, 55, 1, -1, -1, -1, 10000.0);//pojazdy Vice City
 	CreateDynamicMapIcon(4397.9204,-278.1076,10.5407, 55, 1, -1, -1, -1, 10000.0);//motory Vice City
