@@ -2,9 +2,15 @@
 
 ZaladujIkony()
 {
-	CreateDynamicMapIcon(857.3464,-2100.0881,9.8666, 9, 1, -1, -1, -1, 150.0);//這dzie
-	CreateDynamicMapIcon(-1262.5095, 40.3263, 14.1392, 5, 1, -1, -1, -1, 250.0);//samoloty
-	CreateDynamicMapIcon(2132.0371, -1149.7332, 24.2372, 55, 1, -1, -1, -1, 150.0);//pojazdy
+	CreateDynamicMapIcon(857.3464,-2100.0881,9.8666, 9, 1, -1, -1, -1, 150.0);//這dzie Los Santos
+	CreateDynamicMapIcon(-1262.5095, 40.3263, 14.1392, 5, 1, -1, -1, -1, 250.0);//samoloty Los Santos
+	CreateDynamicMapIcon(2132.0371, -1149.7332, 24.2372, 55, 1, -1, -1, -1, 150.0);//pojazdy Los Santos
+
+	CreateDynamicMapIcon(4769.6387,-2250.5742,8.5730, 9, 1, -1, -1, -1, 150.0);//這dzie Vice City Ocean Beach
+	CreateDynamicMapIcon(4358.7139,-2435.2607,13.2627, 9, 1, -1, -1, -1, 150.0);//這dzie Vice City Doki
+	CreateDynamicMapIcon(3314.7239,-1883.0383,14.3252, 5, 1, -1, -1, -1, 250.0);//samoloty Vice City
+	CreateDynamicMapIcon(3965.4802,-1796.3794,12.5452, 55, 1, -1, -1, -1, 150.0);//pojazdy Vice City
+	CreateDynamicMapIcon(4397.9204,-278.1076,10.5407, 55, 1, -1, -1, -1, 150.0);//motory Vice City
 
     //Ikony
     CreateDynamicMapIcon(1172.0771, -1323.3496, 15.4030, 22, -1, -1, -1, -1, 1000.0); //Szpital

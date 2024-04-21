@@ -244,9 +244,18 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("{FF00FF}E{FFFFFF}xclusive {FF00FF}C{FFFFFF}lub", COLOR_BLUE, 931.09,919.29,42.59, 15.0);
 	CreateDynamic3DTextLabel("Muzeum sztuki wspó³czesnej", COLOR_BLUE, 1698.8944091797,-1667.6840820313,20.194225311279, 15.0);
 	CreateDynamic3DTextLabel("Muzeum sztuki wspó³czesnej", COLOR_BLUE, 1727.1125488281,-1635.5847167969,20.216684341431, 15.0);
-	CreateDynamic3DTextLabel("Salon Aut", COLOR_BLUE, 2132.0371,-1149.7332,24.2372, 15.0);//128
-	CreateDynamic3DTextLabel("Stocznia", COLOR_BLUE, 857.3464,-2100.0881,9.8666, 15.0);//UHA
-    CreateDynamic3DTextLabel("Fabryka pojazdów lataj¹cych", COLOR_BLUE, -1262.5095,40.3263,14.1392, 15.0);//UHA
+
+	CreateDynamic3DTextLabel("Salon Aut\n/kupauto", COLOR_BLUE, 2132.0371,-1149.7332,24.2372, 15.0);
+	CreateDynamic3DTextLabel("Stocznia\n/kuplodz", COLOR_BLUE, 857.3464,-2100.0881,9.8666, 15.0);
+    CreateDynamic3DTextLabel("Fabryka pojazdów lataj¹cych\n/kupsamolot\n/kuphelikopter", COLOR_BLUE, -1262.5095,40.3263,14.1392, 15.0);
+
+
+	CreateDynamic3DTextLabel("Salon Aut\n/kupauto", COLOR_BLUE, 3965.4802,-1796.3794,12.5452, 15.0);
+	CreateDynamic3DTextLabel("Sklep Motocyklowy\n/kupmotor", COLOR_BLUE, 4397.9204,-278.1076,10.5407, 15.0);
+	CreateDynamic3DTextLabel("Stocznia Ocean Beach\n/kuplodz", COLOR_BLUE, 4769.6387,-2250.5742,8.5730, 15.0);
+	CreateDynamic3DTextLabel("Stocznia Vice City\n/kuplodz", COLOR_BLUE, 4358.7139,-2435.2607,13.2627, 15.0);
+    CreateDynamic3DTextLabel("Fabryka pojazdów lataj¹cych\n/kupsamolot\n/kuphelikopter", COLOR_BLUE, 3314.7239,-1883.0383,14.3252, 15.0);
+
 	CreateDynamic3DTextLabel("Naprawa ³odzi", COLOR_BLUE, 698.51708984375 , -2050.6135253906 , 1.4432492256165, 15.0);//129
 	CreateDynamic3DTextLabel("Wejœcie na dach", COLOR_BLUE, 2289.8876953125,-1206.8327636719,-18.008888244629, 15.0);//130
 //3d texty wejscia
