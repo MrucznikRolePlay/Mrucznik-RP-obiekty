@@ -83,6 +83,7 @@ ZaladujIkony()
     CreateDynamicMapIcon(2582.2329, 61.6251, 26.2817, 42, -1, -1, -1, -1, 10000.0); //Stacja benzynowa w PC
     CreateDynamicMapIcon(1383.4578, 461.5694, 19.8450, 42, -1, -1, -1, -1, 10000.0); //Stacja benzynowa w Montgomery
     CreateDynamicMapIcon(2202.3503, 2474.2419, 10.5474, 42, -1, -1, -1, -1, 10000.0); //Stacja w LV V2
+    CreateDynamicMapIcon(5038.2017,-2007.2606,10.0713, 42, -1, -1, -1, -1, 10000.0); //Stacja benzynowa w vice city
 
 	InitializeJobIcons();
 	return 1;
