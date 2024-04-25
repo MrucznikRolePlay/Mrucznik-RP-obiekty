@@ -116,7 +116,7 @@ PushActors()
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
 	malibu = CreateActorEx(287, "Edzio_Karabin", 5470.7842,-1020.0761,1002.5313,317.8130, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // wojskowy
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
-	malibu = CreateActorEx(282, "Franek_Poscigowy", 5469.8818,-1018.9669,1002.5313,313.7396, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // policjant
+	malibu = CreateActorEx(288, "Franek_Poscigowy", 5469.8818,-1018.9669,1002.5313,313.7396, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // policjant
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
 
 }
