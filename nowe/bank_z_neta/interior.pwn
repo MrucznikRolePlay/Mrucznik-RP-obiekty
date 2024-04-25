@@ -425,8 +425,6 @@ static StworzObiekty()
     SetDynamicObjectMaterial(tmpobjid, 0, 14674, "civic02cj", "ab_hosWallUpr", 0x00000000);
     tmpobjid = CreateDynamicObject(19377, 1356.890869, -8.667419, 999.962524, 0.000000, 90.000000, 0.000000, 7110, 1, -1, 200.00, 200.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 14674, "civic02cj", "ab_hosWallUpr", 0x00000000);
-    tmpobjid = CreateDynamicObject(19353, 1371.891967, -24.343269, 1001.653381, 0.000000, 0.000000, 0.000000, 7110, 1, -1, 200.00, 200.00); 
-    SetDynamicObjectMaterial(tmpobjid, 0, 8409, "gnhotel1", "gnhoteldoor05_128", 0xFFFFFFFF);
     tmpobjid = CreateDynamicObject(19843, 1365.669799, -24.384485, 1004.323059, 0.000000, 0.000000, 0.000000, 7110, 1, -1, 200.00, 200.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ventb64", 0x00000000);
     tmpobjid = CreateDynamicObject(2610, 1352.024169, -17.797256, 1002.333007, 0.000000, 0.000000, 450.000000, 7110, 1, -1, 200.00, 200.00); 
