@@ -476,7 +476,7 @@ static StworzObiekty()
     SetDynamicObjectMaterial(tmpobjid, 0, 19962, "samproadsigns", "streetsign", 0x00000000);
     SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "white", 0x00000000);
     tmpobjid = CreateDynamicObject(19329, 1402.715820, -42.495586, 1003.164428, 0.000000, 0.000000, 0.000000, 7111, -1, -1, 200.00, 200.00); 
-    SetDynamicObjectMaterialText(tmpobjid, 0, "{ffffff} LOS SANTOS", 80, "Ariel", 45, 1, 0x00000000, 0x00000000, 1);
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{ffffff} VICE CITY", 80, "Ariel", 45, 1, 0x00000000, 0x00000000, 1);
     tmpobjid = CreateDynamicObject(19329, 1402.715820, -42.495586, 1002.633911, 0.000000, 0.000000, 0.000000, 7111, -1, -1, 200.00, 200.00); 
     SetDynamicObjectMaterialText(tmpobjid, 0, "{ffffff} Central Hospital", 80, "Ariel", 39, 1, 0x00000000, 0x00000000, 1);
     tmpobjid = CreateDynamicObject(19325, 1424.206787, -33.043136, 1002.011718, 0.000000, 0.000000, 90.000000, 7111, -1, -1, 200.00, 200.00); 
