@@ -274,10 +274,12 @@ Zaladuj3DTexty()
 	NapislotLV1 = CreateDynamic3DTextLabel("Kasa 1\nCena biletu:\nBrak", COLOR_BLUE, 1674.8, 1442.3, 14.8, 25.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
 	NapislotSF1 = CreateDynamic3DTextLabel("Kasa 1\nCena biletu:\nBrak", COLOR_BLUE, -1391.9,-299.8,-74.7, 25.0);
 	CreateDynamic3DTextLabel("Lotnisko w Los Santos", COLOR_BLUE, 1585.2,-2286.6,13.7, 25.0);
-	CreateDynamic3DTextLabel("Lotnisko w Los Santos", COLOR_BLUE, 1585.2,-2286.6,13.7, 25.0);
 	CreateDynamic3DTextLabel("Lotnisko w Los Santos", COLOR_BLUE, 1886.1,-2286.4,14, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy w Los Santos", COLOR_BLUE, 1605,-2282.9,-74.90, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy", COLOR_BLUE, 1675.8, 1455.4, 14.9, 25.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
+
+	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, 3609.7063,-1817.9374,14.3325, 25.0);
+	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, 3351.1587,-1480.8884,14.3242, 25.0);
 	
 	//pc by abram01
 	CreateDynamic3DTextLabel("{FFFFFF}Biuro burmistrza\n {FF0000}P{FFFFFF}alomino {FF0000}C{FFFFFF}reek", 0x008080FF, 2312.9653, -72.1337, 40.8925, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
