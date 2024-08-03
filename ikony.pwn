@@ -93,8 +93,8 @@ MruCreateDynamicMapIcon(Float:x, Float:y, Float:z, type, color, worldid = -1, in
 {
     if(x == 0.0 && y == 0.0 && z == 0.0)
     {
-        printf("error icon: %f %f %f", x, y, z);
-        return 0;
+        printf("error icon: %d %d %d %d", type, color, worldid, interiorid);
+        return -1;
     }
 
     if(IsPointInViceCity(x, y, z))
