@@ -91,6 +91,12 @@ ZaladujIkony()
 
 MruCreateDynamicMapIcon(Float:x, Float:y, Float:z, type, color, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_MAP_ICON_SD, style = MAPICON_LOCAL, STREAMER_TAG_AREA:areaid = -1, priority = 0)
 {
+    if(x == 0.0 && y == 0.0 && z == 0.0)
+    {
+        printf("error icon: %f %f %f", x, y, z);
+        return 0;
+    }
+
     if(IsPointInViceCity(x, y, z))
     {
         return CreateDynamicMapIcon(x, y, z, type, color, worldid, interiorid, playerid, streamdistance, style, areaViceCity, priority);
