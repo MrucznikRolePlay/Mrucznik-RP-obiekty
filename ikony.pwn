@@ -6,12 +6,12 @@ ZaladujIkony()
 	MruCreateDynamicMapIcon(-1262.5095, 40.3263, 14.1392, 5, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//samoloty Los Santos
 	MruCreateDynamicMapIcon(2132.0371, -1149.7332, 24.2372, 55, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//pojazdy Los Santos
 
-	MruCreateDynamicMapIcon(4769.6387,-2250.5742,8.5730, 9, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//這dzie Vice City Ocean Beach
-	MruCreateDynamicMapIcon(4358.7139,-2435.2607,13.2627, 9, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//這dzie Vice City Doki
+	MruCreateDynamicMapIcon(4769.6387,-2250.5742,3.5730, 9, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//這dzie Vice City Ocean Beach
+	MruCreateDynamicMapIcon(4358.7139,-2435.2607,8.2627, 9, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//這dzie Vice City Doki
 	MruCreateDynamicMapIcon(4703.3, -2687.7, 5.32, 9, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//wodolot Vice City dom na wodzie
-	MruCreateDynamicMapIcon(3314.7239,-1883.0383,14.3252, 5, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//samoloty Vice City
-	MruCreateDynamicMapIcon(3965.4802,-1796.3794,12.5452, 55, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//pojazdy Vice City
-	MruCreateDynamicMapIcon(4397.9204,-278.1076,10.5407, 55, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//motory Vice City
+	MruCreateDynamicMapIcon(3314.7239,-1883.0383,9.3252, 5, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//samoloty Vice City
+	MruCreateDynamicMapIcon(3965.4802,-1796.3794,7.5452, 55, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//pojazdy Vice City
+	MruCreateDynamicMapIcon(4397.9204,-278.1076,5.5407, 55, 1, -1, -1, -1, -1, MAPICON_GLOBAL);//motory Vice City
 
     //Ikony
     MruCreateDynamicMapIcon(1172.0771, -1323.3496, 15.4030, 22, -1, -1, -1, -1, -1, MAPICON_GLOBAL); //Szpital
@@ -83,7 +83,7 @@ ZaladujIkony()
     MruCreateDynamicMapIcon(2582.2329, 61.6251, 26.2817, 42, -1, -1, -1, -1, -1, MAPICON_GLOBAL); //Stacja benzynowa w PC
     MruCreateDynamicMapIcon(1383.4578, 461.5694, 19.8450, 42, -1, -1, -1, -1, -1, MAPICON_GLOBAL); //Stacja benzynowa w Montgomery
     MruCreateDynamicMapIcon(2202.3503, 2474.2419, 10.5474, 42, -1, -1, -1, -1, -1, MAPICON_GLOBAL); //Stacja w LV V2
-    MruCreateDynamicMapIcon(5038.2017,-2007.2606,10.0713, 42, -1, -1, -1, -1, -1, MAPICON_GLOBAL); //Stacja benzynowa w vice city
+    MruCreateDynamicMapIcon(5038.2017,-2007.2606,5.0713, 42, -1, -1, -1, -1, -1, MAPICON_GLOBAL); //Stacja benzynowa w vice city
 
 	InitializeJobIcons();
 	return 1;

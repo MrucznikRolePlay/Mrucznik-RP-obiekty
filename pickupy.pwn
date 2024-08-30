@@ -33,10 +33,10 @@ ZaladujPickupy()
 	CreateDynamicPickup(1274, 2, 5357.7056, 178.2677, 1224.8038, -1);//bankomat vice city north point mall
 	CreateDynamicPickup(1274, 2, 5357.5029, 180.7435, 1224.7744, -1);//bankomat vice city north point mall
 	CreateDynamicPickup(1274, 2, 5357.7056, 178.2677, 1224.8038, -1);//bankomat vice city north point mall
-	CreateDynamicPickup(1274, 2, 5003.0098, -1878.6378, 15.5760, -1); // bankomat vice city, centrum handlowe
-	CreateDynamicPickup(1274, 2, 5004.9746, -1878.7086, 15.5760, -1); // bankomat vice city, centrum handlowe
-	CreateDynamicPickup(1274, 2, 5002.9194, -1899.4532, 15.5760, -1); // bankomat vice city, centrum handlowe
-	CreateDynamicPickup(1274, 2, 5004.9019, -1899.6617, 15.5760, -1); // bankomat vice city, centrum handlowe
+	CreateDynamicPickup(1274, 2, 5003.0098, -1878.6378, 10.5760, -1); // bankomat vice city, centrum handlowe
+	CreateDynamicPickup(1274, 2, 5004.9746, -1878.7086, 10.5760, -1); // bankomat vice city, centrum handlowe
+	CreateDynamicPickup(1274, 2, 5002.9194, -1899.4532, 10.5760, -1); // bankomat vice city, centrum handlowe
+	CreateDynamicPickup(1274, 2, 5004.9019, -1899.6617, 10.5760, -1); // bankomat vice city, centrum handlowe
 
 	CreateDynamicPickup(1239, 2, 2325.2957,-1264.2312,22.5070 , -1);//NoA	
 	CreateDynamicPickup(1239, 2, 2137.3999023438,-2290.6000976563,20.700000762939 , -1);//maszyna do robienia materia³ów	
