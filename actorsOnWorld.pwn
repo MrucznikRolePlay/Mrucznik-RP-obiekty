@@ -108,15 +108,15 @@ PushActors()
 
 	// Malibu Club
 	new malibu;
-	malibu = CreateActorEx(277, "Johny_Gaszony", 5473.1782,-1022.6575,992.5313,313.4263, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // stra¿ak
+	malibu = CreateActorEx(277, "Johny_Gaszony", 5473.1782,-1022.6575,997.5313,313.4263, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // stra¿ak
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
-	malibu = CreateActorEx(27, "Bob_Budowniczy", 5472.4238,-1021.8130,992.5313,313.4263, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // budowlaniec
+	malibu = CreateActorEx(27, "Bob_Budowniczy", 5472.4238,-1021.8130,997.5313,313.4263, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // budowlaniec
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
-	malibu = CreateActorEx(247, "Barry_Biker", 5471.7334,-1021.0360,992.5313,316.5596, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // biker
+	malibu = CreateActorEx(247, "Barry_Biker", 5471.7334,-1021.0360,997.5313,316.5596, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // biker
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
-	malibu = CreateActorEx(287, "Edzio_Karabin", 5470.7842,-1020.0761,992.5313,317.8130, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // wojskowy
+	malibu = CreateActorEx(287, "Edzio_Karabin", 5470.7842,-1020.0761,997.5313,317.8130, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // wojskowy
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
-	malibu = CreateActorEx(288, "Franek_Poscigowy", 5469.8818,-1018.9669,992.5313,313.7396, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // policjant
+	malibu = CreateActorEx(288, "Franek_Poscigowy", 5469.8818,-1018.9669,997.5313,313.7396, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // policjant
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
 
 }
