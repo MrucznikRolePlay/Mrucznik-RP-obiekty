@@ -3349,7 +3349,7 @@ static StworzBramy()
 			//1 - FRAKCJA
 			//2 - RODZINA
 			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
+		// fuprval - numer frakcji/organizacji
 	
 		//DualGateAdd(...rozpisane w g³ównym README) 
 	return 1;

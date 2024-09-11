@@ -45,7 +45,7 @@ to: nowe/<%= project %>/<%= project %>.pwn
 			//1 - FRAKCJA
 			//2 - RODZINA
 			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
+		// fuprval - numer frakcji/organizacji
 	
 		//DualGateAdd(...rozpisane w glownym README) 
 

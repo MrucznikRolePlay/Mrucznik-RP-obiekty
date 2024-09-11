@@ -5680,7 +5680,7 @@ static StworzBramy()
 			//0 - BRAK
 			//1 - FRAKCJA
 			//2 - RODZINA
-		// fuprval - numer frakcji/rodziny
+		// fuprval - numer frakcji/organizacji
 	
 //ARCHIWUM
 	skgang = CreateDynamicObject(19302, 1306.993041, -1356.453247, 62.319213, 0.000000, 0.000000, 90.000000,10,0,-1,350.00,350.00);// Arch.Cela1.Zamknieta

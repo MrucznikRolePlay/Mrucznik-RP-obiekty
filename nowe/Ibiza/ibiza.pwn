@@ -4016,7 +4016,7 @@ static StworzBramy()
 			//1 - FRAKCJA
 			//2 - RODZINA
 			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
+		// fuprval - numer frakcji/organizacji
     // ======= BIURA
 	mrn = CreateDynamicObject(1495, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 180.000000, 27, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 7650, "vgnusedcar", "lightblue2_32", 0x00000000);
