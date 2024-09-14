@@ -86,6 +86,7 @@ ZaladujIkony()
     MruCreateDynamicMapIcon(1383.4578, 461.5694, 19.8450, 42, -1, -1, -1, -1, streamDist, iconType); //Stacja benzynowa w Montgomery
     MruCreateDynamicMapIcon(2202.3503, 2474.2419, 10.5474, 42, -1, -1, -1, -1, streamDist, iconType); //Stacja w LV V2
     MruCreateDynamicMapIcon(5038.2017,-2007.2606,5.0713, 42, -1, -1, -1, -1, streamDist, iconType); //Stacja benzynowa w vice city
+    MruCreateDynamicMapIcon(4104.6421, -1291.2079, 7.8773, 52, -1, -1, -1, -1, streamDist, iconType); // Bank Vice City
 
 	InitializeJobIcons();
 	return 1;
