@@ -30,14 +30,14 @@ ZaladujPickupy()
 	CreateDynamicPickup(1274, 2, 1000.25879, -923.74335, 42.08330, -1);//bankomat
 	
 	// Vice City
-	CreateDynamicPickup(1274, 2, 5357.5029 + VICECITY_MOVE_X, 180.7435 + VICECITY_MOVE_Y, 1224.7744, -1);//bankomat vice city north point mall
-	CreateDynamicPickup(1274, 2, 5357.7056 + VICECITY_MOVE_X, 178.2677 + VICECITY_MOVE_Y, 1224.8038, -1);//bankomat vice city north point mall
-	CreateDynamicPickup(1274, 2, 5357.5029 + VICECITY_MOVE_X, 180.7435 + VICECITY_MOVE_Y, 1224.7744, -1);//bankomat vice city north point mall
-	CreateDynamicPickup(1274, 2, 5357.7056 + VICECITY_MOVE_X, 178.2677 + VICECITY_MOVE_Y, 1224.8038, -1);//bankomat vice city north point mall
-	CreateDynamicPickup(1274, 2, 5003.0098 + VICECITY_MOVE_X, -1878.6378 + VICECITY_MOVE_Y, 10.5760, -1); // bankomat vice city, centrum handlowe
-	CreateDynamicPickup(1274, 2, 5004.9746 + VICECITY_MOVE_X, -1878.7086 + VICECITY_MOVE_Y, 10.5760, -1); // bankomat vice city, centrum handlowe
-	CreateDynamicPickup(1274, 2, 5002.9194 + VICECITY_MOVE_X, -1899.4532 + VICECITY_MOVE_Y, 10.5760, -1); // bankomat vice city, centrum handlowe
-	CreateDynamicPickup(1274, 2, 5004.9019 + VICECITY_MOVE_X, -1899.6617 + VICECITY_MOVE_Y, 10.5760, -1); // bankomat vice city, centrum handlowe
+	CreateDynamicPickup(1274, 2, -3842.4971, 3380.7435, 1224.7744, -1);//bankomat vice city north point mall
+	CreateDynamicPickup(1274, 2, -3842.2944, 3378.2677, 1224.8038, -1);//bankomat vice city north point mall
+	CreateDynamicPickup(1274, 2, -3842.4971, 3380.7435, 1224.7744, -1);//bankomat vice city north point mall
+	CreateDynamicPickup(1274, 2, -3842.2944, 3378.2677, 1224.8038, -1);//bankomat vice city north point mall
+	CreateDynamicPickup(1274, 2, -4196.9902, 1321.3622, 10.5760, -1); // bankomat vice city, centrum handlowe
+	CreateDynamicPickup(1274, 2, -4195.0254, 1321.2914, 10.5760, -1); // bankomat vice city, centrum handlowe
+	CreateDynamicPickup(1274, 2, -4197.0806, 1300.5468, 10.5760, -1); // bankomat vice city, centrum handlowe
+	CreateDynamicPickup(1274, 2, -4195.0981, 1300.3383, 10.5760, -1); // bankomat vice city, centrum handlowe
 
 
 

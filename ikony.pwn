@@ -9,14 +9,14 @@ ZaladujIkony()
 	MruCreateDynamicMapIcon(2132.0371, -1149.7332, 24.2372, 55, 1, -1, -1, -1, streamDist, iconType);//pojazdy Los Santos
 
     // Vice City
-    MruCreateDynamicMapIcon(4769.6387 + VICECITY_MOVE_X, -2250.5742 + VICECITY_MOVE_Y, 3.5730, 9, 1, -1, -1, -1, streamDist, iconType);//<B3>odzie Vice City Ocean Beach
-    MruCreateDynamicMapIcon(4358.7139 + VICECITY_MOVE_X, -2435.2607 + VICECITY_MOVE_Y, 8.2627, 9, 1, -1, -1, -1, streamDist, iconType);//<B3>odzie Vice City Doki
-    MruCreateDynamicMapIcon(4703.3 + VICECITY_MOVE_X, -2687.7 + VICECITY_MOVE_Y, 5.32, 9, 1, -1, -1, -1, streamDist, iconType);//wodolot Vice City dom na wodzie
-    MruCreateDynamicMapIcon(3314.7239 + VICECITY_MOVE_X, -1883.0383 + VICECITY_MOVE_Y, 9.3252, 5, 1, -1, -1, -1, streamDist, iconType);//samoloty Vice City
-    MruCreateDynamicMapIcon(3965.4802 + VICECITY_MOVE_X, -1796.3794 + VICECITY_MOVE_Y, 7.5452, 55, 1, -1, -1, -1, streamDist, iconType);//pojazdy Vice City
-    MruCreateDynamicMapIcon(4397.9204 + VICECITY_MOVE_X, -278.1076 + VICECITY_MOVE_Y, 5.5407, 55, 1, -1, -1, -1, streamDist, iconType);//motory Vice City
-    MruCreateDynamicMapIcon(5038.2017 + VICECITY_MOVE_X, -2007.2606 + VICECITY_MOVE_Y, 5.0713, 42, -1, -1, -1, -1, streamDist, iconType); //Stacja benzynowa w vice city
-    MruCreateDynamicMapIcon(4104.6421 + VICECITY_MOVE_X, -1291.2079 + VICECITY_MOVE_Y, 7.8773, 52, -1, -1, -1, -1, streamDist, iconType); // Bank Vice City
+    MruCreateDynamicMapIcon(-4430.3613, 949.4258, 3.5730, 9, 1, -1, -1, -1, streamDist, iconType);//<B3>odzie Vice City Ocean Beach
+    MruCreateDynamicMapIcon(-4841.2861, 764.7393, 8.2627, 9, 1, -1, -1, -1, streamDist, iconType);//<B3>odzie Vice City Doki
+    MruCreateDynamicMapIcon(-4496.7000, 512.3000, 5.32, 9, 1, -1, -1, -1, streamDist, iconType);//wodolot Vice City dom na wodzie
+    MruCreateDynamicMapIcon(-5885.2761, 1316.9617, 9.3252, 5, 1, -1, -1, -1, streamDist, iconType);//samoloty Vice City
+    MruCreateDynamicMapIcon(-5234.5198, 1403.6206, 7.5452, 55, 1, -1, -1, -1, streamDist, iconType);//pojazdy Vice City
+    MruCreateDynamicMapIcon(-4802.0796, 2921.8924, 5.5407, 55, 1, -1, -1, -1, streamDist, iconType);//motory Vice City
+    MruCreateDynamicMapIcon(-4161.7983, 1192.7394, 5.0713, 42, -1, -1, -1, -1, streamDist, iconType); //Stacja benzynowa w vice city
+    MruCreateDynamicMapIcon(-5095.3579, 1908.7921, 7.8773, 52, -1, -1, -1, -1, streamDist, iconType); // Bank Vice City
 
     //Ikony
     MruCreateDynamicMapIcon(1172.0771, -1323.3496, 15.4030, 22, -1, -1, -1, -1, streamDist, iconType); //Szpital

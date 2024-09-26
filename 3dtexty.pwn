@@ -250,14 +250,14 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("Fabryka pojazdów lataj¹cych\n/kupsamolot\n/kuphelikopter", COLOR_BLUE, -1262.5095,40.3263,14.1392, 15.0);
 
 	// Vice City
-	CreateDynamic3DTextLabel("Salon Aut\n/kupauto", COLOR_BLUE, 3965.4802 + VICECITY_MOVE_X, -1796.3794 + VICECITY_MOVE_Y,7.5452, 15.0);
-	CreateDynamic3DTextLabel("Sklep Motocyklowy\n/kupmotor", COLOR_BLUE, 4397.9204 + VICECITY_MOVE_X, -278.1076 + VICECITY_MOVE_Y,5.5407, 15.0);
-	CreateDynamic3DTextLabel("Stocznia Ocean Beach\n/kuplodz", COLOR_BLUE, 4769.6387 + VICECITY_MOVE_X, -2250.5742 + VICECITY_MOVE_Y,3.5730, 15.0);
-	CreateDynamic3DTextLabel("Stocznia Vice City\n/kuplodz", COLOR_BLUE, 4358.7139 + VICECITY_MOVE_X, -2435.2607 + VICECITY_MOVE_Y,8.2627, 15.0);
-	CreateDynamic3DTextLabel("Fabryka pojazdów lataj¹cych\n/kupsamolot\n/kuphelikopter", COLOR_BLUE, 3314.7239 + VICECITY_MOVE_X, -1883.0383 + VICECITY_MOVE_Y,9.3252, 15.0);
-	CreateDynamic3DTextLabel("Wodoloty\n/kupwodolot", COLOR_BLUE, 4703.3 + VICECITY_MOVE_X, -2687.7 + VICECITY_MOVE_Y, 5.32, 15.0);
-	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, 3609.7063 + VICECITY_MOVE_X, -1817.9374 + VICECITY_MOVE_Y,9.3325, 25.0);
-	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, 3351.1587 + VICECITY_MOVE_X, -1480.8884 + VICECITY_MOVE_Y,9.3242, 25.0);
+	CreateDynamic3DTextLabel("Salon Aut\n/kupauto", COLOR_BLUE, -5234.5198, 1403.6206,7.5452, 15.0);
+	CreateDynamic3DTextLabel("Sklep Motocyklowy\n/kupmotor", COLOR_BLUE, -4802.0796, 2921.8924,5.5407, 15.0);
+	CreateDynamic3DTextLabel("Stocznia Ocean Beach\n/kuplodz", COLOR_BLUE, -4430.3613, 949.4258,3.5730, 15.0);
+	CreateDynamic3DTextLabel("Stocznia Vice City\n/kuplodz", COLOR_BLUE, -4841.2861, 764.7393,8.2627, 15.0);
+	CreateDynamic3DTextLabel("Fabryka pojazdów lataj¹cych\n/kupsamolot\n/kuphelikopter", COLOR_BLUE, -5885.2761, 1316.9617,9.3252, 15.0);
+	CreateDynamic3DTextLabel("Wodoloty\n/kupwodolot", COLOR_BLUE, -4496.7000, 512.3000, 5.32, 15.0);
+	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, -5590.2937, 1382.0626,9.3325, 25.0);
+	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, -5848.8413, 1719.1116,9.3242, 25.0);
 	// end vice city
 
 	CreateDynamic3DTextLabel("Naprawa ³odzi", COLOR_BLUE, 698.51708984375 , -2050.6135253906 , 1.4432492256165, 15.0);//129
