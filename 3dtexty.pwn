@@ -22,6 +22,7 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Urz¹d Miasta - zaplecze", 0x9ACD32AA, 1412.3348388672, -1790.5777587891, 15.370599746704, 10.0); //City Hall	CreateDynamic3DTextLabel("Melina Dragowa", 0xFFA500AA, 323.0342,1118.5804,1083.8828, 30.0); //Getting Drugs for DrugDealers 17
     CreateDynamic3DTextLabel("Paczka z zio³em\n/get drugs", 0xFFA500AA, -1022.34930420,-2158.46484375,33.91813278, 30.0);
 	CreateDynamic3DTextLabel("Helvetica Cargo Ltd.", 0xAA3333AA, 597.1277,-1248.6479,18.2734, 50.0);
+	CreateDynamic3DTextLabel("Fabryka Broni", 0xAA3333AA, MatsPoint[0], MatsPoint[1], MatsPoint[2], 50.0); //Factory LS
 	CreateDynamic3DTextLabel("Fabryka Broni", 0xAA3333AA, -2119.5469,-178.5679,35.3203, 50.0); //Factory SF
 	CreateDynamic3DTextLabel("Koœció³", COLOR_NEWS, 2254.8652,-1334.2078,23.9922, 30.0); //Koœció³
 	//CreateDynamic3DTextLabel("O³tarz", COLOR_NEWS, 1964.2332,-369.1353,1093.7289, 10.0); //Koœció³
@@ -258,6 +259,8 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Wodoloty\n/kupwodolot", COLOR_BLUE, -4496.7000, 512.3000, 5.32, 15.0);
 	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, -5590.2937, 1382.0626,9.3325, 25.0);
 	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, -5848.8413, 1719.1116,9.3242, 25.0);
+	CreateDynamic3DTextLabel("Podejrzane pakunki", 0xAA3333AA, -4889.9229, 661.9466, 6.9799, 50.0);
+	CreateDynamic3DTextLabel("Helvetica Cargo Ltd.", 0xAA3333AA, MatsPointVC[0], MatsPointVC[1], MatsPointVC[2], 50.0);
 	// end vice city
 
 	CreateDynamic3DTextLabel("Naprawa ³odzi", COLOR_BLUE, 698.51708984375 , -2050.6135253906 , 1.4432492256165, 15.0);//129
