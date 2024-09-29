@@ -112,7 +112,7 @@ PushActors()
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
 	malibu = CreateActorEx(27, "Bob_Budowniczy", 5472.4238 + VICECITY_MOVE_X,-1021.8130 + VICECITY_MOVE_Y,998.0,313.4263, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // budowlaniec
 	SetActorAnimationEx(malibu, "DANCING","bd_clap1", 1, 1, 1);
-	malibu = CreateActorEx(247, "Barry_Biker", 5471.7334 + VICECITY_MOVE_X,-1021.0360 + VICECITY_MOVE_Y,998.0,316.5596, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // biker
+	malibu = CreateActorEx(247, "Barry_Biker", 5471.7334 + VICECITY_MOVE_X,-1021.0360 + VICECITY_MOVE_Y,998.0,316.5596 - 180.0, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // biker
 	SetActorAnimationEx(malibu, "DANCING", "bd_clap", 1, 1, 1);
 	malibu = CreateActorEx(287, "Edzio_Karabin", 5470.7842 + VICECITY_MOVE_X,-1020.0761 + VICECITY_MOVE_Y,998.0,317.8130, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // wojskowy
 	SetActorAnimationEx(malibu, "DANCING", "DAN_Loop_A", 1, 1, 1);
