@@ -615,7 +615,8 @@ static StworzObiekty()
 	CreateDynamicObject(1550, 935.40002, -1506.81995, 20.72000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(1550, 936.53998, -1506.81995, 20.72000,   0.00000, 0.00000, 455.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 
-	Create3DTextLabel("ALLIBRATORE", 0xFFFFFFFF, 928.2803,-1530.6527,13.5413, 10, 0, 1);//Napis 3D przed zak³adem bukmacherskim by widelec.
+
+	CreateDynamic3DTextLabel("ALLIBRATORE", 0xFFFFFFFF, 928.2803,-1530.6527,13.5413, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 0, 1);//Napis 3D przed zak³adem bukmacherskim by widelec.
 	//obiekty do bramy w LV
 	tmpobjid = CreateDynamicObject(19447, 1136.706542, 1362.799438, 13.420762, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
