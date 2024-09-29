@@ -106,7 +106,7 @@ PushActors()
 	CreateActorEx(121, "Boguslaw_Mac", 307.5707,-131.4255,1004.0547,188.0849, 1, 40.0, 7, -1, -1, AGROUP_DEFAULT); //gs commerce
 	CreateActorEx(121, "Cezary_Mac", 2379.4192,-1989.3339,33.5663,266.8402, 1, 40.0, 31, -1, -1, AGROUP_DEFAULT); //gs willowfield
 
-	// Malibu Club
+	// Malibu Club Vice City
 	new malibu;
 	malibu = CreateActorEx(277, "Johny_Gaszony", 5473.1782,-1022.6575,997.5313,313.4263, 0, 40.0, -1, -1, -1, AGROUP_DEFAULT); // stra¿ak
 	SetActorAnimationEx(malibu, "DANCING", "dance_loop", 1, 1, 1);
