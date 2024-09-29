@@ -260,7 +260,6 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, -5590.2937, 1382.0626,9.3325, 25.0);
 	CreateDynamic3DTextLabel("Lotnisko w Vice City\n/lot", COLOR_BLUE, -5848.8413, 1719.1116,9.3242, 25.0);
 	CreateDynamic3DTextLabel("Podejrzane pakunki", 0xAA3333AA, -4889.9229, 661.9466, 6.9799, 50.0);
-	CreateDynamic3DTextLabel("Helvetica Cargo Ltd.", 0xAA3333AA, MatsPointVC[0], MatsPointVC[1], MatsPointVC[2], 50.0);
 	// end vice city
 
 	CreateDynamic3DTextLabel("Naprawa ³odzi", COLOR_BLUE, 698.51708984375 , -2050.6135253906 , 1.4432492256165, 15.0);//129
