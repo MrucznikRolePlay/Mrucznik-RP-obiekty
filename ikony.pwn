@@ -16,6 +16,9 @@ ZaladujIkony()
     MruCreateDynamicMapIcon(-4802.0796, 2921.8924, 5.5407, 55, 1, -1, -1, -1, streamDist, iconType);//motory Vice City
     MruCreateDynamicMapIcon(-4161.7983, 1192.7394, 5.0713, 42, -1, -1, -1, -1, streamDist, iconType); //Stacja benzynowa w vice city
     MruCreateDynamicMapIcon(-5095.3579, 1908.7921, 7.8773, 52, -1, -1, -1, -1, streamDist, iconType); // Bank Vice City
+    MruCreateDynamicMapIcon(-3802.7534, 1777.8750,6.5215, 30, -1, -1, -1, -1, streamDist, iconType); //Komisariat Vice City
+    MruCreateDynamicMapIcon(-4857.0322, 3012.5569, 6.0599, 30, -1, -1, -1, -1, streamDist, iconType); //Komisariat FBI
+    MruCreateDynamicMapIcon(-5921.1716, 2093.6060, 9.3275, 19, -1, -1, -1, -1, streamDist, iconType); //Baza wojskowa
 
     //Ikony
     MruCreateDynamicMapIcon(1172.0771, -1323.3496, 15.4030, 22, -1, -1, -1, -1, streamDist, iconType); //Szpital
