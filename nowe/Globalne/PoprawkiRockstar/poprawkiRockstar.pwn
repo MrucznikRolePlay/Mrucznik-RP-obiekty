@@ -34,19 +34,23 @@ poprawkiRockstar_Init()
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
+	// barierki przy tunelu z LS do SF
 	CreateDynamicObject(978, -1229.2559, -762.3387, 63.7193, 0.0000, 0.0000, -137.0999); //sub_roadright
 	CreateDynamicObject(979, -1236.5260, -768.1512, 64.0295, -0.1999, -3.9999, -145.2999); //sub_roadleft
+
+	// brama przy bazie mechaników blokuj¹ca wejœcie pod textury
 	CreateDynamicObject(19862, 2824.707519, -1597.654418, 12.528013, 90.000000, -8.600000, 70.000000, -1, -1, -1, 50.00, 50.00);
+
+	// LS dom pierwszej dziewczyny CJ - podmiana drzwi na domkniête
 	CreateDynamicObject(1507, 2401.753173, -1714.481689, 13.097446, 0.000000, 0.000000, 18.099994, -1, -1, -1, 50.00, 50.00);
 
-
-//Poprawki interioru numer 11
+	//Poprawki interioru numer 9 - drzwi blokujace spadniecie w przepasc
 	CreateDynamicObject(1506, 2255.66357, -1140.78662, 1049.63159,   0.00000, 0.00000, 90.00000);
 	CreateDynamicObject(1555, 2255.65137, -1139.32007, 1049.63110,   0.00000, 0.00000, 90.00000);
 	CreateDynamicObject(1555, 2255.66333, -1142.11206, 1049.55200,   0.00000, 0.00000, 90.00000);
-	CreateDynamicObject(19473, 2245.71680, -1133.86804, 1049.36646,   0.00000, 0.00000, 0.00000);
+	CreateDynamicObject(19473, 2245.71680, -1133.86804, 1049.36646,   0.00000, 0.00000, 0.00000); // krzak zio³a w wannie
 
-// poprawki interioru numer 3 - warsztat ma bramê bez kolizji
+	// poprawki interioru numer 3 - warsztat ma bramê bez kolizji
 	CreateDynamicObject(19906, 608.9663, -122.3433, 1000.4402, 0.0, 0.0, 90.0, -1, 3);
 	CreateDynamicObject(19906, 608.9566, -128.5195, 1000.3603, 0.0, 0.0, 90.0, -1, 3);
 	return 1;
