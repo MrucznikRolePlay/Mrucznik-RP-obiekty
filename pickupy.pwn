@@ -39,14 +39,6 @@ ZaladujPickupy()
 	CreateDynamicPickup(1274, 2, -4197.0806, 1300.5468, 10.5760, -1); // bankomat vice city, centrum handlowe
 	CreateDynamicPickup(1274, 2, -4195.0981, 1300.3383, 10.5760, -1); // bankomat vice city, centrum handlowe
 
-
-
-
-
-
-
-
-
 	CreateDynamicPickup(1239, 2, 2325.2957,-1264.2312,22.5070 , -1);//NoA	
 	CreateDynamicPickup(1239, 2, 2137.3999023438,-2290.6000976563,20.700000762939 , -1);//maszyna do robienia materia³ów	
 	
