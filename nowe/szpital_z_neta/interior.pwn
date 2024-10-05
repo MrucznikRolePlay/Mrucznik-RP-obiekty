@@ -40,7 +40,7 @@ szpital_z_neta_Init()
 
 static StworzObiekty()
 {
-        tmpobjid = CreateDynamicObject(1649, 1404.309448 - MOVE_SZPITA_Z_NETA, -27.373491, 999.864013, 270.000000, 270.000000, 360.000000, -1, 3, -1, 200.00, 200.00); 
+    tmpobjid = CreateDynamicObject(1649, 1404.309448 - MOVE_SZPITA_Z_NETA, -27.373491, 999.864013, 270.000000, 270.000000, 360.000000, -1, 3, -1, 200.00, 200.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 15055, "svlamid", "AH_flroortile3", 0xB4FFFFFF);
     tmpobjid = CreateDynamicObject(1649, 1397.645385 - MOVE_SZPITA_Z_NETA, -27.373292, 999.864013, 270.000000, 270.000000, 360.000000, -1, 3, -1, 200.00, 200.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 15055, "svlamid", "AH_flroortile3", 0xB4FFFFFF);
