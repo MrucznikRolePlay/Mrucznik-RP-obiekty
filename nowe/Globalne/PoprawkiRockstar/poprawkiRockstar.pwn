@@ -45,5 +45,9 @@ static StworzObiekty()
 	CreateDynamicObject(1555, 2255.65137, -1139.32007, 1049.63110,   0.00000, 0.00000, 90.00000);
 	CreateDynamicObject(1555, 2255.66333, -1142.11206, 1049.55200,   0.00000, 0.00000, 90.00000);
 	CreateDynamicObject(19473, 2245.71680, -1133.86804, 1049.36646,   0.00000, 0.00000, 0.00000);
+
+// poprawki interioru numer 3 - warsztat ma bramê bez kolizji
+	CreateDynamicObject(19906, 608.9663, -122.3433, 1000.4402, 0.0, 0.0, 90.0, -1, 3);
+	CreateDynamicObject(19906, 608.9566, -128.5195, 1000.3603, 0.0, 0.0, 90.0, -1, 3);
 	return 1;
 }
