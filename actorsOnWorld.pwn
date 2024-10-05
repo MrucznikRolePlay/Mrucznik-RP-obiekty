@@ -20,20 +20,20 @@
 // Data utworzenia: W ciul dawno
 
 /*
-Aby stworzyæ na serwerze Actora wykorzystaj poni¿sz¹ funkcjê, a nastêpnie wklep j¹ w PushActors. 
+	Aby stworzyæ na serwerze Actora wykorzystaj poni¿sz¹ funkcjê, a nastêpnie wklep j¹ w PushActors. 
 
-CreateActorEx(actorIDs, const aName[], Float:aX, Float:aY, Float:aZ, Float:aR, aInvulnerable, aStreamDistance, aVW, aINT, aPlayer)
+	CreateActorEx(actorIDs, const aName[], Float:aX, Float:aY, Float:aZ, Float:aR, aInvulnerable, aStreamDistance, aVW, aINT, aPlayer)
 
-Objaœnienia argumentów:
-actorIDs - ID skina actora,
-aName - nick (MAXPLAYERNAME)
-aX, aY, aZ - pozycje gdzie Actor ma domyœlnie staæ x,y,z
-aR - pozycja obrócenia actora
-aInvulnerable - nieœmiertelnoœæ
-aStreamDistance - odleg³oœæ w jakiej Actor bêdzie "narysowany"/"widoczny" 
-aVw - Virtual World actora
-aINT - Interior actora
-aPlayer - dla jakiego gracza ma zostaæ stworzony, ustaw -1 jeœli dla wszystkich, b¹dŸ poszczególne wartoœci na ID. 
+	Objaœnienia argumentów:
+	actorIDs - ID skina actora,
+	aName - nick (MAXPLAYERNAME)
+	aX, aY, aZ - pozycje gdzie Actor ma domyœlnie staæ x,y,z
+	aR - pozycja obrócenia actora
+	aInvulnerable - nieœmiertelnoœæ
+	aStreamDistance - odleg³oœæ w jakiej Actor bêdzie "narysowany"/"widoczny" 
+	aVw - Virtual World actora
+	aINT - Interior actora
+	aPlayer - dla jakiego gracza ma zostaæ stworzony, ustaw -1 jeœli dla wszystkich, b¹dŸ poszczególne wartoœci na ID. 
 */ 
 //Load:
 PushActors()
@@ -108,15 +108,24 @@ PushActors()
 
 	// Malibu Club Vice City
 	new malibu;
-	malibu = CreateActorEx(277, "Johny_Gaszony", 5473.1782 + VICECITY_MOVE_X,-1022.6575 + VICECITY_MOVE_Y,998.0,313.4263, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // stra¿ak
+	malibu = CreateActorEx(171, "Johny_Gaszony", 5473.1782 + VICECITY_MOVE_X,-1022.6575 + VICECITY_MOVE_Y,998.0,313.4263, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // stra¿ak
 	SetActorAnimationEx(malibu, "RAPPING", "RAP_C_Loop", 1, 1, 1);
-	malibu = CreateActorEx(27, "Bob_Budowniczy", 5472.4238 + VICECITY_MOVE_X,-1021.8130 + VICECITY_MOVE_Y,998.0,313.4263, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // budowlaniec
+	malibu = CreateActorEx(172, "Bob_Budowniczy", 5472.4238 + VICECITY_MOVE_X,-1021.8130 + VICECITY_MOVE_Y,998.0,313.4263, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // budowlaniec
 	SetActorAnimationEx(malibu, "DANCING","dance_loop", 1, 1, 1);
 	malibu = CreateActorEx(247, "Barry_Biker", 5471.7334 + VICECITY_MOVE_X,-1021.0360 + VICECITY_MOVE_Y,998.0,316.5596 - 180.0, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // biker
 	SetActorAnimationEx(malibu, "DANCING", "bd_clap", 1, 1, 1);
-	malibu = CreateActorEx(287, "Edzio_Karabin", 5470.7842 + VICECITY_MOVE_X,-1020.0761 + VICECITY_MOVE_Y,998.0,317.8130, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // wojskowy
+	malibu = CreateActorEx(172, "Edzio_Karabin", 5470.7842 + VICECITY_MOVE_X,-1020.0761 + VICECITY_MOVE_Y,998.0,317.8130, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // wojskowy
 	SetActorAnimationEx(malibu, "RAPPING", "RAP_A_Loop", 1, 1, 1);
 	malibu = CreateActorEx(288, "Franek_Poscigowy", 5469.8818 + VICECITY_MOVE_X,-1018.9669 + VICECITY_MOVE_Y,998.0,313.7396, 0, 40.0, 8800, 6, -1, AGROUP_DEFAULT); // policjant
 	SetActorAnimationEx(malibu, "GFUNK", "dance_loop", 1, 1, 1);
+
+	// DMV Vice City
+	CreateActorEx(171, "Edward_Prawko", 356.2977, 186.2629, 1008.3762, 267.4353, false, 50.0, 7110, 3, -1, AGROUP_DMV);
+	CreateActorEx(172, "Celina_Rutyna", 356.2976, 182.4774, 1008.3762, 269.3153, false, 50.0, 7110, 3, -1, AGROUP_DMV);
+	CreateActorEx(171, "Konrad_Kolejka", 356.2930, 178.5167, 1008.3762, 265.8686, false, 50.0, 7110, 3, -1, AGROUP_DMV);
+	CreateActorEx(171, "Eustachy_Paragraf", 356.2979, 168.9292, 1008.3762, 268.6885, false, 50.0, 7110, 3, -1, AGROUP_DMV);
+	CreateActorEx(172, "Marzena_Kawusia", 356.2966, 166.2234, 1008.3762, 268.3752, false, 50.0, 7110, 3, -1, AGROUP_DMV);
+	CreateActorEx(171, "Tadeusz_Pieczatka", 356.3013, 163.1573, 1008.3762, 268.3752, false, 50.0, 7110, 3, -1, AGROUP_DMV);
+	CreateActorEx(172, "Danuta_Jemprzeciez", 359.7069, 173.6590, 1008.3893, 271.3170, false, 50.0, 7110, 3, -1, AGROUP_DMV);
 
 }
