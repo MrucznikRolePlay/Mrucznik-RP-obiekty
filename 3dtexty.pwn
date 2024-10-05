@@ -13,6 +13,14 @@ Zaladuj3DTexty()
 	okienko[5] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 6 \n {FF0000}[Wpisz /kuplicencje]",COLOR_WHITE,1446.32007, -1794.63696, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 0);
 	okienko[6] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 7 \n {FF0000}[Wpisz /kuplicencje]",COLOR_WHITE,1446.32007, -1797.8570, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 0);
 	okienko[7] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 8 \n {FF0000}[Wpisz /kuplicencje]",COLOR_WHITE,1446.32007, -1800.9770, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 0);
+
+    okienko[8] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 1\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.2977, 186.2629, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
+	okienko[9] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 2\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.2976, 182.4774, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
+	okienko[10] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 3\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.2930, 178.5167, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
+	okienko[11] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 4\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.2979, 168.9292, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
+	okienko[12] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 5\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.2966, 166.2234, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
+	okienko[13] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 6\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.3013, 163.1573, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
+	okienko[14] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 7\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 359.7069, 173.6590, 1010.3893, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
 	
 	//nowe domy 3dtext biznesów
 	CreateDynamic3DTextLabel("Oczysczanie z zarzutow", 0x33CCFFAA, 246.3568,120.3933,1003.2682, 10.0); //Clear icon in Police Station
