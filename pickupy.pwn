@@ -32,7 +32,7 @@ ZaladujPickupy()
 	// Komisariaty - duty
 	for(new i; i<sizeof(DutyPositions); i++)
 	{
-		CreateDynamicPickup(1242, 2, DutyPositions[i][1], DutyPositions[i][2], DutyPositions[i][3]);
+		CreateDynamicPickup(1247, 2, DutyPositions[i][1], DutyPositions[i][2], DutyPositions[i][3]);
 	}
 
 	// Sluzba SAM-ERS

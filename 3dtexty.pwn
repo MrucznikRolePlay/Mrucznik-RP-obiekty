@@ -22,6 +22,13 @@ Zaladuj3DTexty()
 	okienko[13] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 6\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.3013, 163.1573, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
 	okienko[14] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 7\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 359.7069, 173.6590, 1010.3893, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
 	
+	for(new i; i<sizeof(DutyPositions); i++)
+	{
+		CreateDynamic3DTextLabel("Szatnia\n/sluzba /kamizelka /swat /dutycd", 
+			0x33CCFFAA, DutyPositions[i][1], DutyPositions[i][2], DutyPositions[i][3] + 0.5, DutyPositions[i][0],
+			INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
+	}
+
 	for(new i; i<sizeof(ClearCrimesPositions); i++)
 	{
 		CreateDynamic3DTextLabel("Oczyszczanie z zarzutów: /oczysc\nKupowanie pozwolenia na wypuszczenie wiêŸnia: /kuppozwolenie", 
