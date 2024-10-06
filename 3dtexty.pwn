@@ -25,19 +25,22 @@ Zaladuj3DTexty()
 	for(new i; i<sizeof(ClearCrimesPositions); i++)
 	{
 		CreateDynamic3DTextLabel("Oczyszczanie z zarzutów: /oczysc\nKupowanie pozwolenia na wypuszczenie wiêŸnia: /kuppozwolenie", 
-			0x33CCFFAA, ClearCrimesPositions[i][1], ClearCrimesPositions[i][2], ClearCrimesPositions[i][3], ClearCrimesPositions[i][0]);
+			0x33CCFFAA, ClearCrimesPositions[i][1], ClearCrimesPositions[i][2], ClearCrimesPositions[i][3] + 0.5, ClearCrimesPositions[i][0],
+			INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 	}
 
 	for(new i; i<sizeof(ArrestPositions); i++)
 	{
 		CreateDynamic3DTextLabel("Aresztowanie przestêpców: /aresztuj", 
-			0x33CCFFAA, ArrestPositions[i][1], ArrestPositions[i][2], ArrestPositions[i][3], ArrestPositions[i][0]);
+			0x33CCFFAA, ArrestPositions[i][1], ArrestPositions[i][2], ArrestPositions[i][3] + 0.5, ArrestPositions[i][0],
+			INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 	}
 
 	for(new i; i<sizeof(StateArrestPositions); i++)
 	{
 		CreateDynamic3DTextLabel("Aresztowanie przestêpców federalnych: /aresztuj", 
-			0x33CCFFAA, StateArrestPositions[i][1], StateArrestPositions[i][2], StateArrestPositions[i][3], StateArrestPositions[i][0]);
+			0x33CCFFAA, StateArrestPositions[i][1], StateArrestPositions[i][2], StateArrestPositions[i][3] + 0.5, StateArrestPositions[i][0],
+			INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 	}
 
 	//nowe domy 3dtext biznesów
