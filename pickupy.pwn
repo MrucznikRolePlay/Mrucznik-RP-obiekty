@@ -38,6 +38,9 @@ ZaladujPickupy()
     CreateDynamicPickup(1242, 2, -1645.3046, 895.2336,- 45.4141);
 	CreateDynamicPickup(1242, 2, 2522.8916, -2441.6270, 13.6435);
     CreateDynamicPickup(1242, 2, 1562.0536, -1649.9120, 28.504);
+
+	// Sluzba SAM-ERS
+	CreateDynamicPickup(2690, 2, 1147.3623,-1314.4891,13.6743);
 	
 	// Vice City
 	CreateDynamicPickup(1274, 2, -3842.4971, 3380.7435, 1224.7744, -1);//bankomat vice city north point mall
