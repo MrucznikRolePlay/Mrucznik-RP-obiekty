@@ -319,7 +319,7 @@ static StworzObiekty()
 }
 static StworzBudynki()
 {
-	DodajWejscie(-554.7513,2590.4070,53.6603, -556.4969,2596.6355,86.1356, 0, 0, 1, 0, "{333399}Tymczasowe wiêzienie stanowe FBI\n{FFFFFF}[/aresztuj]", "Wyjœcie", 16);//Winda-Zewn¹trz
+	DodajWejscie(-554.7513,2590.4070,53.6603, -556.4969,2596.6355,87.1356, 0, 0, 1, 0, "{333399}Wiêzienie stanowe FBI", "Wyjœcie", 16);//Winda-Zewn¹trz
 	DodajWejscie(-551.1606,2589.7166,86.1356, -572.0835,2610.5825,53.6603, 1, 0, 0, 0, "Spacerniak", "Powrót do cel");//Spacerniak
 	return 1; 
 }

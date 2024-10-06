@@ -22,9 +22,25 @@ Zaladuj3DTexty()
 	okienko[13] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 6\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.3013, 163.1573, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
 	okienko[14] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 7\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 359.7069, 173.6590, 1010.3893, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
 	
+	for(new i; i<sizeof(ClearCrimesPositions); i++)
+	{
+		CreateDynamic3DTextLabel("Oczyszczanie z zarzutów: /oczysc\nKupowanie pozwolenia na wypuszczenie wiêŸnia: /kuppozwolenie", 
+			0x33CCFFAA, ClearCrimesPositions[i][1], ClearCrimesPositions[i][2], ClearCrimesPositions[i][3], ClearCrimesPositions[i][0]);
+	}
+
+	for(new i; i<sizeof(ArrestPositions); i++)
+	{
+		CreateDynamic3DTextLabel("Aresztowanie przestêpców: /aresztuj", 
+			0x33CCFFAA, ArrestPositions[i][1], ArrestPositions[i][2], ArrestPositions[i][3], ArrestPositions[i][0]);
+	}
+
+	for(new i; i<sizeof(StateArrestPositions); i++)
+	{
+		CreateDynamic3DTextLabel("Aresztowanie przestêpców federalnych: /aresztuj", 
+			0x33CCFFAA, StateArrestPositions[i][1], StateArrestPositions[i][2], StateArrestPositions[i][3], StateArrestPositions[i][0]);
+	}
+
 	//nowe domy 3dtext biznesów
-	CreateDynamic3DTextLabel("Oczysczanie z zarzutow", 0x33CCFFAA, 246.3568,120.3933,1003.2682, 10.0); //Clear icon in Police Station
-	CreateDynamic3DTextLabel("/kuppozwolenie", 0x42F5C5AA, 1582.4530,-1678.2080,63.5498, 8.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 25);
 	CreateDynamic3DTextLabel("/kupbilet", 0x42F5C5AA, 401.07, -1809.11, 9.41, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 21);
 	CreateDynamic3DTextLabel("Urz¹d Miasta", 0x9ACD32AA, 1481.1531,-1770.0277,18.7958, 50.0); //City Hall
 	CreateDynamic3DTextLabel("Urz¹d Miasta - zaplecze", 0x9ACD32AA, 1412.3348388672, -1790.5777587891, 15.370599746704, 10.0); //City Hall	CreateDynamic3DTextLabel("Melina Dragowa", 0xFFA500AA, 323.0342,1118.5804,1083.8828, 30.0); //Getting Drugs for DrugDealers 17
@@ -74,7 +90,6 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Plac Manewrowy", COLOR_RED, 1441.79016, -1811.51782, 79.55123, 5);//Plac manewrowy w dmv ls 
 	CreateDynamic3DTextLabel("Biuro USSS\n[MONITORING]", COLOR_RED, 1454.66711, -1788.37805, 79.52730, 5);
 	CreateDynamic3DTextLabel("Regulamin Obiektu\n\n{C0C0C0}1. Nie wolno biegaæ i skakaæ\n2.Nie wolno krzyczeæ\n3.Obowi¹zuje kultura osobista\n4.Urz¹d to nie biuro po¿yczek\n5.Na plac manewrowy, za okienka, jak i na resztê ca³ego urzêdu\ndostêp maj¹ jedynie urzêdnicy!", COLOR_RED, 1454.67273, -1785.99878, 79.40360, 4.2);
-    CreateDynamic3DTextLabel("Taras PD", COLOR_BLUE ,214.9873,121.0619,999.0156, 2.5);//36
 
     CreateDynamic3DTextLabel("Biurowiec\nFederalnego Biura Œledczego", COLOR_BLUE ,608.19793701172, -1458.9837646484, 14.387271881104, 30.0);
 	CreateDynamic3DTextLabel("________________________\nKancelaria\n Burmistrza Los Santos \n    Carmen Delacortez     \n________________________", 0xFFA500FF, 1479.9778,-1785.5557,164.3959, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 14);//36
@@ -112,7 +127,6 @@ Zaladuj3DTexty()
 //Pickup bayside
 
 	CreateDynamic3DTextLabel("Ratusz", COLOR_BLUE ,-2474.1194,2232.1296,5.7156, 25.0);
-	CreateDynamic3DTextLabel("Tu rozpoczniesz s³u¿bê\n i wrzucisz podejrzanego do wiêzienia (BSPD)", COLOR_BLUE ,-2614.1667,2264.6279,8.2109, 15.0);
 	CreateDynamic3DTextLabel("Komisariat Palomino Creek", COLOR_BLUE ,2425.6000976563,117.69999694824,26.5, 15.0);
 	CreateDynamic3DTextLabel("Koœció³", COLOR_BLUE ,-2482.6416,2406.8088,17.1094, 25.0);
 	CreateDynamic3DTextLabel("Wejœcie na balkon", COLOR_BLUE ,-2065.5505,575.6121,1173.0511, 1.0);
