@@ -28,6 +28,16 @@ ZaladujPickupy()
 	CreateDynamicPickup(1274, 2, 646.56738, -1368.89001, 13.34690, -1);//bankomat
 	CreateDynamicPickup(1274, 2, 388.16299, -1805.75916, 7.58990, -1);//bankomat
 	CreateDynamicPickup(1274, 2, 1000.25879, -923.74335, 42.08330, -1);//bankomat
+
+	// Komisariaty - duty
+	CreateDynamicPickup(1242, 2, 255.3, 77.4, 1003.6);
+    CreateDynamicPickup(1242, 2, 266.7904, 118.9303, 1004.6172);
+    CreateDynamicPickup(1242, 2, 1579.6711, -1635.4512, 13.5609);
+    CreateDynamicPickup(1242, 2, -2614.1667, 2264.6279, 8.2109);
+    CreateDynamicPickup(1242, 2, 2425.6, 117.69, 26.5);
+    CreateDynamicPickup(1242, 2, -1645.3046, 895.2336,- 45.4141);
+	CreateDynamicPickup(1242, 2, 2522.8916, -2441.6270, 13.6435);
+    CreateDynamicPickup(1242, 2, 1562.0536, -1649.9120, 28.504);
 	
 	// Vice City
 	CreateDynamicPickup(1274, 2, -3842.4971, 3380.7435, 1224.7744, -1);//bankomat vice city north point mall
