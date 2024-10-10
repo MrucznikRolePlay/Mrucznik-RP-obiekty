@@ -24,7 +24,7 @@ Zaladuj3DTexty()
 	
 	for(new i; i<sizeof(DutyPositions); i++)
 	{
-		CreateDynamic3DTextLabel("Szatnia\n/sluzba /kamizelka /swat /dutycd", 
+		CreateDynamic3DTextLabel("Szatnia\n/sluzba /kamizelka /swat /dutycd /podszyj", 
 			0x33CCFFAA, DutyPositions[i][1], DutyPositions[i][2], DutyPositions[i][3] + 0.5, DutyPositions[i][0],
 			INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 	}
