@@ -102,9 +102,12 @@ PushActors()
 	CreateActorEx(281, "Josh_Camert", 1583.8292,-1677.2463,62.2463,87.8659, 1, 40.0, 25, -1, -1, AGROUP_DEFAULT, "COP_AMBIENT", "Coplook_loop");
 
 	// boty mats w gunshopach
-	CreateActorEx(121, "Andrzej_Mac", 1827.1561,-1169.4484,61.5103,271.6440, 1, 40.0, 5, -1, -1, AGROUP_DEFAULT); //gs ls
-	CreateActorEx(121, "Boguslaw_Mac", 307.5707,-131.4255,1004.0547,188.0849, 1, 40.0, 7, -1, -1, AGROUP_DEFAULT); //gs commerce
-	CreateActorEx(121, "Cezary_Mac", 2379.4192,-1989.3339,33.5663,266.8402, 1, 40.0, 31, -1, -1, AGROUP_DEFAULT); //gs willowfield
+	for(new i; i<sizeof(GS_MatsBot); i++)
+	{
+		CreateActorEx(121, GS_MatsBotNames[i], 
+			GS_MatsBot[i][0], GS_MatsBot[i][1], GS_MatsBot[i][2], GS_MatsBot[i][3], 
+			1, 40.0, GS_MatsBotVw[i], GS_MatsBotInt[i], -1, AGROUP_DEFAULT);
+	}
 
 	// Malibu Club Vice City
 	new malibu;
