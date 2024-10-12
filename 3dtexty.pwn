@@ -310,8 +310,8 @@ Zaladuj3DTexty()
 	NapislotLS2 = CreateDynamic3DTextLabel("Kasa 2\nCena biletu:\nBrak", COLOR_BLUE, 1593.3000488281,-2280, -75, 25.0);
 	NapislotLV1 = CreateDynamic3DTextLabel("Kasa 1\nCena biletu:\nBrak", COLOR_BLUE, 1674.8, 1442.3, 14.8, 25.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
 	NapislotSF1 = CreateDynamic3DTextLabel("Kasa 1\nCena biletu:\nBrak", COLOR_BLUE, -1391.9,-299.8,-74.7, 25.0);
-	CreateDynamic3DTextLabel("Lotnisko w Los Santos", COLOR_BLUE, 1585.2,-2286.6,13.7, 25.0);
-	CreateDynamic3DTextLabel("Lotnisko w Los Santos", COLOR_BLUE, 1886.1,-2286.4,14, 25.0);
+	CreateDynamic3DTextLabel("Lotnisko w Los Santos\n/lot", COLOR_BLUE, 1585.2,-2286.6,13.7, 25.0);
+	CreateDynamic3DTextLabel("Lotnisko w Los Santos\n/lot", COLOR_BLUE, 1886.1,-2286.4,14, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy w Los Santos", COLOR_BLUE, 1605,-2282.9,-74.90, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy", COLOR_BLUE, 1675.8, 1455.4, 14.9, 25.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
 	
