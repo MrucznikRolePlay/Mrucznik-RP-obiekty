@@ -2,7 +2,7 @@
 
 ZaladujIkony()
 {
-    new iconType = MAPICON_GLOBAL;
+    new iconType = MAPICON_LOCAL;
     new Float:streamDist = 2000.0;
 	MruCreateDynamicMapIcon(857.3464,-2100.0881,9.8666, 9, 1, -1, -1, -1, streamDist, iconType);//³odzie Los Santos
 	MruCreateDynamicMapIcon(-1262.5095, 40.3263, 14.1392, 5, 1, -1, -1, -1, streamDist, iconType);//samoloty Los Santos
