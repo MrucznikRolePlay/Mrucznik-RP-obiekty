@@ -3302,7 +3302,6 @@ static StworzObiekty()
     skgang = CreateDynamicObject(19828, 1535.298461, -1462.731201, 42.984539, 0.000000, 0.000000, 180.000000, 44, 0, -1, 300.00, 300.00); 
     skgang = CreateDynamicObject(19828, 1530.317626, -1470.863403, 42.984539, 0.000000, 0.000000, 360.000000, 44, 0, -1, 300.00, 300.00); 
     skgang = CreateDynamicObject(19828, 1533.259155, -1472.875244, 42.984539, 0.000000, 0.000000, 450.000000, 44, 0, -1, 300.00, 300.00); 
-    skgang = CreateDynamicObject(-1004, 1523.816162, -1452.664428, 43.439708, 0.000000, 0.000000, 0.000000, 44, 0, -1, 500.00, 500.00); 
 
 	//Tutaj wstawiamy obiekty w nastêpuj¹cym formacie:
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
