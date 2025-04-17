@@ -775,24 +775,24 @@ static StworzBramy()
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    DodajBrame(mrn, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 0.000000, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 2, 21);
+    DodajBrame(mrn, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 0.000000, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 28);
     mrn = CreateDynamicObject(1495, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 31, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    DodajBrame(mrn, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 2, 21);
+    DodajBrame(mrn, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 28);
     mrn = CreateDynamicObject(1495, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 31, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    DodajBrame(mrn, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, 0.000000, 2, 2, 2, 21);
+    DodajBrame(mrn, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, 0.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 28);
 
 	return 1;
 }
 
 static StworzBudynki()
 {
-	DodajWejscie(2400.4897, -1981.2577, 13.5469, 2402.0996, -1983.2571, 33.5663, 0, 0, 31, 0, "Ammunation Willowfield", "Wyjœcie");
+	// DodajWejscie(2400.4897, -1981.2577, 13.5469, 2402.0996, -1983.2571, 33.5663, 0, 0, 31, 0, "Ammunation Willowfield", "Wyjœcie");
     //Tutaj wstawiamy wejœcia w formacie:
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
 	return 1;
