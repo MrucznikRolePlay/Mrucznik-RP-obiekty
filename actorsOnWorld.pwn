@@ -131,4 +131,8 @@ PushActors()
 	CreateActorEx(171, "Tadeusz_Pieczatka", 356.3013, 163.1573, 1008.3762, 268.3752, false, 50.0, 7110, 3, -1, AGROUP_DMV);
 	CreateActorEx(172, "Danuta_Jemprzeciez", 359.7069, 173.6590, 1008.3893, 271.3170, false, 50.0, 7110, 3, -1, AGROUP_DMV);
 
+	// DMV Palomino Creek
+	CreateActorEx(171, "John_Doe", 2313.3674,-84.2478,39.2946,271.2859, false, 50.0, 1, 0, -1, AGROUP_DMV);
+	CreateActorEx(172, "Jane_Doe", 2313.3684,-80.2044,39.2946,269.0926, false, 50.0, 1, 0, -1, AGROUP_DMV);
+
 }

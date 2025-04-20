@@ -173,17 +173,17 @@ static StworzObiekty()
     DodajBrame(gateob,
 	    719.47821, -1469.03955, 22.69330, 0.00000, 0.00000, 0.00000,
       719.47821, -1469.03955, 22.69330, 0.00000, 0.00000, 90.00000,
-      2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, FRAC_LCN);
+      2.0, 2.5, BRAMA_UPR_TYPE_ALLPLAYERS, 0);
     gateob = CreateDynamicObject(3089, 738.15009, -1469.26721, 22.69330,   0.00000, 0.00000, 180.00000, 255);
     DodajBrame(gateob,
 	    738.15009, -1469.26721, 22.69330, 0.00000, 0.00000, 180.00000,
       738.15009, -1469.26721, 22.69330, 0.00000, 0.00000, 90.00000,
-      2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, FRAC_LCN);
+      2.0, 2.5, BRAMA_UPR_TYPE_ALLPLAYERS, 0);
     gateob = CreateDynamicObject(3089, 739.86658, -1469.26721, 22.69330,   0.00000, 0.00000, 0.00000, 255);
     DodajBrame(gateob,
 	    739.86658, -1469.26721, 22.69330, 0.00000, 0.00000, 0.00000,
       739.86658, -1469.26721, 22.69330, 0.00000, 0.00000, 90.00000,
-      2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, FRAC_LCN);
+      2.0, 2.5, BRAMA_UPR_TYPE_ALLPLAYERS, 0);
 
     obiekt = CreateDynamicObject(19129, 725.79541, -1468.85071, 28.56180,   0.00000, 0.00000, 0.00000, 255); //sufit
     SetDynamicObjectMaterial(obiekt, 1, 14852, "mp_policeSF", "mp_cop_vinyl", 0);

@@ -22,6 +22,9 @@ Zaladuj3DTexty()
 	okienko[13] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 6\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 356.3013, 163.1573, 1010.3762, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
 	okienko[14] = CreateDynamic3DTextLabel("Urz¹d Miasta Vice City\n{0080FF}Okienko 7\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 359.7069, 173.6590, 1010.3893, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);
 	
+	okienko[15] = CreateDynamic3DTextLabel("Urz¹d Miasta Palomino Creek\n{0080FF}Okienko 1\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 2314.6875,-84.4130,41.5881, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1, 0);
+	okienko[16] = CreateDynamic3DTextLabel("Urz¹d Miasta Palomino Creek\n{0080FF}Okienko 2\n{FF0000}[Wpisz /kuplicencje]", COLOR_WHITE, 2314.6875,-80.2383,41.5881, 9, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1, 0);
+	
 	for(new i; i<sizeof(DutyPositions); i++)
 	{
 		CreateDynamic3DTextLabel("Szatnia\n/sluzba /kamizelka /swat /dutycd /podszyj", 
@@ -56,7 +59,7 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Urz¹d Miasta - zaplecze", 0x9ACD32AA, 1412.3348388672, -1790.5777587891, 15.370599746704, 10.0); //City Hall	CreateDynamic3DTextLabel("Melina Dragowa", 0xFFA500AA, 323.0342,1118.5804,1083.8828, 30.0); //Getting Drugs for DrugDealers 17
     CreateDynamic3DTextLabel("Paczka z zio³em\n/get drugs", 0xFFA500AA, -1022.34930420,-2158.46484375,33.91813278, 30.0);
 	CreateDynamic3DTextLabel("Helvetica Cargo Ltd.", 0xAA3333AA, 597.1277,-1248.6479,18.2734, 50.0);
-	CreateDynamic3DTextLabel("Fabryka Broni", 0xAA3333AA, MatsPoint[0], MatsPoint[1], MatsPoint[2], 50.0); //Factory LS
+	// CreateDynamic3DTextLabel("Fabryka Broni", 0xAA3333AA, MatsPoint[0], MatsPoint[1], MatsPoint[2], 50.0); //Factory LS
 	CreateDynamic3DTextLabel("Fabryka Broni", 0xAA3333AA, -2119.5469,-178.5679,35.3203, 50.0); //Factory SF
 	CreateDynamic3DTextLabel("Koœció³", COLOR_NEWS, 2254.8652,-1334.2078,23.9922, 30.0); //Koœció³
 	//CreateDynamic3DTextLabel("O³tarz", COLOR_NEWS, 1964.2332,-369.1353,1093.7289, 10.0); //Koœció³
@@ -92,6 +95,7 @@ Zaladuj3DTexty()
     str2 = "{FFA500}Dowód osobisty - {9ACD32}5000$ +akt urodz.\n{FFA500}Wydanie Prawa Jazdy - {9ACD32}5 000$ +zal. egz.\n {FFA500}Patent ¯eglarski - {9ACD32}100 000$\n {FFA500}Pozwolenie na bron - {9ACD32}50 000$\n {FFA500}Licencja Pilota - {9ACD32}500 000$\n {FFA500}Karta wêdkarska - {9ACD32}10 000$\n{9ACD32}Egzamin teoretyczny - 5 000${FFA500}\n{9ACD32}Egzamin praktyczny- {9ACD32} 7 500$";
     CreateDynamic3DTextLabel(str2, COLOR_NEWS, 1447.46899, -1785.40881, 79.21838,12,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 0);//Cennik DMV
 	CreateDynamic3DTextLabel(str2, COLOR_NEWS, 378.6695,178.0520,1010.1828,12,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 7110, 3);//Cennik DMV VC
+	CreateDynamic3DTextLabel(str2, COLOR_NEWS, 2321.0730, -78.1003, 40.5000, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);//Cennik DMV PC
     str2 = "BACZNOŒÆ \n{7CFC00}By nie zostaæ oszukanym:\n {8B0000}1. NIGDY NIE GRAJ gdy ktoœ chce graæ o wiêcej ni¿ ma w {FFFFFF}/sprawdzkase [ID]\n{9ACD32}Je¿eli mimo to zostaniesz oszukany NATYCHMIAST zg³oœ ten fakt na {FFFFFF}/report{9ACD32} - oszust otrzyma od razu blocka\nGdy taka osoba otrzyma blokadê ty masz 10min na napisanie na niego skargi\nW ten sposób mo¿esz odzyskaæ nawet 100%% wygranej!!";
 	CreateDynamic3DTextLabel(str2, COLOR_PANICRED ,1032.8098,-1091.7827,-66.5729, 20.0);
     CreateDynamic3DTextLabel("San Andreas Police Department\n{00FFCC}Zaœwiadczenia o niekaralnoœæi\nKoszt: {9ACD32}18 000${0080FF}", COLOR_BLUE ,252.3918,117.3390,1005.2188, 2.5);//36
@@ -322,8 +326,6 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("{FFFFFF}Okienka 3-4", 0x008080FF, 2324.6873, -77.9382, 40.8925, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Przejœcie dla klientów", 0x008080FF, 2318.8750, -77.9110, 40.8925, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Plac Manewrowy\n Wejœcie tylko z instruktorem", 0x008080FF, 2327.4940, -75.0322, 41.0837, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
-    str2 = "{FFA500}Dowód osobisty - {9ACD32}5000$ +akt urodz.\n{FFA500}Wydanie Prawa Jazdy - {9ACD32}20 000$ +zal. egz.\n {FFA500}Patent ¯eglarski - {9ACD32}350 000$\n {FFA500}Pozwolenie na Bron - {9ACD32}500 000$\n {FFA500}Licencja Pilota - {9ACD32}5 000 000$\n {FFA500}Karty wêdkarskie - {9ACD32}10 000$\n{9ACD32}Egzamin teoretyczny - 10 000${FFA500}\n{9ACD32}Egzamin praktyczny- {9ACD32} 15 000$";
-    CreateDynamic3DTextLabel(str2, 0x008080FF, 2321.0730, -78.1003, 40.5000, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Przebierlania Urzêdników", 0x008080FF, 2318.8938, -72.1589, 41.0185, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Urz¹d Miasta \n {FF0000}P{FFFFFF}alomino {FF0000}C{FFFFFF}reek", 0x008080FF,2269.6770, -73.9858, 26.2765, 10.0);
 	

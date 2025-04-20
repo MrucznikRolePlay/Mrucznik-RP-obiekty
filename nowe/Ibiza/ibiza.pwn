@@ -4022,18 +4022,18 @@ static StworzBramy()
 	SetDynamicObjectMaterial(mrn, 0, 7650, "vgnusedcar", "lightblue2_32", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 1, 16639, "a51_labs", "ws_trainstationwin1", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 2, 18773, "tunnelsections", "stonewall4", 0x00000000);
-    DodajBrame(mrn, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 90.000000, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 180.000000, 2, 2, 2, 18);
+    DodajBrame(mrn, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 90.000000, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 180.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 39);
 	mrn = CreateDynamicObject(1495, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 360.000000, 27, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 7650, "vgnusedcar", "lightblue2_32", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 1, 16639, "a51_labs", "ws_trainstationwin1", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 2, 18773, "tunnelsections", "stonewall4", 0x00000000);
-    DodajBrame(mrn, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 270.000000, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 360.000000, 2, 2, 2, 18);
+    DodajBrame(mrn, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 270.000000, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 360.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 39);
 	// ======= KLUBU
 	mrn = CreateDynamicObject(1533, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 270.000000, 22, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 1, 16639, "a51_labs", "ws_trainstationwin1", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 2, 10765, "airportgnd_sfse", "white", 0x00000000);
-    DodajBrame(mrn, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 180.000000, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 270.000000, 2, 2, 2, 18);
+    DodajBrame(mrn, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 180.000000, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 270.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 39);
 	
 		//DualGateAdd(...rozpisane w g³ównym README) 
 	return 1;
@@ -4043,7 +4043,7 @@ static StworzBudynki()
 {
 	//Tutaj wstawiamy wejœcia w formacie:
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
-    DodajWejscie(397.3062, -1805.8008, 7.8380, 397.8007, -1807.3466, 7.8789, 0, 0, 21, 0,"Ibiza Club", "Wyjœcie", 19);//Do LOBBY
+    // DodajWejscie(397.3062, -1805.8008, 7.8380, 397.8007, -1807.3466, 7.8789, 0, 0, 21, 0,"Ibiza Club", "Wyjœcie", 19);//Do LOBBY
     DodajWejscie(429.9828, -1852.9122, -65.5105, 438.3038, -1731.6410, -46.0520, 22, 0, 27, 0,"Biura", "Powrót na salê", 18);//Do biur
    	DodajWejscie(403.3957, -1847.1060, -65.5105, 296.8685, -1784.2827, -34.3768, 22, 0, 26, 0,"Toalety", "Powrót na salê", 18);//Do toalety
   	DodajWejscie(413.5745, -1850.3945, -61.9043, 297.5301, -1676.3397, -34.2172, 22, 0, 23, 0,"Krêgielnia", "Powrót na salê", 18, 255, true);//Do krêgielni
