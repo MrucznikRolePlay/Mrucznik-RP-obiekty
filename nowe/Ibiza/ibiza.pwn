@@ -4022,18 +4022,18 @@ static StworzBramy()
 	SetDynamicObjectMaterial(mrn, 0, 7650, "vgnusedcar", "lightblue2_32", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 1, 16639, "a51_labs", "ws_trainstationwin1", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 2, 18773, "tunnelsections", "stonewall4", 0x00000000);
-    DodajBrame(mrn, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 90.000000, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 180.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 39);
+    DodajBrame(mrn, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 90.000000, 444.772918, -1734.828125, -47.082019, 0.000000, 0.000000, 180.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, FRONTBIZ_IBIZA);
 	mrn = CreateDynamicObject(1495, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 360.000000, 27, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 7650, "vgnusedcar", "lightblue2_32", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 1, 16639, "a51_labs", "ws_trainstationwin1", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 2, 18773, "tunnelsections", "stonewall4", 0x00000000);
-    DodajBrame(mrn, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 270.000000, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 360.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 39);
+    DodajBrame(mrn, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 270.000000, 443.252655, -1728.847534, -47.082019, 0.000000, 0.000000, 360.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, FRONTBIZ_IBIZA);
 	// ======= KLUBU
 	mrn = CreateDynamicObject(1533, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 270.000000, 22, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 1, 16639, "a51_labs", "ws_trainstationwin1", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 2, 10765, "airportgnd_sfse", "white", 0x00000000);
-    DodajBrame(mrn, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 180.000000, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 270.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, 39);
+    DodajBrame(mrn, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 180.000000, 420.599700, -1830.922729, -66.530509, 0.000000, 0.000000, 270.000000, 2, 2, BRAMA_UPR_TYPE_FRONTBUSINESS, FRONTBIZ_IBIZA);
 	
 		//DualGateAdd(...rozpisane w g³ównym README) 
 	return 1;
