@@ -335,6 +335,7 @@
 #include "nowe\opFuBu/opFuBu.pwn"
 
 #include "nowe\DziupleZlodziejAut\DziupleZlodziejAut.pwn"
+#include "nowe\Brama1765\Brama1765.pwn"
 
 //*****************************************************
 //Aktualizacja 2.8.0
@@ -578,6 +579,7 @@ obiekty_OnGameModeInit()
 	opFuBu_Init();
 
 	DziupleZlodziejAut_Init();
+	Brama1765_Init();
 
 	// nowe szpitale
 	szpital_z_neta_Init();
