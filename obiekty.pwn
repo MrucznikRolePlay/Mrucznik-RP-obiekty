@@ -293,6 +293,7 @@
 #include "nowe\Globalne\op_domow/WestLV1335.pwn"
 #include "nowe\Globalne\op_domow/Miko1930.pwn"
 #include "nowe\Globalne\op_domow/Dudson1895.pwn"
+#include "nowe\Globalne\op_domow/Dom1835.pwn"
 #include "nowe\Globalne\op_domow/Kamil1125.pwn"
 #include "nowe\PlazaLS/PlazaLS.pwn"
 
@@ -549,6 +550,7 @@ obiekty_OnGameModeInit()
 	domid1335_Init();
 	domid1930_Init();
 	dom1895_Init();
+	dom1835_Init();
 	dom1125_Init();
 	PlazaLS_Init();
 	opBarman_Init();
